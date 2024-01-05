@@ -6,610 +6,378 @@ port: 7890
 proxies:
     - alterid: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 _HK_香港"
+      name: "\U0001F1FA\U0001F1F8 _US_美国"
       network: ws
-      port: 37799
-      server: hk.x898989.xyz
+      port: 80
+      server: 43.130.39.36
       skip-cert-verify: false
-      tls: true
+      tls: false
       type: vmess
-      uuid: 01e07f2e-fc00-45bb-bbf5-547f58316e18
+      uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
       ws-opts:
         headers:
-            host: hk.x898989.xyz
+            host: mg_cdn.yunjisuan.cf
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+      network: ws
+      password: d2698cf9-c47e-455c-8384-12e642cbba15
+      port: 443
+      server: 89.116.180.179
+      skip-cert-verify: false
+      sni: p6us4.pqjc.buzz
+      type: trojan
+      ws-opts:
+        headers:
+            host: p6us4.pqjc.buzz
+        path: /pq/us4
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+      password: amazonskr05
+      port: 443
+      server: 35.87.39.181
+      type: ss
+    - name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
+      password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+      port: 14866
+      server: els_trojanone.yunjisuan.cf
+      skip-cert-verify: false
+      sni: els_trojanone.yunjisuan.cf
+      type: trojan
+    - cipher: aes-128-cfb
+      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+      password: shadowsocks
+      port: 443
+      server: 212.102.47.198
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+      network: ws
+      password: d2698cf9-c47e-455c-8384-12e642cbba15
+      port: 443
+      server: 167.68.5.183
+      skip-cert-verify: false
+      sni: 6us3.pqjc.buzz
+      type: trojan
+      ws-opts:
+        headers:
+            host: 6us3.pqjc.buzz
+        path: /pq/us3
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 6"
+      port: 56272
+      server: 96.30.197.59
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 8e8d5a10-7fd0-4818-8265-a4dc4a569d31
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 7"
+      network: ws
+      port: 80
+      server: 104.17.171.34
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 60be5ddb-c9f1-48ec-b0ee-f6bd4364b3ce
+      ws-opts:
+        headers:
+            host: ccs.hostmjj.com
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 2"
+      name: "\U0001F1FA\U0001F1F8 _US_美国 8"
       network: ws
-      port: 50099
-      server: hk.x898989.xyz
+      port: 2052
+      server: whatismyipaddress.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+      ws-opts:
+        headers:
+            host: mgtow_cdn.yunjisuan.cf
+        path: /
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 _FR_法国"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 51.159.111.208
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+      network: ws
+      port: 2083
+      server: 104.19.154.92
       skip-cert-verify: false
       tls: true
       type: vmess
-      uuid: 01e07f2e-fc00-45bb-bbf5-547f58316e18
+      uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
       ws-opts:
         headers:
-            host: hk.x898989.xyz
+            host: PAneljadid.mookoMEilz.homes
+        path: /snsk
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国 2"
+      network: ws
+      port: 2083
+      server: 2bbiozh7wbc.servecounterstrike.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
+      ws-opts:
+        headers:
+            host: PAneljadid.mookoMEilz.homes
+        path: /snsk
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 _FR_法国 2"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 195.154.185.174
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 9"
+      port: 15551
+      server: 168.235.72.221
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EE\U0001F1F7_IR_伊朗"
+      network: ws
+      port: 80
+      server: web.parspack.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 5f797b91-c7ec-4178-d19e-9b069b70b446
+      ws-opts:
+        headers:
+            host: zUlA9.eSmAIlkORea.sHop
         path: /
+    - cipher: aes-256-cfb
+      name: "\U0001F1EB\U0001F1F7 _FR_法国 3"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 195.154.169.198
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E6\U0001F1FA_AU_澳大利亚"
+      network: ws
+      port: 8080
+      server: www.visa.com.sg
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 54d4d640-731c-4572-d0d4-e8a617816470
+      ws-opts:
+        headers:
+            host: icu4.mac2win.top
+        path: /
+    - name: "\U0001F1FA\U0001F1F8 _US_美国 10"
+      password: 3165dac2-6203-46bd-a758-ecb170e58397
+      port: 443
+      server: 172.234.99.161
+      skip-cert-verify: false
+      type: trojan
+    - cipher: aes-256-cfb
+      name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 92.38.171.89
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EE\U0001F1F7_IR_伊朗 2"
+      network: ws
+      port: 80
+      server: 104.18.154.42
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: a2f27205-5b59-4a1d-e9ed-c78f7ab4b633
+      ws-opts:
+        headers:
+            host: Quran14.eSmAIlkORea.sHop
+        path: /
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦 2"
+      password: yZdRgske85Hou96z2dRdtH
+      port: 28490
+      server: 45.144.30.202
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7 _GB_英国"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 77.72.5.150
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8 _US_美国 11"
+      password: amazonskr05
+      port: 443
+      server: 35.90.10.174
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1E8\U0001F1F1 _CL_智利"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 190.120.230.9
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 12"
+      port: 50104
+      server: 38.180.33.136
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+    - cipher: aes-256-cfb
+      name: "\U0001F1EC\U0001F1E7 _GB_英国 2"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 77.72.5.113
+      type: ss
     - alterid: 64
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国"
+      name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
       network: ws
-      port: 443
-      server: 23.224.191.6
+      port: 30000
+      server: 46.182.107.15
       skip-cert-verify: false
       tls: true
       type: vmess
       uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
       ws-opts:
-        path: /
+        path: /path/1702215223320
     - cipher: aes-256-cfb
-      name: "\U0001F1EF\U0001F1F5 _JP_日本"
-      password: amazonskr05
-      port: 443
-      server: 43.207.66.114
+      name: "\U0001F1F5\U0001F1E6 _PA_巴拿马"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 138.186.142.4
       type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 _KR_韩国"
-      password: amazonskr05
-      port: 443
-      server: 13.124.9.229
+    - cipher: aes-256-gcm
+      name: "\U0001F1EB\U0001F1F7 _FR_法国 4"
+      password: pKEW8JPByTVTLtM
+      port: 4444
+      server: 145.239.6.202
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E9\U0001F1EA _DE_德国->\U0001F1E8\U0001F1F3_CN_中国"
+      password: Y6R9pAtvxxzmGC
+      port: 3306
+      server: 217.182.198.219
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E9\U0001F1EA _DE_德国"
+      password: faBAoD54k87UJG7
+      port: 2376
+      server: 217.182.198.219
       type: ss
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+      name: _CN_中国
       network: ws
-      port: 443
-      server: dp2.scproxy.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 823c31da-701f-483d-b36e-896e5cf0987a
-      ws-opts:
-        headers:
-            host: dp2.scproxy.top
-        path: /
-    - alterid: 64
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 3"
-      network: ws
-      port: 38906
-      server: 43.154.90.134
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 6b6dd11a-798c-401e-ba46-d6272e29aca3
-      ws-opts:
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
-      network: ws
-      port: 2095
-      server: servsermci15.numallas.shop
+      port: 47551
+      server: 159.75.178.50
       skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: 3522d2e8-e880-4e3a-a836-496a0bb92f60
+      uuid: 2500a228-8c00-4934-81e0-22281c015a33
       ws-opts:
-        headers:
-            host: servsermci15.numallas.shop
         path: /
+    - cipher: aes-256-gcm
+      name: "\U0001F1E9\U0001F1EA _DE_德国 2"
+      password: Y6R9pAtvxxzmGC
+      port: 3389
+      server: 217.182.198.219
+      type: ss
     - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
-      password: bwhskrskr03
-      port: 247
-      server: 97.64.31.80
+      name: "\U0001F1E6\U0001F1F7 _AR_阿根廷"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 190.103.176.29
       type: ss
     - cipher: aes-128-gcm
-      name: "\U0001F1EC\U0001F1E7 _GB_英国"
+      name: "\U0001F1EC\U0001F1E7 _GB_英国 3"
       password: shadowsocks
       port: 443
-      server: 212.102.53.80
+      server: 212.102.53.193
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1F2\U0001F1FD _MX_墨西哥"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 190.103.179.23
       type: ss
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+      name: "\U0001F1E9\U0001F1EA _DE_德国 3"
       network: ws
       port: 8880
-      server: cf-lt.sharecentre.online
+      server: 217.160.45.31
       skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb
+      uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
       ws-opts:
-        headers:
-            host: ssrsub.v10.asuka.buzz
-        path: /api/v3/download.getFile
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 _KR_韩国 2"
-      password: amazonskr05
-      port: 443
-      server: 43.201.57.87
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
-      network: ws
-      port: 443
-      server: zfc.windowsupdate1.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 3855b736-bf24-461f-b5b9-1d3f04484b37
-      ws-opts:
-        headers:
-            host: nl2.yfjc.sbs
-        path: /yfjc/nl2?ed=2048
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EC _SG_新加坡"
-      password: amazonskr05
-      port: 443
-      server: 54.169.144.122
-      type: ss
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 4"
-      network: http
-      port: 57408
-      server: 8.218.181.75
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: a93df277-c3a8-4948-abd1-663722cb32b0
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 5"
-      network: http
-      port: 26900
-      server: 47.243.55.80
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: ce3fac76-3d8e-4cac-a16d-41d186637442
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 _KR_韩国 3"
-      password: amazonskr05
-      port: 443
-      server: 43.201.70.114
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国 6"
-      password: amazonskr05
-      port: 443
-      server: 54.186.216.67
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1FA _AU_澳大利亚"
-      network: ws
-      port: 443
-      server: vau1.0bad.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 927094d3-d678-4763-8591-e240d0bcae87
-      ws-opts:
-        headers:
-            host: vau1.0bad.com
         path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: ws
-      port: 443
-      server: us07.cctvvip.ml
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 17c0415c-2557-451d-f017-0486f47dc329
-      ws-opts:
-        headers:
-            host: us07.cctvvip.ml
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EC _SG_新加坡 2"
-      password: amazonskr05
-      port: 443
-      server: 18.141.181.186
-      type: ss
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 6"
-      network: http
-      port: 53207
-      server: 8.218.178.58
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9930e472-959f-4649-aa19-09354073fabc
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 7"
-      network: ws
-      port: 80
-      server: hk80.af49c4e4c2ef.sanfen001.pics
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 3b21ac2f-41be-4f9a-872d-1169250351f0
-      ws-opts:
-        headers:
-            host: hk80.af49c4e4c2ef.sanfen001.pics
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _AM_亚美尼亚->\U0001F1FA\U0001F1F8_US_美国"
-      network: ws
-      port: 443
-      server: 185.162.228.110
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5 _JP_日本 2"
-      port: 50001
-      server: bgroup.node1.v.nodelist-gfwairport1.download
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9f0ae767-0156-460c-acd6-67cb3000faf1
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _BZ_伯利兹->\U0001F1FA\U0001F1F8_US_美国"
-      network: ws
-      port: 443
-      server: 203.30.188.121
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 8"
-      network: http
-      port: 59544
-      server: 8.218.183.204
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: ed617ad5-803e-4dc6-b475-babead4c83e5
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 7"
-      network: ws
-      port: 443
-      server: hohm.microsoft.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
-      ws-opts:
-        headers:
-            host: fr1.trump2023.org
-        path: /9JZFDTKE
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 8"
-      network: ws
-      port: 80
-      server: 172.67.199.34
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 8b6dd709-4d4e-4b92-f542-54a676efbfe4
-      ws-opts:
-        headers:
-            host: la.awsbest.com
-        path: /shares
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 9"
-      network: http
-      port: 34569
-      server: 8.218.79.213
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: d91d9883-c37b-41f7-a2ca-ea5a2a05247c
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8 _US_美国 9"
-      password: Y6R9pAtvxxzmGC
-      port: 5001
-      server: 169.197.142.187
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8 _US_美国 10"
-      password: FoOiGlkAA9yPEGP
-      port: 7306
-      server: 169.197.142.187
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 11"
-      network: ws
-      port: 2096
-      server: 4bb4ced4.ikunxiao.top
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 72fd33d5-5c1a-4193-96c6-665fc20b71c1
-      ws-opts:
-        headers:
-            host: 4bb4ced4.ikunxiao.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 10"
-      network: http
-      port: 45106
-      server: 8.218.150.152
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: aa7f7fd3-8f88-45c7-9e27-a03380d6cc89
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-      network: ws
-      port: 443
-      server: 23.227.38.25
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - alterid: 0
-      cipher: auto
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0 _HK_香港 11"
-      network: http
-      port: 64098
-      server: 8.218.183.217
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 7243a003-b59a-4686-b460-950fdf61819b
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 2"
-      network: ws
-      port: 443
-      server: 23.227.38.26
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 12"
-      network: ws
-      port: 8880
-      server: no.aries.ovh
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: e59bd762-dacd-445c-8e2a-e1c5812949cb
-      ws-opts:
-        headers:
-            host: ssrsub.v10.asuka.buzz
-        path: /api/v3/download.getFile
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EC\U0001F1E7_GB_英国"
-      network: ws
-      port: 443
-      server: england1.yj2022.ga
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 4b5e4565-322f-4223-a891-78a84f189726
-      ws-opts:
-        headers:
-            host: england1.yj2022.ga
-        path: /Eynyyo4kJfl2fkJfl2f
-    - cipher: aes-256-cfb
-      name: "\U0001F1F0\U0001F1F7 _KR_韩国 4"
-      password: amazonskr05
-      port: 443
-      server: 43.201.37.176
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 13"
-      network: ws
-      port: 443
-      server: germany2.yj2022.ga
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 4b5e4565-322f-4223-a891-78a84f189726
-      ws-opts:
-        headers:
-            host: germany2.yj2022.ga
-        path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1F8\U0001F1EC _SG_新加坡 3"
-      password: amazonskr05
-      port: 443
-      server: 54.255.227.184
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 14"
-      network: ws
-      port: 443
-      server: 172.67.203.162
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - cipher: aes-256-gcm
-      name: _CN_中国
-      password: ll668668@
-      port: 11023
-      server: 36.138.140.208
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 15"
-      network: ws
-      port: 443
-      server: 172.67.145.166
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - alterid: 0
-      cipher: auto
-      name: _CN_中国 2
-      port: 11023
-      server: 36.134.16.96
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 8c042a38-71c1-1dcb-00df-54880236e0dc
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _BZ_伯利兹->\U0001F1FA\U0001F1F8_US_美国 2"
-      network: ws
-      port: 443
-      server: 203.30.191.2
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
-      ws-opts:
-        headers:
-            host: oplg1.cfcdn2.xyz
-        path: /AUIKN8AU
-    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-      password: 21e10785-99c6-316e-a184-a03384ee06e5
-      port: 18581
-      server: hn.xiaohouzi.club
-      skip-cert-verify: false
-      sni: hn.xiaohouzi.club
-      type: trojan
-    - name: _CN_中国 3
-      password: 0f098bb2-9fad-3cc3-8acf-2a3268c1eb27
-      port: 16015
-      server: hn.xiaohouzi.club
-      skip-cert-verify: false
-      sni: hn.xiaohouzi.club
-      type: trojan
-    - cipher: aes-256-gcm
-      name: _CN_中国 4
-      password: ll668668@
-      port: 11023
-      server: 36.139.166.252
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EA _SE_瑞典"
+      password: Q5CEiebSuSl2qFkfE4ztG2
+      port: 5741
+      server: 45.8.147.80
       type: ss
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - DIRECT
-        - "\U0001F1ED\U0001F1F0 _HK_香港"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 2"
         - "\U0001F1FA\U0001F1F8 _US_美国"
-        - "\U0001F1EF\U0001F1F5 _JP_日本"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国"
         - "\U0001F1FA\U0001F1F8 _US_美国 2"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 3"
         - "\U0001F1FA\U0001F1F8 _US_美国 3"
+        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8 _US_美国 4"
-        - "\U0001F1EC\U0001F1E7 _GB_英国"
         - "\U0001F1FA\U0001F1F8 _US_美国 5"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
-        - "\U0001F1F8\U0001F1EC _SG_新加坡"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 4"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 5"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国 3"
         - "\U0001F1FA\U0001F1F8 _US_美国 6"
-        - "\U0001F1E6\U0001F1FA _AU_澳大利亚"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1F8\U0001F1EC _SG_新加坡 2"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 6"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 7"
-        - "\U0001F1FA\U0001F1F8 _AM_亚美尼亚->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1EF\U0001F1F5 _JP_日本 2"
-        - "\U0001F1FA\U0001F1F8 _BZ_伯利兹->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 8"
         - "\U0001F1FA\U0001F1F8 _US_美国 7"
         - "\U0001F1FA\U0001F1F8 _US_美国 8"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 9"
+        - "\U0001F1EB\U0001F1F7 _FR_法国"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国 2"
+        - "\U0001F1EB\U0001F1F7 _FR_法国 2"
         - "\U0001F1FA\U0001F1F8 _US_美国 9"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1EB\U0001F1F7 _FR_法国 3"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E6\U0001F1FA_AU_澳大利亚"
         - "\U0001F1FA\U0001F1F8 _US_美国 10"
+        - "\U0001F1EA\U0001F1F8 _ES_西班牙"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EE\U0001F1F7_IR_伊朗 2"
+        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦 2"
+        - "\U0001F1EC\U0001F1E7 _GB_英国"
         - "\U0001F1FA\U0001F1F8 _US_美国 11"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 10"
-        - "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 11"
-        - "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 2"
+        - "\U0001F1E8\U0001F1F1 _CL_智利"
         - "\U0001F1FA\U0001F1F8 _US_美国 12"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国 4"
-        - "\U0001F1FA\U0001F1F8 _US_美国 13"
-        - "\U0001F1F8\U0001F1EC _SG_新加坡 3"
-        - "\U0001F1FA\U0001F1F8 _US_美国 14"
+        - "\U0001F1EC\U0001F1E7 _GB_英国 2"
+        - "\U0001F1F3\U0001F1F1 _NL_荷兰"
+        - "\U0001F1F5\U0001F1E6 _PA_巴拿马"
+        - "\U0001F1EB\U0001F1F7 _FR_法国 4"
+        - "\U0001F1E9\U0001F1EA _DE_德国->\U0001F1E8\U0001F1F3_CN_中国"
+        - "\U0001F1E9\U0001F1EA _DE_德国"
         - _CN_中国
-        - "\U0001F1FA\U0001F1F8 _US_美国 15"
-        - _CN_中国 2
-        - "\U0001F1FA\U0001F1F8 _BZ_伯利兹->\U0001F1FA\U0001F1F8_US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-        - _CN_中国 3
-        - _CN_中国 4
+        - "\U0001F1E9\U0001F1EA _DE_德国 2"
+        - "\U0001F1E6\U0001F1F7 _AR_阿根廷"
+        - "\U0001F1EC\U0001F1E7 _GB_英国 3"
+        - "\U0001F1F2\U0001F1FD _MX_墨西哥"
+        - "\U0001F1E9\U0001F1EA _DE_德国 3"
+        - "\U0001F1F8\U0001F1EA _SE_瑞典"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -625,56 +393,44 @@ proxy-groups:
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1ED\U0001F1F0 _HK_香港"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 2"
         - "\U0001F1FA\U0001F1F8 _US_美国"
-        - "\U0001F1EF\U0001F1F5 _JP_日本"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国"
         - "\U0001F1FA\U0001F1F8 _US_美国 2"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 3"
         - "\U0001F1FA\U0001F1F8 _US_美国 3"
+        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8 _US_美国 4"
-        - "\U0001F1EC\U0001F1E7 _GB_英国"
         - "\U0001F1FA\U0001F1F8 _US_美国 5"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F3\U0001F1F1_NL_荷兰"
-        - "\U0001F1F8\U0001F1EC _SG_新加坡"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 4"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 5"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国 3"
         - "\U0001F1FA\U0001F1F8 _US_美国 6"
-        - "\U0001F1E6\U0001F1FA _AU_澳大利亚"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1F8\U0001F1EC _SG_新加坡 2"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 6"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 7"
-        - "\U0001F1FA\U0001F1F8 _AM_亚美尼亚->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1EF\U0001F1F5 _JP_日本 2"
-        - "\U0001F1FA\U0001F1F8 _BZ_伯利兹->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 8"
         - "\U0001F1FA\U0001F1F8 _US_美国 7"
         - "\U0001F1FA\U0001F1F8 _US_美国 8"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 9"
+        - "\U0001F1EB\U0001F1F7 _FR_法国"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国 2"
+        - "\U0001F1EB\U0001F1F7 _FR_法国 2"
         - "\U0001F1FA\U0001F1F8 _US_美国 9"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1EB\U0001F1F7 _FR_法国 3"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E6\U0001F1FA_AU_澳大利亚"
         - "\U0001F1FA\U0001F1F8 _US_美国 10"
+        - "\U0001F1EA\U0001F1F8 _ES_西班牙"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EE\U0001F1F7_IR_伊朗 2"
+        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦 2"
+        - "\U0001F1EC\U0001F1E7 _GB_英国"
         - "\U0001F1FA\U0001F1F8 _US_美国 11"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 10"
-        - "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1ED\U0001F1F0 _HK_香港 11"
-        - "\U0001F1FA\U0001F1F8 _CA_加拿大->\U0001F1FA\U0001F1F8_US_美国 2"
+        - "\U0001F1E8\U0001F1F1 _CL_智利"
         - "\U0001F1FA\U0001F1F8 _US_美国 12"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1F0\U0001F1F7 _KR_韩国 4"
-        - "\U0001F1FA\U0001F1F8 _US_美国 13"
-        - "\U0001F1F8\U0001F1EC _SG_新加坡 3"
-        - "\U0001F1FA\U0001F1F8 _US_美国 14"
+        - "\U0001F1EC\U0001F1E7 _GB_英国 2"
+        - "\U0001F1F3\U0001F1F1 _NL_荷兰"
+        - "\U0001F1F5\U0001F1E6 _PA_巴拿马"
+        - "\U0001F1EB\U0001F1F7 _FR_法国 4"
+        - "\U0001F1E9\U0001F1EA _DE_德国->\U0001F1E8\U0001F1F3_CN_中国"
+        - "\U0001F1E9\U0001F1EA _DE_德国"
         - _CN_中国
-        - "\U0001F1FA\U0001F1F8 _US_美国 15"
-        - _CN_中国 2
-        - "\U0001F1FA\U0001F1F8 _BZ_伯利兹->\U0001F1FA\U0001F1F8_US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-        - _CN_中国 3
-        - _CN_中国 4
+        - "\U0001F1E9\U0001F1EA _DE_德国 2"
+        - "\U0001F1E6\U0001F1F7 _AR_阿根廷"
+        - "\U0001F1EC\U0001F1E7 _GB_英国 3"
+        - "\U0001F1F2\U0001F1FD _MX_墨西哥"
+        - "\U0001F1E9\U0001F1EA _DE_德国 3"
+        - "\U0001F1F8\U0001F1EA _SE_瑞典"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
@@ -683,6 +439,7 @@ rules:
     - "DOMAIN-SUFFIX,lan,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,local,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,localhost,\U0001F3AF 全球直连"
+    - "IP-CIDR,0.0.0.0/8,\U0001F3AF 全球直连,no-resolve"
     - "IP-CIDR,10.0.0.0/8,\U0001F3AF 全球直连,no-resolve"
     - "IP-CIDR,100.64.0.0/10,\U0001F3AF 全球直连,no-resolve"
     - "IP-CIDR,127.0.0.0/8,\U0001F3AF 全球直连,no-resolve"
@@ -697,6 +454,7 @@ rules:
     - "DOMAIN,instant.arubanetworks.com,\U0001F3AF 全球直连"
     - "DOMAIN,setmeup.arubanetworks.com,\U0001F3AF 全球直连"
     - "DOMAIN,router.asus.com,\U0001F3AF 全球直连"
+    - "DOMAIN,www.asusrouter.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,hiwifi.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,leike.cc,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,miwifi.com,\U0001F3AF 全球直连"
@@ -709,19 +467,16 @@ rules:
     - "DOMAIN-SUFFIX,tendawifi.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zte.home,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,tplogin.cn,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,wifi.cmcc,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,ol.epicgames.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,dizhensubao.getui.com,\U0001F3AF 全球直连"
     - "DOMAIN,dl.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,googletraveladservices.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,\U0001F3AF 全球直连"
     - "DOMAIN,origin-a.akamaihd.net,\U0001F3AF 全球直连"
-    - "DOMAIN,xivanalysis.com,\U0001F3AF 全球直连"
-    - "DOMAIN,picanalysis.vivo.com.cn,\U0001F3AF 全球直连"
-    - "DOMAIN,picanalysis-auth.vivo.com.cn,\U0001F3AF 全球直连"
     - "DOMAIN,fairplay.l.qq.com,\U0001F3AF 全球直连"
     - "DOMAIN,livew.l.qq.com,\U0001F3AF 全球直连"
     - "DOMAIN,vd.l.qq.com,\U0001F3AF 全球直连"
-    - "DOMAIN,analytics.strava.com,\U0001F3AF 全球直连"
     - "DOMAIN,errlog.umeng.com,\U0001F3AF 全球直连"
     - "DOMAIN,msg.umeng.com,\U0001F3AF 全球直连"
     - "DOMAIN,msg.umengcloud.com,\U0001F3AF 全球直连"
@@ -729,17 +484,17 @@ rules:
     - "DOMAIN,app.adjust.com,\U0001F3AF 全球直连"
     - "DOMAIN,bdtj.tagtic.cn,\U0001F3AF 全球直连"
     - "DOMAIN,rewards.hypixel.net,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,koodomobile.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,koodomobile.ca,\U0001F3AF 全球直连"
     - "DOMAIN-KEYWORD,admarvel,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,admaster,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adsage,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adsensor,\U0001F6D1 全球拦截"
-    - "DOMAIN-KEYWORD,adservice,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adsmogo,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adsrvmedia,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adsserving,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adsystem,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,adwords,\U0001F6D1 全球拦截"
-    - "DOMAIN-KEYWORD,analysis,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,applovin,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,appsflyer,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,domob,\U0001F6D1 全球拦截"
@@ -753,7 +508,6 @@ rules:
     - "DOMAIN-KEYWORD,pingfore,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,socdm,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,supersonicads,\U0001F6D1 全球拦截"
-    - "DOMAIN-KEYWORD,usage,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,wlmonitor,\U0001F6D1 全球拦截"
     - "DOMAIN-KEYWORD,zjtoolbar,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,09mk.cn,\U0001F6D1 全球拦截"
@@ -1150,6 +904,7 @@ rules:
     - "DOMAIN-SUFFIX,zhjfad.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,zqzxz.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,zzsx8.com,\U0001F6D1 全球拦截"
+    - "DOMAIN-SUFFIX,wwads.cn,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,acuityplatform.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,ad-stir.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,ad-survey.com,\U0001F6D1 全球拦截"
@@ -1487,7 +1242,6 @@ rules:
     - "DOMAIN-SUFFIX,baidu9635.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,baidustatic.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,baidutv.baidu.com,\U0001F6D1 全球拦截"
-    - "DOMAIN-SUFFIX,baikebcs.bdimg.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,banlv.baidu.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,bar.baidu.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,bdplus.baidu.com,\U0001F6D1 全球拦截"
@@ -1845,7 +1599,6 @@ rules:
     - "DOMAIN-SUFFIX,stat.pandora.xiaomi.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,union.mi.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,wtradv.market.xiaomi.com,\U0001F6D1 全球拦截"
-    - "DOMAIN-SUFFIX,xmpush.xiaomi.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,ad.api.moji.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,app.moji001.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,cdn.moji002.com,\U0001F6D1 全球拦截"
@@ -2040,7 +1793,6 @@ rules:
     - "DOMAIN-SUFFIX,ws.progrss.yahoo.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,yads.yahoo.co.jp,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,ybp.yahoo.com,\U0001F6D1 全球拦截"
-    - "DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,shrek.6.cn,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,simba.6.cn,\U0001F6D1 全球拦截"
     - "DOMAIN-SUFFIX,union.6.cn,\U0001F6D1 全球拦截"
@@ -2360,32 +2112,24 @@ rules:
     - "DOMAIN-SUFFIX,alt7-mtalk.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,alt8-mtalk.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,app-measurement.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,c.android.clients.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,cache.pack.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,clickserve.dartsearch.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,clientservices.googleapis.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,crl.pki.goog,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,dl.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,dl.l.google.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,fonts.googleapis.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,fonts.gstatic.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,googletagmanager.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,googletagservices.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,gtm.oasisfeng.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,imasdk.googleapis.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,mtalk.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,ocsp.pki.goog,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,recaptcha.net,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,safebrowsing-cache.google.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,safebrowsing.googleapis.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,settings.crashlytics.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,toolbarqueries.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,tools.google.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,tools.l.google.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,update.googleapis.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,www-googletagmanager.l.google.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,www.gstatic.com,\U0001F3AF 全球直连"
     - "DOMAIN,csgo.wmsj.cn,\U0001F3AF 全球直连"
     - "DOMAIN,dl.steam.clngaa.com,\U0001F3AF 全球直连"
     - "DOMAIN,dl.steam.ksyna.com,\U0001F3AF 全球直连"
@@ -2397,6 +2141,7 @@ rules:
     - "DOMAIN,steampowered.com.8686c.com,\U0001F3AF 全球直连"
     - "DOMAIN,steamstatic.com.8686c.com,\U0001F3AF 全球直连"
     - "DOMAIN,wmsjsteam.com,\U0001F3AF 全球直连"
+    - "DOMAIN,xz.pphimalayanrt.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,cm.steampowered.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,steamchina.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,steamcontent.com,\U0001F3AF 全球直连"
@@ -2440,10 +2185,13 @@ rules:
     - "DOMAIN-SUFFIX,aiv-cdn.net,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,aiv-delivery.net,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,amazon.jobs,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,amazontools.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,amazontours.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,amazonuniversity.jobs,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,amazonvideo.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,media-amazon.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,pv-cdn.net,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,seattlespheres.com,\U0001F680 节点选择"
     - "DOMAIN,gspe1-ssl.ls.apple.com,\U0001F680 节点选择"
     - "DOMAIN,np-edge.itunes.apple.com,\U0001F680 节点选择"
     - "DOMAIN,play-edge.itunes.apple.com,\U0001F680 节点选择"
@@ -2625,11 +2373,47 @@ rules:
     - "IP-CIDR,192.173.64.0/18,\U0001F680 节点选择,no-resolve"
     - "IP-CIDR,198.38.96.0/19,\U0001F680 节点选择,no-resolve"
     - "IP-CIDR,198.45.48.0/20,\U0001F680 节点选择,no-resolve"
+    - "IP-CIDR,203.75.84.0/24,\U0001F680 节点选择,no-resolve"
     - "IP-CIDR,207.45.72.0/22,\U0001F680 节点选择,no-resolve"
     - "IP-CIDR,208.75.76.0/22,\U0001F680 节点选择,no-resolve"
     - "DOMAIN-SUFFIX,dmc.nico,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,nicovideo.jp,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,nimg.jp,\U0001F680 节点选择"
+    - "DOMAIN-KEYWORD,nivod,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,biggggg.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,mudvod.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,nbys.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,nbys1.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,nbyy.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,newpppp.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,nivod.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,nivodi.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,nivodz.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,vod360.net,\U0001F680 节点选择"
+    - "DOMAIN-KEYWORD,olevod,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,haiwaikan.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,iole.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,olehd.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,olelive.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,olevod.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,olevod.io,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,olevod.tv,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,olevodtv.com,\U0001F680 节点选择"
+    - "DOMAIN-KEYWORD,openai,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,auth0.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,challenges.cloudflare.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,client-api.arkoselabs.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,events.statsigapi.net,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,featuregates.org,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,identrust.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,intercom.io,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,intercomcdn.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,oaistatic.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,oaiusercontent.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,openai.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,openaiapi-site.azureedge.net,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,sentry.io,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,stripe.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,pbs.org,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,pandora.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,phncdn.com,\U0001F680 节点选择"
@@ -2640,7 +2424,7 @@ rules:
     - "DOMAIN-SUFFIX,p-cdn.us,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,sndcdn.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,soundcloud.com,\U0001F680 节点选择"
-    - "DOMAIN-KEYWORD,-spotify-com,\U0001F680 节点选择"
+    - "DOMAIN-KEYWORD,-spotify-,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,spotify.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,pscdn.co,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,scdn.co,\U0001F680 节点选择"
@@ -2653,7 +2437,7 @@ rules:
     - "DOMAIN-SUFFIX,tidalhifi.com,\U0001F680 节点选择"
     - "DOMAIN,hamifans.emome.net,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,skyking.com.tw,\U0001F680 节点选择"
-    - "DOMAIN-KEYWORD,tiktokcdn-,\U0001F680 节点选择"
+    - "DOMAIN-KEYWORD,tiktokcdn,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,byteoversea.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,ibytedtos.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,ipstatp.com,\U0001F680 节点选择"
@@ -2704,7 +2488,6 @@ rules:
     - "DOMAIN-SUFFIX,adguard.org,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,bit.no.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,btlibrary.me,\U0001F680 节点选择"
-    - "DOMAIN-SUFFIX,chat.openai.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,cloudcone.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,dubox.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,gameloft.com,\U0001F680 节点选择"
@@ -2715,13 +2498,13 @@ rules:
     - "DOMAIN-SUFFIX,linkedin.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,myteamspeak.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,notion.so,\U0001F680 节点选择"
-    - "DOMAIN-SUFFIX,openai.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,ping.pe,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,reddit.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,teddysun.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,tumbex.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,twdvd.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,unsplash.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,buzzsprout.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,eu,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,hk,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,jp,\U0001F680 节点选择"
@@ -2729,7 +2512,6 @@ rules:
     - "DOMAIN-SUFFIX,sg,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,tw,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,uk,\U0001F680 节点选择"
-    - "DOMAIN-SUFFIX,us,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,1e100,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,abema,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,appledaily,\U0001F680 节点选择"
@@ -2880,6 +2662,8 @@ rules:
     - "DOMAIN-KEYWORD,uk-live,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,bbc.co,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,bbc.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,claude.ai,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,anthropic.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,apache.org,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,docker.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,elastic.co,\U0001F680 节点选择"
@@ -2996,6 +2780,8 @@ rules:
     - "IP-CIDR,119.235.236.0/23,\U0001F680 节点选择,no-resolve"
     - "IP-CIDR,147.92.128.0/17,\U0001F680 节点选择,no-resolve"
     - "IP-CIDR,203.104.128.0/19,\U0001F680 节点选择,no-resolve"
+    - "DOMAIN-SUFFIX,openai.com,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,challenges.cloudflare.com,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,1drv,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,onedrive,\U0001F680 节点选择"
     - "DOMAIN-KEYWORD,skydrive,\U0001F680 节点选择"
@@ -3033,6 +2819,7 @@ rules:
     - "DOMAIN-SUFFIX,ypncdn.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,pixiv.net,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,pximg.net,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,fanbox.cc,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,amplitude.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,firebaseio.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,hockeyapp.net,\U0001F680 节点选择"
@@ -3051,7 +2838,6 @@ rules:
     - "DOMAIN-SUFFIX,steamstatic.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,steamstat.us,\U0001F680 节点选择"
     - "DOMAIN,steambroadcast.akamaized.net,\U0001F680 节点选择"
-    - "DOMAIN,steamcdn-a.akamaihd.net,\U0001F680 节点选择"
     - "DOMAIN,steamcommunity-a.akamaihd.net,\U0001F680 节点选择"
     - "DOMAIN,steamstore-a.akamaihd.net,\U0001F680 节点选择"
     - "DOMAIN,steamusercontent-a.akamaihd.net,\U0001F680 节点选择"
@@ -3108,6 +2894,8 @@ rules:
     - "DOMAIN-SUFFIX,wikiversity.org,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,wikivoyage.org,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,wiktionary.org,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,zoom.us,\U0001F680 节点选择"
+    - "DOMAIN-SUFFIX,zoomgov.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,neulion.com,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,icntv.xyz,\U0001F680 节点选择"
     - "DOMAIN-SUFFIX,flzbcdn.xyz,\U0001F680 节点选择"
@@ -3129,11 +2917,12 @@ rules:
     - "DOMAIN-SUFFIX,pdfwifi.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zhenguanyu.biz,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zhenguanyu.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,snapdrop.net,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,tebex.io,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,cn,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,xn--fiqs8s,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,xn--55qx5d,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,xn--io0a7i,\U0001F3AF 全球直连"
-    - "DOMAIN-KEYWORD,-cn,\U0001F3AF 全球直连"
     - "DOMAIN-KEYWORD,360buy,\U0001F3AF 全球直连"
     - "DOMAIN-KEYWORD,alicdn,\U0001F3AF 全球直连"
     - "DOMAIN-KEYWORD,alimama,\U0001F3AF 全球直连"
@@ -3180,6 +2969,7 @@ rules:
     - "DOMAIN-SUFFIX,aliyuncdn.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,aliyuncs.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,aliyundrive.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,aliyundrive.net,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,amap.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,autonavi.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,dingtalk.com,\U0001F3AF 全球直连"
@@ -3226,9 +3016,6 @@ rules:
     - "DOMAIN-SUFFIX,hdslb.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,im9.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,smtcdns.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,battle.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,battlenet.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,blizzard.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,amemv.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,bdxiguaimg.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,bdxiguastatic.com,\U0001F3AF 全球直连"
@@ -3243,6 +3030,7 @@ rules:
     - "DOMAIN-SUFFIX,bytetos.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,bytexservice.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,douyin.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,douyincdn.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,douyinpic.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,douyinstatic.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,douyinvod.com,\U0001F3AF 全球直连"
@@ -3291,12 +3079,25 @@ rules:
     - "DOMAIN-SUFFIX,dbankcdn.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,hc-cdn.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,hicloud.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,hihonor.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,huawei.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,huaweicloud.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,huaweishop.net,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,hwccpc.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,vmall.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,vmallres.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,allawnfs.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,allawno.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,allawntech.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,coloros.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,heytap.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,heytapcs.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,heytapdownload.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,heytapimage.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,heytapmobi.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,oppo.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,oppoer.me,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,oppomobile.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,iflyink.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,iflyrec.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,iflytek.com,\U0001F3AF 全球直连"
@@ -3396,6 +3197,7 @@ rules:
     - "DOMAIN,st.dl.bscstorage.net,\U0001F3AF 全球直连"
     - "DOMAIN,st.dl.eccdnx.com,\U0001F3AF 全球直连"
     - "DOMAIN,st.dl.pinyuncloud.com,\U0001F3AF 全球直连"
+    - "DOMAIN,xz.pphimalayanrt.com,\U0001F3AF 全球直连"
     - "DOMAIN,steampipe.steamcontent.tnkjmec.com,\U0001F3AF 全球直连"
     - "DOMAIN,steampowered.com.8686c.com,\U0001F3AF 全球直连"
     - "DOMAIN,steamstatic.com.8686c.com,\U0001F3AF 全球直连"
@@ -3447,46 +3249,7 @@ rules:
     - "DOMAIN-SUFFIX,zmzapi.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zmzapi.net,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zmzfile.com,\U0001F3AF 全球直连"
-    - "DOMAIN-KEYWORD,announce,\U0001F3AF 全球直连"
-    - "DOMAIN-KEYWORD,torrent,\U0001F3AF 全球直连"
-    - "DOMAIN-KEYWORD,tracker,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,animebytes.tv,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,animetorrents.me,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,awesome-hd.me,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,beitai.pt,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,bittorrent.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,broadcasthe.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,chdbits.co,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,classix-unlimited.co.uk,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,empornium.me,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,gazellegames.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,hd4fans.org,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,hdchina.org,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,hdhome.org,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,hdsky.me,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,hdtime.org,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,hdzone.me,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,icetorrent.org,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,jpopsuki.eu,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,keepfrds.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,leaguehd.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,m-team.cc,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,madsrevolution.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,msg.vg,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,nanyangpt.com,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,ncore.cc,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,open.cd,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,ourbits.club,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,passthepopcorn.me,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,privatehd.to,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,pthome.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,redacted.ch,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,springsunday.net,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,tjupt.org,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,totheglory.im,\U0001F3AF 全球直连"
-    - "DOMAIN-SUFFIX,trontv.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,teamviewer.com,\U0001F3AF 全球直连"
-    - "IP-CIDR,109.239.140.0/24,\U0001F3AF 全球直连,no-resolve"
     - "IP-CIDR,139.220.243.27/32,\U0001F3AF 全球直连,no-resolve"
     - "IP-CIDR,172.16.102.56/32,\U0001F3AF 全球直连,no-resolve"
     - "IP-CIDR,185.188.32.1/28,\U0001F3AF 全球直连,no-resolve"
@@ -3500,6 +3263,10 @@ rules:
     - "DOMAIN-SUFFIX,jiasule.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,staticfile.org,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,upaiyun.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,doh.pub,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,dns.alidns.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,doh.360.cn,\U0001F3AF 全球直连"
+    - "IP-CIDR,1.12.12.12/32,\U0001F3AF 全球直连,no-resolve"
     - "DOMAIN-SUFFIX,10010.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,115.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,12306.com,\U0001F3AF 全球直连"
@@ -3529,6 +3296,7 @@ rules:
     - "DOMAIN-SUFFIX,biqudu.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,biquge.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,bitauto.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,bosszhipin.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,c-ctrip.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,camera360.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,cdnmama.com,\U0001F3AF 全球直连"
@@ -3564,6 +3332,7 @@ rules:
     - "DOMAIN-SUFFIX,eastday.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,eastmoney.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,ecitic.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,element-plus.org,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,ewqcxz.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,fang.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,fantasy.tv,\U0001F3AF 全球直连"
@@ -3642,6 +3411,7 @@ rules:
     - "DOMAIN-SUFFIX,nruan.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,nuomi.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,onedns.net,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,oneplus.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,onlinedown.net,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,oracle.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,oschina.net,\U0001F3AF 全球直连"
@@ -3664,6 +3434,7 @@ rules:
     - "DOMAIN-SUFFIX,quanmin.tv,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,qunar.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,qunarzz.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,realme.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,repaik.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,ruguoapp.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,runoob.com,\U0001F3AF 全球直连"
@@ -3697,6 +3468,7 @@ rules:
     - "DOMAIN-SUFFIX,upyun.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,uxengine.net,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,videocc.net,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,vivo.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,wandoujia.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,weather.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,weico.cc,\U0001F3AF 全球直连"
@@ -3733,6 +3505,7 @@ rules:
     - "DOMAIN-SUFFIX,zhaopin.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zhihu.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zhimg.com,\U0001F3AF 全球直连"
+    - "DOMAIN-SUFFIX,zhipin.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zhongsou.com,\U0001F3AF 全球直连"
     - "DOMAIN-SUFFIX,zhuihd.com,\U0001F3AF 全球直连"
     - "IP-CIDR,8.128.0.0/10,\U0001F3AF 全球直连,no-resolve"
