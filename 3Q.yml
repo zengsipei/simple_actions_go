@@ -194,7 +194,7 @@ proxies:
       name: US-美国-50
       password: "0660084045"
       port: 53396
-      server: 104.200.16.147
+      server: 45.33.127.239
       type: null
 proxy-groups:
     "0":
@@ -383,7 +383,7 @@ proxy-groups:
               name: US-美国-50
               password: "0660084045"
               port: 53396
-              server: 104.200.16.147
+              server: 45.33.127.239
               type: null
 rule-providers:
     apple:
