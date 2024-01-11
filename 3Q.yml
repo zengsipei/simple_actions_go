@@ -10,67 +10,271 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+      network: ws
+      port: 2086
+      server: fr.wumaojichang.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
+      ws-opts:
+        headers:
+            host: fr.wumaojichang.com
+        path: /
+    - name: "\U0001F1EB\U0001F1F7 _FR_法国"
+      password: telegram-id-directvpn
+      port: 22222
+      server: 13.36.46.99
+      skip-cert-verify: false
+      sni: trj.rollingnext.co.uk
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国"
+      network: ws
+      port: 8880
+      server: a3.bcbot.in
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+      ws-opts:
+        headers:
+            host: a3.bcbot.in
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+      network: ws
+      port: 8880
+      server: 104.21.32.215
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+      ws-opts:
+        headers:
+            host: a3.bcbot.in
+        path: /
+    - name: "\U0001F1EB\U0001F1F7 _FR_法国 2"
+      password: telegram-id-directvpn
+      port: 22222
+      server: 35.181.36.26
+      skip-cert-verify: false
+      sni: trj.rollingnext.co.uk
+      type: trojan
+    - cipher: aes-128-cfb
+      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+      password: shadowsocks
+      port: 443
+      server: 212.102.47.198
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+      network: ws
+      port: 80
+      server: 104.17.184.241
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+      ws-opts:
+        headers:
+            host: mg_cdn.yunjisuan.cf
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港"
+      network: ws
+      port: 2086
+      server: go.wumaojichang.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
+      ws-opts:
+        headers:
+            host: au.wumaojichang.com
+        path: /
+    - cipher: aes-256-gcm
+      name: "\U0001F1EC\U0001F1E7 _GB_英国"
+      password: GeZbX4Enoc
+      port: 15100
+      server: 5.181.27.97
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 92.38.171.89
+      type: ss
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "6810915267"
-      port: 53595
+      password: "3452949844"
+      port: 53798
       server: 172.105.23.168
       type: null
     - cipher: chacha20-ietf-poly1305
+      name: DE-德国-50
+      password: "3452949844"
+      port: 53798
+      server: 172.104.149.68
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "6810915267"
-      port: 53595
+      password: "3452949844"
+      port: 53798
       server: 139.162.132.146
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "6810915267"
-      port: 53595
-      server: 139.162.244.111
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "6810915267"
-      port: 53595
-      server: 198.58.119.218
+      name: SG-新加坡-44
+      password: "3452949844"
+      port: 53798
+      server: 139.162.9.57
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "6810915267"
-      port: 53595
+      password: "3452949844"
+      port: 53798
       server: 45.33.3.206
       type: null
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+              network: ws
+              port: 2086
+              server: fr.wumaojichang.com
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
+              ws-opts:
+                headers:
+                    host: fr.wumaojichang.com
+                path: /
+            - name: "\U0001F1EB\U0001F1F7 _FR_法国"
+              password: telegram-id-directvpn
+              port: 22222
+              server: 13.36.46.99
+              skip-cert-verify: false
+              sni: trj.rollingnext.co.uk
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国"
+              network: ws
+              port: 8880
+              server: a3.bcbot.in
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+              ws-opts:
+                headers:
+                    host: a3.bcbot.in
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+              network: ws
+              port: 8880
+              server: 104.21.32.215
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: ce9aadc8-8c6e-4867-d247-9a84b469ac27
+              ws-opts:
+                headers:
+                    host: a3.bcbot.in
+                path: /
+            - name: "\U0001F1EB\U0001F1F7 _FR_法国 2"
+              password: telegram-id-directvpn
+              port: 22222
+              server: 35.181.36.26
+              skip-cert-verify: false
+              sni: trj.rollingnext.co.uk
+              type: trojan
+            - cipher: aes-128-cfb
+              name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+              password: shadowsocks
+              port: 443
+              server: 212.102.47.198
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+              network: ws
+              port: 80
+              server: 104.17.184.241
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+              ws-opts:
+                headers:
+                    host: mg_cdn.yunjisuan.cf
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港"
+              network: ws
+              port: 2086
+              server: go.wumaojichang.com
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
+              ws-opts:
+                headers:
+                    host: au.wumaojichang.com
+                path: /
+            - cipher: aes-256-gcm
+              name: "\U0001F1EC\U0001F1E7 _GB_英国"
+              password: GeZbX4Enoc
+              port: 15100
+              server: 5.181.27.97
+              type: ss
+            - cipher: aes-256-cfb
+              name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
+              password: f8f7aCzcPKbsF8p3
+              port: 989
+              server: 92.38.171.89
+              type: ss
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "6810915267"
-              port: 53595
+              password: "3452949844"
+              port: 53798
               server: 172.105.23.168
               type: null
             - cipher: chacha20-ietf-poly1305
+              name: DE-德国-50
+              password: "3452949844"
+              port: 53798
+              server: 172.104.149.68
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "6810915267"
-              port: 53595
+              password: "3452949844"
+              port: 53798
               server: 139.162.132.146
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "6810915267"
-              port: 53595
-              server: 139.162.244.111
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "6810915267"
-              port: 53595
-              server: 198.58.119.218
+              name: SG-新加坡-44
+              password: "3452949844"
+              port: 53798
+              server: 139.162.9.57
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "6810915267"
-              port: 53595
+              password: "3452949844"
+              port: 53798
               server: 45.33.3.206
               type: null
 rule-providers:

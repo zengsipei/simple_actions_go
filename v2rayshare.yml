@@ -4,64 +4,30 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - name: "\U0001F1FA\U0001F1F8 _US_美国"
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
       network: ws
-      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-      port: 443
-      server: 89.116.161.133
+      port: 2086
+      server: fr.wumaojichang.com
       skip-cert-verify: false
-      sni: p1us1.pqjc.buzz
-      type: trojan
+      tls: false
+      type: vmess
+      uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
       ws-opts:
         headers:
-            host: p1us1.pqjc.buzz
-        path: /pq/us1
-    - name: "\U0001F1FA\U0001F1F8 _US_美国 2"
-      network: ws
-      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-      port: 443
-      server: 167.68.5.183
-      skip-cert-verify: false
-      sni: 6us3.pqjc.buzz
-      type: trojan
-      ws-opts:
-        headers:
-            host: 6us3.pqjc.buzz
-        path: /pq/us3
-    - name: "\U0001F1FA\U0001F1F8 _US_美国 3"
-      network: ws
-      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-      port: 443
-      server: 89.116.180.179
-      skip-cert-verify: false
-      sni: p6us4.pqjc.buzz
-      type: trojan
-      ws-opts:
-        headers:
-            host: p6us4.pqjc.buzz
-        path: /pq/us4
+            host: fr.wumaojichang.com
+        path: /
     - name: "\U0001F1EB\U0001F1F7 _FR_法国"
-      password: telegram-id-privatevpns
+      password: telegram-id-directvpn
       port: 22222
-      server: 13.38.208.28
+      server: 13.36.46.99
       skip-cert-verify: false
       sni: trj.rollingnext.co.uk
       type: trojan
-    - cipher: aes-128-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
-      password: shadowsocks
-      port: 443
-      server: 212.102.47.198
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1F7\U0001F1F4 _RO_罗马尼亚"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 194.14.217.115
-      type: ss
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+      name: "\U0001F1FA\U0001F1F8 _US_美国"
       network: ws
       port: 8880
       server: a3.bcbot.in
@@ -73,22 +39,9 @@ proxies:
         headers:
             host: a3.bcbot.in
         path: /
-    - cipher: aes-256-gcm
-      name: "\U0001F1EC\U0001F1E7 _GB_英国"
-      password: GeZbX4Enoc
-      port: 15100
-      server: 5.181.27.97
-      type: ss
-    - name: "\U0001F1E9\U0001F1EA _DE_德国"
-      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
-      port: 443
-      server: 5.104.108.120
-      skip-cert-verify: false
-      sni: 20-24-33-134.nhost.00cdn.com
-      type: trojan
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 6"
+      name: "\U0001F1FA\U0001F1F8 _US_美国 2"
       network: ws
       port: 8880
       server: 104.21.32.215
@@ -100,56 +53,73 @@ proxies:
         headers:
             host: a3.bcbot.in
         path: /
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国 7"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 74.121.191.98
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 _GB_英国 2"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 77.72.5.113
+    - name: "\U0001F1EB\U0001F1F7 _FR_法国 2"
+      password: telegram-id-directvpn
+      port: 22222
+      server: 35.181.36.26
+      skip-cert-verify: false
+      sni: trj.rollingnext.co.uk
+      type: trojan
+    - cipher: aes-128-cfb
+      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+      password: shadowsocks
+      port: 443
+      server: 212.102.47.198
       type: ss
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
+      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
       network: ws
       port: 80
-      server: 104.17.2.183
+      server: 104.17.184.241
       skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+      uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
       ws-opts:
         headers:
-            host: v3ra3do.wakeuptimerap.shop
+            host: mg_cdn.yunjisuan.cf
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港"
+      network: ws
+      port: 2086
+      server: go.wumaojichang.com
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
+      ws-opts:
+        headers:
+            host: au.wumaojichang.com
         path: /
     - cipher: aes-256-gcm
-      name: "\U0001F1EB\U0001F1F7 _FR_法国 2"
-      password: pKEW8JPByTVTLtM
-      port: 4444
-      server: 145.239.6.202
+      name: "\U0001F1EC\U0001F1E7 _GB_英国"
+      password: GeZbX4Enoc
+      port: 15100
+      server: 5.181.27.97
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 92.38.171.89
       type: ss
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - DIRECT
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1EB\U0001F1F7 _FR_法国"
         - "\U0001F1FA\U0001F1F8 _US_美国"
         - "\U0001F1FA\U0001F1F8 _US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国 3"
-        - "\U0001F1EB\U0001F1F7 _FR_法国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 4"
-        - "\U0001F1F7\U0001F1F4 _RO_罗马尼亚"
-        - "\U0001F1FA\U0001F1F8 _US_美国 5"
-        - "\U0001F1EC\U0001F1E7 _GB_英国"
-        - "\U0001F1E9\U0001F1EA _DE_德国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 6"
-        - "\U0001F1FA\U0001F1F8 _US_美国 7"
-        - "\U0001F1EC\U0001F1E7 _GB_英国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
         - "\U0001F1EB\U0001F1F7 _FR_法国 2"
+        - "\U0001F1FA\U0001F1F8 _US_美国 3"
+        - "\U0001F1FA\U0001F1F8 _US_美国 4"
+        - "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1EC\U0001F1E7 _GB_英国"
+        - "\U0001F1EA\U0001F1F8 _ES_西班牙"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -165,20 +135,16 @@ proxy-groups:
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1EB\U0001F1F7 _FR_法国"
         - "\U0001F1FA\U0001F1F8 _US_美国"
         - "\U0001F1FA\U0001F1F8 _US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国 3"
-        - "\U0001F1EB\U0001F1F7 _FR_法国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 4"
-        - "\U0001F1F7\U0001F1F4 _RO_罗马尼亚"
-        - "\U0001F1FA\U0001F1F8 _US_美国 5"
-        - "\U0001F1EC\U0001F1E7 _GB_英国"
-        - "\U0001F1E9\U0001F1EA _DE_德国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 6"
-        - "\U0001F1FA\U0001F1F8 _US_美国 7"
-        - "\U0001F1EC\U0001F1E7 _GB_英国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
         - "\U0001F1EB\U0001F1F7 _FR_法国 2"
+        - "\U0001F1FA\U0001F1F8 _US_美国 3"
+        - "\U0001F1FA\U0001F1F8 _US_美国 4"
+        - "\U0001F1ED\U0001F1F0 _US_美国->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1EC\U0001F1E7 _GB_英国"
+        - "\U0001F1EA\U0001F1F8 _ES_西班牙"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
