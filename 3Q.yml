@@ -290,7 +290,7 @@ proxies:
       name: UK-英国-24
       password: "4095012824"
       port: 53971
-      server: 139.162.244.111
+      server: 176.58.119.250
       type: null
 proxy-groups:
     "0":
@@ -575,7 +575,7 @@ proxy-groups:
               name: UK-英国-24
               password: "4095012824"
               port: 53971
-              server: 139.162.244.111
+              server: 176.58.119.250
               type: null
 rule-providers:
     apple:
