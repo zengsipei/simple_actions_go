@@ -10,106 +10,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - cipher: aes-128-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国"
-      password: shadowsocks
-      port: 443
-      server: 212.102.47.198
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0 _SC_塞舌尔->\U0001F1ED\U0001F1F0_HK_香港"
-      network: ws
-      port: 56120
-      server: 156.251.226.142
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-      ws-opts:
-        headers:
-            host: hk-300.changding.tech
-        path: /changding-tls1?ed=2048
-    - alterid: 64
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
-      network: ws
-      port: 443
-      server: 142.171.237.214
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-      ws-opts:
-        headers:
-            host: www.23168499.xyz
-        path: /path/221312281009
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: ws
-      port: 443
-      server: tgju.org
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
-      ws-opts:
-        headers:
-            host: cdn.pokerad.fun
-        path: /fa
-    - alterid: 0
-      cipher: auto
-      name: _LY_利比亚
-      network: ws
-      port: 80
-      server: 197.215.140.234
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-      ws-opts:
-        headers:
-            host: softiri.serveirc.com
-        path: /@forwardv2ray
-    - cipher: aes-256-cfb
-      name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 92.38.171.89
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1ED _CH_瑞士"
-      port: 47182
-      server: 94.131.99.8
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EE\U0001F1F7 _IR_伊朗"
-      port: 25477
-      server: 79.143.84.117
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 2"
-      network: ws
-      port: 80
-      server: glaSco.fx-trAder.shop
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-      ws-opts:
-        headers:
-            host: vvv2vayo2.everythingisreve.shop
-        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "4095012824"
@@ -120,7 +20,7 @@ proxies:
       name: DE-德国-56
       password: "4095012824"
       port: 53971
-      server: 139.177.176.54
+      server: 172.104.128.95
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -143,106 +43,6 @@ proxies:
 proxy-groups:
     "0":
         proxies:
-            - cipher: aes-128-cfb
-              name: "\U0001F1FA\U0001F1F8 _US_美国"
-              password: shadowsocks
-              port: 443
-              server: 212.102.47.198
-              type: ss
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1ED\U0001F1F0 _SC_塞舌尔->\U0001F1ED\U0001F1F0_HK_香港"
-              network: ws
-              port: 56120
-              server: 156.251.226.142
-              skip-cert-verify: false
-              tls: true
-              type: vmess
-              uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
-              ws-opts:
-                headers:
-                    host: hk-300.changding.tech
-                path: /changding-tls1?ed=2048
-            - alterid: 64
-              cipher: auto
-              name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
-              network: ws
-              port: 443
-              server: 142.171.237.214
-              skip-cert-verify: false
-              tls: true
-              type: vmess
-              uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-              ws-opts:
-                headers:
-                    host: www.23168499.xyz
-                path: /path/221312281009
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-              network: ws
-              port: 443
-              server: tgju.org
-              skip-cert-verify: false
-              tls: true
-              type: vmess
-              uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
-              ws-opts:
-                headers:
-                    host: cdn.pokerad.fun
-                path: /fa
-            - alterid: 0
-              cipher: auto
-              name: _LY_利比亚
-              network: ws
-              port: 80
-              server: 197.215.140.234
-              skip-cert-verify: false
-              tls: false
-              type: vmess
-              uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-              ws-opts:
-                headers:
-                    host: softiri.serveirc.com
-                path: /@forwardv2ray
-            - cipher: aes-256-cfb
-              name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
-              password: f8f7aCzcPKbsF8p3
-              port: 989
-              server: 92.38.171.89
-              type: ss
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1E8\U0001F1ED _CH_瑞士"
-              port: 47182
-              server: 94.131.99.8
-              skip-cert-verify: false
-              tls: false
-              type: vmess
-              uuid: 81b2b630-8b6a-404f-b996-b12f13db5786
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1EE\U0001F1F7 _IR_伊朗"
-              port: 25477
-              server: 79.143.84.117
-              skip-cert-verify: false
-              tls: false
-              type: vmess
-              uuid: 9b788fa7-9e35-4ed5-e0e9-7d788b26ec07
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8 _US_美国 2"
-              network: ws
-              port: 80
-              server: glaSco.fx-trAder.shop
-              skip-cert-verify: false
-              tls: false
-              type: vmess
-              uuid: cdbb0899-7113-4d4e-f868-31339c75ad3c
-              ws-opts:
-                headers:
-                    host: vvv2vayo2.everythingisreve.shop
-                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "4095012824"
@@ -253,7 +53,7 @@ proxy-groups:
               name: DE-德国-56
               password: "4095012824"
               port: 53971
-              server: 139.177.176.54
+              server: 172.104.128.95
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
