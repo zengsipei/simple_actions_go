@@ -131,7 +131,7 @@ proxies:
       name: SG-新加坡-47
       password: "6450180996"
       port: 54314
-      server: 139.162.31.170
+      server: 192.53.173.26
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -269,7 +269,7 @@ proxy-groups:
               name: SG-新加坡-47
               password: "6450180996"
               port: 54314
-              server: 139.162.31.170
+              server: 192.53.173.26
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
