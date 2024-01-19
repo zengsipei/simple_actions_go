@@ -10,111 +10,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国"
-      password: amazonskr05
-      port: 443
-      server: 54.185.37.169
-      type: ss
-    - name: "\U0001F1E8\U0001F1FF _CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10846
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7 _FR_法国"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 195.154.169.198
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F9\U0001F1F7 _UA_乌克兰->\U0001F1F9\U0001F1F7_TR_土耳其"
-      network: ws
-      port: 80
-      server: 185.158.211.186
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-      ws-opts:
-        headers:
-            host: softiri.serveirc.com
-        path: /@forwardv2ray
-    - name: "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10848
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1F7\U0001F1F4 _RO_罗马尼亚"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 194.14.217.115
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10847
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7 _GB_英国"
-      network: ws
-      port: 443
-      server: 172.99.190.109
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        path: linkvws
-    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10837
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10838
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1EC\U0001F1E7 _GB_英国 2"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 77.72.5.113
-      type: ss
-    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 4"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10850
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - cipher: aes-256-cfb
-      name: "\U0001F1FA\U0001F1F8 _US_美国 2"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 74.121.191.98
-      type: ss
-    - name: "\U0001F1FA\U0001F1E6 _CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
-      password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-      port: 10845
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "6450180996"
@@ -137,7 +32,7 @@ proxies:
       name: UK-英国-23
       password: "6450180996"
       port: 54314
-      server: 176.58.104.131
+      server: 176.58.117.179
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -148,111 +43,6 @@ proxies:
 proxy-groups:
     "0":
         proxies:
-            - cipher: aes-256-cfb
-              name: "\U0001F1FA\U0001F1F8 _US_美国"
-              password: amazonskr05
-              port: 443
-              server: 54.185.37.169
-              type: ss
-            - name: "\U0001F1E8\U0001F1FF _CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10846
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
-            - cipher: aes-256-cfb
-              name: "\U0001F1EB\U0001F1F7 _FR_法国"
-              password: f8f7aCzcPKbsF8p3
-              port: 989
-              server: 195.154.169.198
-              type: ss
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1F9\U0001F1F7 _UA_乌克兰->\U0001F1F9\U0001F1F7_TR_土耳其"
-              network: ws
-              port: 80
-              server: 185.158.211.186
-              skip-cert-verify: false
-              tls: false
-              type: vmess
-              uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-              ws-opts:
-                headers:
-                    host: softiri.serveirc.com
-                path: /@forwardv2ray
-            - name: "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10848
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
-            - cipher: aes-256-cfb
-              name: "\U0001F1F7\U0001F1F4 _RO_罗马尼亚"
-              password: f8f7aCzcPKbsF8p3
-              port: 989
-              server: 194.14.217.115
-              type: ss
-            - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10847
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1EC\U0001F1E7 _GB_英国"
-              network: ws
-              port: 443
-              server: 172.99.190.109
-              skip-cert-verify: false
-              tls: true
-              type: vmess
-              uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-              ws-opts:
-                path: linkvws
-            - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10837
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
-            - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10838
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
-            - cipher: aes-256-cfb
-              name: "\U0001F1EC\U0001F1E7 _GB_英国 2"
-              password: f8f7aCzcPKbsF8p3
-              port: 989
-              server: 77.72.5.113
-              type: ss
-            - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 4"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10850
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
-            - cipher: aes-256-cfb
-              name: "\U0001F1FA\U0001F1F8 _US_美国 2"
-              password: f8f7aCzcPKbsF8p3
-              port: 989
-              server: 74.121.191.98
-              type: ss
-            - name: "\U0001F1FA\U0001F1E6 _CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
-              password: 66c899df-785c-4290-9c10-74a62b3ddd2b
-              port: 10845
-              server: xibaozi.19890604.day
-              skip-cert-verify: false
-              sni: cloudflare.node-ssl.cdn-alibaba.com
-              type: trojan
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "6450180996"
@@ -275,7 +65,7 @@ proxy-groups:
               name: UK-英国-23
               password: "6450180996"
               port: 54314
-              server: 176.58.104.131
+              server: 176.58.117.179
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
