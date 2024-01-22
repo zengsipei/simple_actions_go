@@ -6,195 +6,132 @@ port: 7890
 proxies:
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
-      network: ws
-      port: 80
-      server: 162.159.200.3
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: ca3.889611.com
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 2"
-      network: ws
-      port: 80
-      server: 162.159.200.5
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: ca3.889611.com
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 3"
-      network: ws
-      port: 80
-      server: 162.159.200.4
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: ca3.889611.com
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-      password: 1ccf201b-c3f9-472c-b0d8-fa90f93a1c10
-      port: 30037
-      server: cn.pathx.me
-      type: ss
-    - name: "\U0001F1E9\U0001F1EA _DE_德国"
-      password: telegram-id-directvpn
-      port: 22222
-      server: 52.58.246.187
-      skip-cert-verify: false
-      sni: trojan.miwan.co.uk
-      type: trojan
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
-      port: 50003
-      server: 03.kccic2pa.xyz
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 3c1de58d-0dac-4000-9cc3-4330e1e73578
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F9\U0001F1F7_TR_土耳其"
-      network: ws
-      port: 80
-      server: 104.18.15.149
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: tr3.889611.com
-        path: /
-    - name: "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
-      password: da3f89e3-5676-4ca9-8f06-d51cb1ffbe96
-      port: 10848
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
-      password: da3f89e3-5676-4ca9-8f06-d51cb1ffbe96
-      port: 10847
-      server: xibaozi.19890604.day
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
-      network: ws
-      port: 80
-      server: 45.144.2.113
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: www.apple.com
-        path: /
-    - alterid: 0
-      cipher: auto
       name: "\U0001F1FA\U0001F1F8 _US_美国"
       network: ws
       port: 80
-      server: 104.18.154.42
+      server: 162.159.135.221
       skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+      uuid: fa828efe-ff0a-4afd-a4cb-245cf65432ee
       ws-opts:
         headers:
-            host: us3.visaapp.top
-        path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦 2"
-      password: NE1maM9InLOKgK3dRPcuy6llYUKjZxhs3RGOWSqNRddj9Yn2
-      port: 51348
-      server: 92.223.109.205
-      type: ss
+            host: us.baipiao.fixddns.store
+        path: /?ed=2048
+    - name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ws
+      password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+      port: 443
+      server: 167.68.11.221
+      skip-cert-verify: false
+      sni: k6us3.djjc.sbs
+      type: trojan
+      ws-opts:
+        headers:
+            host: k6us3.djjc.sbs
+        path: /djjc/us3
+    - name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 2"
+      network: ws
+      password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+      port: 443
+      server: 209.46.30.206
+      skip-cert-verify: false
+      sni: k9us1.djjc.sbs
+      type: trojan
+      ws-opts:
+        headers:
+            host: k9us1.djjc.sbs
+        path: /djjc/us1
+    - name: "\U0001F1E8\U0001F1E6 _LU_卢森堡->\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ws
+      password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+      port: 443
+      server: 188.42.145.11
+      skip-cert-verify: false
+      sni: k2us2.djjc.sbs
+      type: trojan
+      ws-opts:
+        headers:
+            host: k2us2.djjc.sbs
+        path: /djjc/us2
+    - alterid: 64
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6 _CA_加拿大"
+      network: ws
+      port: 443
+      server: 142.171.237.214
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      ws-opts:
+        headers:
+            host: www.23168499.xyz
+        path: /path/221312281009
+    - name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+      network: ws
+      password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+      port: 443
+      server: 209.46.30.106
+      skip-cert-verify: false
+      sni: nl4.djjc.sbs
+      type: trojan
+      ws-opts:
+        headers:
+            host: nl4.djjc.sbs
+        path: /djjc/nl1
+    - name: "\U0001F1E9\U0001F1EA _RU_俄罗斯联邦->\U0001F1E9\U0001F1EA_DE_德国"
+      network: ws
+      password: 9fec66cf-1006-4c74-acc5-601fdf8a71b9
+      port: 443
+      server: 185.176.24.105
+      skip-cert-verify: false
+      sni: k9de1.djjc.sbs
+      type: trojan
+      ws-opts:
+        headers:
+            host: k9de1.djjc.sbs
+        path: /djjc/de1
+    - name: "\U0001F1E8\U0001F1FF _CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
+      password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
+      port: 10846
+      server: xibaozi.19890604.day
+      skip-cert-verify: false
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8 _US_美国 2"
       network: ws
       port: 80
-      server: 104.18.15.147
+      server: 94.131.13.110
       skip-cert-verify: false
       tls: false
       type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+      uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2
       ws-opts:
         headers:
-            host: us3.889611.com
-        path: /
+            host: lt1-vmess.sshmax.xyz
+        path: /vmess
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+      name: "\U0001F1EC\U0001F1E7 _GB_英国"
       network: ws
-      port: 80
-      server: 104.18.15.150
+      port: 443
+      server: 172.99.190.109
       skip-cert-verify: false
-      tls: false
+      tls: true
       type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
       ws-opts:
-        headers:
-            host: er3.889611.com
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
-      port: 32567
-      server: 45.136.51.175
+        path: linkvws
+    - name: "\U0001F1EA\U0001F1F8 _ES_西班牙"
+      password: 842b5f9dd11e458d8613c907c4cc5723
+      port: 443
+      server: 65.20.102.54
       skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: df35304b-1f31-4b0d-9d02-f70256f732f1
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
-      network: ws
-      port: 80
-      server: 104.18.15.148
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: er3.889611.com
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 5"
-      network: ws
-      port: 80
-      server: 162.159.200.7
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: er3.visaapp.top
-        path: /
+      sni: www.gpt123.one
+      type: trojan
     - name: "\U0001F1F0\U0001F1F7 _KR_韩国"
       password: 6x8HcghsjS
       port: 10003
@@ -202,26 +139,26 @@ proxies:
       skip-cert-verify: false
       sni: yes998.chickenkiller.com
       type: trojan
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 6"
-      network: ws
-      port: 80
-      server: 162.159.200.6
+    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+      password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
+      port: 10837
+      server: xibaozi.19890604.day
       skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
-      ws-opts:
-        headers:
-            host: er3.889611.com
-        path: /
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
+      password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
+      port: 10838
+      server: xibaozi.19890604.day
+      skip-cert-verify: false
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
     - alterid: 0
       cipher: auto
-      name: "\U0001F1F9\U0001F1F7 _UA_乌克兰->\U0001F1F9\U0001F1F7_TR_土耳其"
+      name: "\U0001F1F1\U0001F1FA _LU_卢森堡->\U0001F1F9\U0001F1F7_TR_土耳其"
       network: ws
       port: 80
-      server: 185.158.211.186
+      server: 202.78.162.6
       skip-cert-verify: false
       tls: false
       type: vmess
@@ -230,30 +167,16 @@ proxies:
         headers:
             host: irisoft.servecounterstrike.com
         path: /@forwardv2ray
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 2082
-      server: s1c.v2.v001sss.xyz
+    - name: "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
+      password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
+      port: 10850
+      server: xibaozi.19890604.day
       skip-cert-verify: false
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
-    - name: "\U0001F1FA\U0001F1F8 _IR_伊朗->\U0001F1FA\U0001F1F8_US_美国"
-      password: 3933e566-6e2d-460f-9363-48e2fa9ca103
-      port: 60302
-      server: 185.94.99.205
-      skip-cert-verify: false
-      sni: https://nafasmovie.com/
+      sni: cloudflare.node-ssl.cdn-alibaba.com
       type: trojan
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8 _US_美国 7"
+      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
       network: ws
       port: 80
       server: 94.131.117.159
@@ -263,33 +186,70 @@ proxies:
       uuid: 72b3b89a-30c5-4dc7-8b6e-f61218b95eda
       ws-opts:
         path: /vmess
+    - name: "\U0001F1FA\U0001F1E6 _CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
+      password: 8c20a85b-f70f-48aa-a607-92d57eddc92f
+      port: 10845
+      server: xibaozi.19890604.day
+      skip-cert-verify: false
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+      network: ws
+      port: 8080
+      server: 95.164.46.154
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 431fda16-e0f8-4884-b4fd-965f03f86471
+      ws-opts:
+        path: /vmess
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1F3 _CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
+      password: cfa17a0d-5e7d-4871-976e-f116e0818123
+      port: 21003
+      server: service.ouluyun9803.com
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA _DE_德国->\U0001F1EB\U0001F1F7_FR_法国"
+      network: ws
+      port: 443
+      server: yx.zhke.cf
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 3b89f882-0c3f-4144-811d-91fce7ab3c05
+      ws-opts:
+        headers:
+            host: h196-fr.kxnn.eu.org
+        path: /D26xvdqUdCpvvPTz4R
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - DIRECT
+        - "\U0001F1FA\U0001F1F8 _US_美国"
         - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
         - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 3"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E9\U0001F1EA _DE_德国"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F9\U0001F1F7_TR_土耳其"
-        - "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
-        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
-        - "\U0001F1FA\U0001F1F8 _US_美国"
-        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦 2"
+        - "\U0001F1E8\U0001F1E6 _LU_卢森堡->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1E8\U0001F1E6 _CA_加拿大"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1E9\U0001F1EA _RU_俄罗斯联邦->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1E8\U0001F1FF _CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
         - "\U0001F1FA\U0001F1F8 _US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国 3"
-        - "\U0001F1F3\U0001F1F1 _NL_荷兰"
-        - "\U0001F1FA\U0001F1F8 _US_美国 4"
-        - "\U0001F1FA\U0001F1F8 _US_美国 5"
+        - "\U0001F1EC\U0001F1E7 _GB_英国"
+        - "\U0001F1EA\U0001F1F8 _ES_西班牙"
         - "\U0001F1F0\U0001F1F7 _KR_韩国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 6"
-        - "\U0001F1F9\U0001F1F7 _UA_乌克兰->\U0001F1F9\U0001F1F7_TR_土耳其"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1FA\U0001F1F8 _IR_伊朗->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 7"
+        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
+        - "\U0001F1F1\U0001F1FA _LU_卢森堡->\U0001F1F9\U0001F1F7_TR_土耳其"
+        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
+        - "\U0001F1FA\U0001F1F8 _US_美国 3"
+        - "\U0001F1FA\U0001F1E6 _CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
+        - "\U0001F1FA\U0001F1F8 _US_美国 4"
+        - "\U0001F1EE\U0001F1F3 _CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
+        - "\U0001F1E9\U0001F1EA _DE_德国->\U0001F1EB\U0001F1F7_FR_法国"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -305,29 +265,27 @@ proxy-groups:
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
+        - "\U0001F1FA\U0001F1F8 _US_美国"
         - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
         - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E8\U0001F1E6_CA_加拿大 3"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E9\U0001F1EA _DE_德国"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1F9\U0001F1F7_TR_土耳其"
-        - "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
-        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
-        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦"
-        - "\U0001F1FA\U0001F1F8 _US_美国"
-        - "\U0001F1F7\U0001F1FA _RU_俄罗斯联邦 2"
+        - "\U0001F1E8\U0001F1E6 _LU_卢森堡->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1E8\U0001F1E6 _CA_加拿大"
+        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1E9\U0001F1EA _RU_俄罗斯联邦->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1E8\U0001F1FF _CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
         - "\U0001F1FA\U0001F1F8 _US_美国 2"
-        - "\U0001F1FA\U0001F1F8 _US_美国 3"
-        - "\U0001F1F3\U0001F1F1 _NL_荷兰"
-        - "\U0001F1FA\U0001F1F8 _US_美国 4"
-        - "\U0001F1FA\U0001F1F8 _US_美国 5"
+        - "\U0001F1EC\U0001F1E7 _GB_英国"
+        - "\U0001F1EA\U0001F1F8 _ES_西班牙"
         - "\U0001F1F0\U0001F1F7 _KR_韩国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 6"
-        - "\U0001F1F9\U0001F1F7 _UA_乌克兰->\U0001F1F9\U0001F1F7_TR_土耳其"
-        - "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1FA\U0001F1F8 _IR_伊朗->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1FA\U0001F1F8 _US_美国 7"
+        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 2"
+        - "\U0001F1F1\U0001F1FA _LU_卢森堡->\U0001F1F9\U0001F1F7_TR_土耳其"
+        - "\U0001F1FA\U0001F1F8 _CN_中国->\U0001F1FA\U0001F1F8_US_美国 3"
+        - "\U0001F1FA\U0001F1F8 _US_美国 3"
+        - "\U0001F1FA\U0001F1E6 _CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
+        - "\U0001F1FA\U0001F1F8 _US_美国 4"
+        - "\U0001F1EE\U0001F1F3 _CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
+        - "\U0001F1E9\U0001F1EA _DE_德国->\U0001F1EB\U0001F1F7_FR_法国"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
