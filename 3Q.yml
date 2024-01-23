@@ -10,68 +10,244 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+      port: 443
+      server: 167.68.5.183
+      skip-cert-verify: true
+      sni: 6us3.pqjc.buzz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: 6us3.pqjc.buzz
+        path: /pq/us3
+    - name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+      port: 443
+      server: 89.116.180.158
+      skip-cert-verify: true
+      sni: 3us2.pqjc.buzz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: 3us2.pqjc.buzz
+        path: /pq/us2
+    - name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+      port: 443
+      server: 89.116.180.179
+      skip-cert-verify: true
+      sni: p6us4.pqjc.buzz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: p6us4.pqjc.buzz
+        path: /pq/us4
+    - name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+      port: 443
+      server: 89.116.161.133
+      skip-cert-verify: true
+      sni: p1us1.pqjc.buzz
+      type: trojan
+      udp: true
+      ws-opts:
+        headers:
+            host: p1us1.pqjc.buzz
+        path: /pq/us1
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: tcp
+      password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+      port: 443
+      server: 5.104.108.109
+      skip-cert-verify: true
+      sni: 20-24-33-134.nhost.00cdn.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
+      network: tcp
+      password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
+      port: 10848
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+      network: tcp
+      password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
+      port: 10847
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: tcp
+      password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+      port: 443
+      server: 5.104.108.120
+      skip-cert-verify: true
+      sni: 20-24-33-134.nhost.00cdn.com
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "9382463882"
-      port: 54691
-      server: 172.105.6.125
+      password: "7688465579"
+      port: 54816
+      server: 192.53.121.252
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-44
-      password: "9382463882"
-      port: 54691
-      server: 192.46.229.205
+      name: DE-德国-50
+      password: "7688465579"
+      port: 54816
+      server: 139.162.135.202
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: DE-德国-56
+      password: "7688465579"
+      port: 54816
+      server: 139.162.176.69
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "9382463882"
-      port: 54691
+      password: "7688465579"
+      port: 54816
       server: 85.159.211.114
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "9382463882"
-      port: 54691
-      server: 45.33.27.127
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-55
-      password: "9382463882"
-      port: 54691
-      server: 72.14.187.176
+      password: "7688465579"
+      port: 54816
+      server: 198.58.100.8
       type: null
 proxy-groups:
     "0":
         proxies:
+            - name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+              port: 443
+              server: 167.68.5.183
+              skip-cert-verify: true
+              sni: 6us3.pqjc.buzz
+              type: trojan
+              udp: true
+              ws-opts:
+                headers:
+                    host: 6us3.pqjc.buzz
+                path: /pq/us3
+            - name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+              port: 443
+              server: 89.116.180.158
+              skip-cert-verify: true
+              sni: 3us2.pqjc.buzz
+              type: trojan
+              udp: true
+              ws-opts:
+                headers:
+                    host: 3us2.pqjc.buzz
+                path: /pq/us2
+            - name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+              port: 443
+              server: 89.116.180.179
+              skip-cert-verify: true
+              sni: p6us4.pqjc.buzz
+              type: trojan
+              udp: true
+              ws-opts:
+                headers:
+                    host: p6us4.pqjc.buzz
+                path: /pq/us4
+            - name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+              port: 443
+              server: 89.116.161.133
+              skip-cert-verify: true
+              sni: p1us1.pqjc.buzz
+              type: trojan
+              udp: true
+              ws-opts:
+                headers:
+                    host: p1us1.pqjc.buzz
+                path: /pq/us1
+            - name: "\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: tcp
+              password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+              port: 443
+              server: 5.104.108.109
+              skip-cert-verify: true
+              sni: 20-24-33-134.nhost.00cdn.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
+              network: tcp
+              password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
+              port: 10848
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+              network: tcp
+              password: c71b7574-aeaa-40f0-989b-47f3fe7ac85a
+              port: 10847
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: tcp
+              password: f34ec9d8-3ae0-46ba-94e7-a03eaf2af651
+              port: 443
+              server: 5.104.108.120
+              skip-cert-verify: true
+              sni: 20-24-33-134.nhost.00cdn.com
+              type: trojan
+              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "9382463882"
-              port: 54691
-              server: 172.105.6.125
+              password: "7688465579"
+              port: 54816
+              server: 192.53.121.252
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-44
-              password: "9382463882"
-              port: 54691
-              server: 192.46.229.205
+              name: DE-德国-50
+              password: "7688465579"
+              port: 54816
+              server: 139.162.135.202
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: DE-德国-56
+              password: "7688465579"
+              port: 54816
+              server: 139.162.176.69
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "9382463882"
-              port: 54691
+              password: "7688465579"
+              port: 54816
               server: 85.159.211.114
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "9382463882"
-              port: 54691
-              server: 45.33.27.127
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-55
-              password: "9382463882"
-              port: 54691
-              server: 72.14.187.176
+              password: "7688465579"
+              port: 54816
+              server: 198.58.100.8
               type: null
 rule-providers:
     apple:
