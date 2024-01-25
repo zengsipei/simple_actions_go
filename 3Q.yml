@@ -10,68 +10,630 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - name: "\U0001F1FA\U0001F1F8 _US_美国"
+      network: ws
+      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+      port: 443
+      server: 89.116.161.133
+      skip-cert-verify: false
+      sni: p1us1.pqjc.buzz
+      type: trojan
+      ws-opts:
+        headers:
+            host: p1us1.pqjc.buzz
+        path: /pq/us1
+    - name: "\U0001F1EE\U0001F1EA _IE_爱尔兰"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 52.214.208.44
+      skip-cert-verify: false
+      sni: trojan.miwan.co.uk
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+      network: ws
+      port: 80
+      server: 158.101.7.8
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+      ws-opts:
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+      network: ws
+      port: 443
+      server: 173.245.58.51
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 12d7e57b-9fc8-41e0-9b32-f503dce10c1c
+      ws-opts:
+        headers:
+            host: godofwar2020.colocrossing.sbs
+        path: /fdczvws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+      network: ws
+      port: 8080
+      server: www.coldstone.club
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.coldstone.club
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+      network: ws
+      port: 8080
+      server: www.crispyrainbow.biz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.crispyrainbow.biz
+        path: /
+    - name: "\U0001F1EB\U0001F1F7 _FR_法国"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 35.181.194.132
+      skip-cert-verify: false
+      sni: trojan.miwan.co.uk
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
+      network: ws
+      port: 2086
+      server: 91.242.229.69
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+      ws-opts:
+        headers:
+            host: nl1.xv2ray.net
+        path: /vmess
+    - name: "\U0001F1F0\U0001F1F7 _KR_韩国"
+      password: 6x8HcghsjS
+      port: 10003
+      server: 103.214.68.57
+      skip-cert-verify: false
+      sni: yes998.chickenkiller.com
+      type: trojan
+    - name: "\U0001F1E9\U0001F1EA _DE_德国"
+      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+      port: 443
+      server: 5.104.108.109
+      skip-cert-verify: false
+      sni: 20-24-33-134.nhost.00cdn.com
+      type: trojan
+    - name: "\U0001F1E9\U0001F1EA _DE_德国 2"
+      password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+      port: 443
+      server: 5.104.108.120
+      skip-cert-verify: false
+      sni: 20-24-33-134.nhost.00cdn.com
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F9\U0001F1F7 _IQ_伊拉克->\U0001F1F9\U0001F1F7_TR_土耳其"
+      network: ws
+      port: 443
+      server: 130.193.166.2
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+      ws-opts:
+        headers:
+            host: soft8989.redirectme.net
+        path: /@forwardv2ray
+    - name: "\U0001F1EC\U0001F1E7 _CN_中国->\U0001F1EC\U0001F1E7_GB_英国"
+      password: 7c266797-c2f6-43cf-8cdb-3e3a8e67de8b
+      port: 35008
+      server: cn22.firewoodzz.com
+      skip-cert-verify: false
+      sni: updates.sub-nthu.com
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 6"
+      network: ws
+      port: 80
+      server: 94.131.10.135
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+      ws-opts:
+        path: /vmess
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+      network: ws
+      port: 8080
+      server: 104.31.16.104
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 3a6752b4-8353-4172-85b1-32202116714d
+      ws-opts:
+        headers:
+            host: asan3.azad1.tech
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 7"
+      network: ws
+      port: 80
+      server: pt2-vmess.sshmax.xyz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+      ws-opts:
+        headers:
+            host: pt2-vmess.sshmax.xyz
+        path: /vmess
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 8"
+      network: ws
+      port: 443
+      server: cold-dawn-9246.fly.dev
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+      ws-opts:
+        headers:
+            host: cold-dawn-9246.fly.dev
+        path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1E6 _UA_乌克兰"
+      network: ws
+      port: 80
+      server: 185.158.211.186
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+      ws-opts:
+        headers:
+            host: softiri.serveirc.com
+        path: /@forwardv2ray
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 9"
+      network: ws
+      port: 2095
+      server: 104.17.184.241
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 0f42a063-315b-4524-8501-469c51838bb6
+      ws-opts:
+        headers:
+            host: mgone_cdn.yunjisuan.cf
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: _GI_直布罗陀
+      network: ws
+      port: 80
+      server: ee2-vmess.sshmax.xyz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+      ws-opts:
+        headers:
+            host: ee2-vmess.sshmax.xyz
+        path: /vmess
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国 10"
+      network: ws
+      port: 80
+      server: 172.67.217.144
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+      ws-opts:
+        headers:
+            host: lv1.xv2ray.net
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: _GI_直布罗陀 2
+      network: ws
+      port: 80
+      server: 95.164.8.106
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+      ws-opts:
+        headers:
+            host: ee2-vmess.sshmax.xyz
+        path: /vmess
+    - name: "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
+      password: 3e5d1046-5807-4b79-8397-31a006f546d1
+      port: 10848
+      server: xibaozi.19890604.day
+      skip-cert-verify: false
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+      network: ws
+      port: 2082
+      server: s1c.v2.v001sss.xyz
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "7688465579"
-      port: 54816
-      server: 172.105.24.191
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "7688465579"
-      port: 54816
-      server: 139.162.187.32
+      password: "2737890072"
+      port: 54932
+      server: 170.187.181.96
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "7688465579"
-      port: 54816
-      server: 139.162.152.144
+      password: "2737890072"
+      port: 54932
+      server: 139.162.167.24
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "7688465579"
-      port: 54816
-      server: 176.58.127.68
+      password: "2737890072"
+      port: 54932
+      server: 85.159.208.98
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "7688465579"
-      port: 54816
-      server: 198.58.114.88
+      password: "2737890072"
+      port: 54932
+      server: 50.116.28.132
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "2737890072"
+      port: 54932
+      server: 45.79.16.197
       type: null
 proxy-groups:
     "0":
         proxies:
+            - name: "\U0001F1FA\U0001F1F8 _US_美国"
+              network: ws
+              password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+              port: 443
+              server: 89.116.161.133
+              skip-cert-verify: false
+              sni: p1us1.pqjc.buzz
+              type: trojan
+              ws-opts:
+                headers:
+                    host: p1us1.pqjc.buzz
+                path: /pq/us1
+            - name: "\U0001F1EE\U0001F1EA _IE_爱尔兰"
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 52.214.208.44
+              skip-cert-verify: false
+              sni: trojan.miwan.co.uk
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 2"
+              network: ws
+              port: 80
+              server: 158.101.7.8
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+              ws-opts:
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 3"
+              network: ws
+              port: 443
+              server: 173.245.58.51
+              skip-cert-verify: false
+              tls: true
+              type: vmess
+              uuid: 12d7e57b-9fc8-41e0-9b32-f503dce10c1c
+              ws-opts:
+                headers:
+                    host: godofwar2020.colocrossing.sbs
+                path: /fdczvws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 4"
+              network: ws
+              port: 8080
+              server: www.coldstone.club
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+              ws-opts:
+                headers:
+                    host: www.coldstone.club
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 5"
+              network: ws
+              port: 8080
+              server: www.crispyrainbow.biz
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+              ws-opts:
+                headers:
+                    host: www.crispyrainbow.biz
+                path: /
+            - name: "\U0001F1EB\U0001F1F7 _FR_法国"
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 35.181.194.132
+              skip-cert-verify: false
+              sni: trojan.miwan.co.uk
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F3\U0001F1F1 _NL_荷兰"
+              network: ws
+              port: 2086
+              server: 91.242.229.69
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
+              ws-opts:
+                headers:
+                    host: nl1.xv2ray.net
+                path: /vmess
+            - name: "\U0001F1F0\U0001F1F7 _KR_韩国"
+              password: 6x8HcghsjS
+              port: 10003
+              server: 103.214.68.57
+              skip-cert-verify: false
+              sni: yes998.chickenkiller.com
+              type: trojan
+            - name: "\U0001F1E9\U0001F1EA _DE_德国"
+              password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+              port: 443
+              server: 5.104.108.109
+              skip-cert-verify: false
+              sni: 20-24-33-134.nhost.00cdn.com
+              type: trojan
+            - name: "\U0001F1E9\U0001F1EA _DE_德国 2"
+              password: 56e1f11c-1217-46ab-b127-6afbc23bafba
+              port: 443
+              server: 5.104.108.120
+              skip-cert-verify: false
+              sni: 20-24-33-134.nhost.00cdn.com
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F9\U0001F1F7 _IQ_伊拉克->\U0001F1F9\U0001F1F7_TR_土耳其"
+              network: ws
+              port: 443
+              server: 130.193.166.2
+              skip-cert-verify: false
+              tls: true
+              type: vmess
+              uuid: 7682b778-b64b-408b-8fb2-61d7c7fc43e5
+              ws-opts:
+                headers:
+                    host: soft8989.redirectme.net
+                path: /@forwardv2ray
+            - name: "\U0001F1EC\U0001F1E7 _CN_中国->\U0001F1EC\U0001F1E7_GB_英国"
+              password: 7c266797-c2f6-43cf-8cdb-3e3a8e67de8b
+              port: 35008
+              server: cn22.firewoodzz.com
+              skip-cert-verify: false
+              sni: updates.sub-nthu.com
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 6"
+              network: ws
+              port: 80
+              server: 94.131.10.135
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+              ws-opts:
+                path: /vmess
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+              network: ws
+              port: 8080
+              server: 104.31.16.104
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 3a6752b4-8353-4172-85b1-32202116714d
+              ws-opts:
+                headers:
+                    host: asan3.azad1.tech
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 7"
+              network: ws
+              port: 80
+              server: pt2-vmess.sshmax.xyz
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
+              ws-opts:
+                headers:
+                    host: pt2-vmess.sshmax.xyz
+                path: /vmess
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 8"
+              network: ws
+              port: 443
+              server: cold-dawn-9246.fly.dev
+              skip-cert-verify: false
+              tls: true
+              type: vmess
+              uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+              ws-opts:
+                headers:
+                    host: cold-dawn-9246.fly.dev
+                path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1E6 _UA_乌克兰"
+              network: ws
+              port: 80
+              server: 185.158.211.186
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
+              ws-opts:
+                headers:
+                    host: softiri.serveirc.com
+                path: /@forwardv2ray
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 9"
+              network: ws
+              port: 2095
+              server: 104.17.184.241
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 0f42a063-315b-4524-8501-469c51838bb6
+              ws-opts:
+                headers:
+                    host: mgone_cdn.yunjisuan.cf
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: _GI_直布罗陀
+              network: ws
+              port: 80
+              server: ee2-vmess.sshmax.xyz
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+              ws-opts:
+                headers:
+                    host: ee2-vmess.sshmax.xyz
+                path: /vmess
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国 10"
+              network: ws
+              port: 80
+              server: 172.67.217.144
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+              ws-opts:
+                headers:
+                    host: lv1.xv2ray.net
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: _GI_直布罗陀 2
+              network: ws
+              port: 80
+              server: 95.164.8.106
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3
+              ws-opts:
+                headers:
+                    host: ee2-vmess.sshmax.xyz
+                path: /vmess
+            - name: "\U0001F1E6\U0001F1F9 _CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
+              password: 3e5d1046-5807-4b79-8397-31a006f546d1
+              port: 10848
+              server: xibaozi.19890604.day
+              skip-cert-verify: false
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8 _US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+              network: ws
+              port: 2082
+              server: s1c.v2.v001sss.xyz
+              skip-cert-verify: false
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "7688465579"
-              port: 54816
-              server: 172.105.24.191
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "7688465579"
-              port: 54816
-              server: 139.162.187.32
+              password: "2737890072"
+              port: 54932
+              server: 170.187.181.96
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "7688465579"
-              port: 54816
-              server: 139.162.152.144
+              password: "2737890072"
+              port: 54932
+              server: 139.162.167.24
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "7688465579"
-              port: 54816
-              server: 176.58.127.68
+              password: "2737890072"
+              port: 54932
+              server: 85.159.208.98
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "7688465579"
-              port: 54816
-              server: 198.58.114.88
+              password: "2737890072"
+              port: 54932
+              server: 50.116.28.132
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "2737890072"
+              port: 54932
+              server: 45.79.16.197
               type: null
 rule-providers:
     apple:
