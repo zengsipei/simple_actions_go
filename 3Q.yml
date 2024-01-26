@@ -465,7 +465,7 @@ proxies:
       name: CA-加拿大-54
       password: "2737890072"
       port: 54932
-      server: 192.53.120.123
+      server: 172.105.5.208
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -477,7 +477,7 @@ proxies:
       name: UK-英国-23
       password: "2737890072"
       port: 54932
-      server: 85.159.208.98
+      server: 212.111.41.235
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -489,7 +489,7 @@ proxies:
       name: US-美国-55
       password: "2737890072"
       port: 54932
-      server: 45.79.16.197
+      server: 45.33.27.127
       type: null
 proxy-groups:
     "0":
@@ -949,7 +949,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "2737890072"
               port: 54932
-              server: 192.53.120.123
+              server: 172.105.5.208
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -961,7 +961,7 @@ proxy-groups:
               name: UK-英国-23
               password: "2737890072"
               port: 54932
-              server: 85.159.208.98
+              server: 212.111.41.235
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
@@ -973,7 +973,7 @@ proxy-groups:
               name: US-美国-55
               password: "2737890072"
               port: 54932
-              server: 45.79.16.197
+              server: 45.33.27.127
               type: null
 rule-providers:
     apple:
