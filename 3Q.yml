@@ -138,7 +138,7 @@ proxies:
       name: DE-德国-50
       password: "8407884533"
       port: 55121
-      server: 139.162.187.32
+      server: 139.162.145.20
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -295,7 +295,7 @@ proxy-groups:
               name: DE-德国-50
               password: "8407884533"
               port: 55121
-              server: 139.162.187.32
+              server: 139.162.145.20
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
