@@ -150,7 +150,7 @@ proxies:
       name: SG-新加坡-44
       password: "8407884533"
       port: 55121
-      server: 172.105.127.134
+      server: 172.104.54.89
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
@@ -307,7 +307,7 @@ proxy-groups:
               name: SG-新加坡-44
               password: "8407884533"
               port: 55121
-              server: 172.105.127.134
+              server: 172.104.54.89
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
