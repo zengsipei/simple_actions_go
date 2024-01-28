@@ -82,7 +82,7 @@ proxies:
       name: DE-德国-56
       password: "8407884533"
       port: 55121
-      server: 85.90.245.86
+      server: 139.162.160.208
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -100,7 +100,7 @@ proxies:
       name: US-美国-55
       password: "8407884533"
       port: 55121
-      server: 45.33.9.63
+      server: 45.79.0.108
       type: null
 proxy-groups:
     "0":
@@ -177,7 +177,7 @@ proxy-groups:
               name: DE-德国-56
               password: "8407884533"
               port: 55121
-              server: 85.90.245.86
+              server: 139.162.160.208
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
@@ -195,7 +195,7 @@ proxy-groups:
               name: US-美国-55
               password: "8407884533"
               port: 55121
-              server: 45.33.9.63
+              server: 45.79.0.108
               type: null
 rule-providers:
     apple:
