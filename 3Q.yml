@@ -10,6 +10,24 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - name: "\U0001F1EE\U0001F1EA_IE_爱尔兰"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 52.49.249.102
+      skip-cert-verify: true
+      sni: trj.rollingnext.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1EB\U0001F1F7_FR_法国"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 15.237.201.223
+      skip-cert-verify: false
+      sni: trj.rollingnext.co.uk
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "3034554413"
@@ -20,13 +38,13 @@ proxies:
       name: SG-新加坡-44
       password: "3034554413"
       port: 55384
-      server: 172.104.190.7
+      server: 172.105.119.33
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "3034554413"
       port: 55384
-      server: 178.79.176.69
+      server: 213.219.38.249
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -43,6 +61,24 @@ proxies:
 proxy-groups:
     "0":
         proxies:
+            - name: "\U0001F1EE\U0001F1EA_IE_爱尔兰"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 52.49.249.102
+              skip-cert-verify: true
+              sni: trj.rollingnext.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1EB\U0001F1F7_FR_法国"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 15.237.201.223
+              skip-cert-verify: false
+              sni: trj.rollingnext.co.uk
+              type: trojan
+              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "3034554413"
@@ -53,13 +89,13 @@ proxy-groups:
               name: SG-新加坡-44
               password: "3034554413"
               port: 55384
-              server: 172.104.190.7
+              server: 172.105.119.33
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "3034554413"
               port: 55384
-              server: 178.79.176.69
+              server: 213.219.38.249
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
