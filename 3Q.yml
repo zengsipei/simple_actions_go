@@ -10,68 +10,282 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10847
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_1"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 13.42.93.180
+      skip-cert-verify: true
+      sni: trojan.miwan.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 44.237.40.234
+      skip-cert-verify: true
+      sni: trj.rollingnext.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10838
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10846
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10845
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.157.63.148
+      skip-cert-verify: false
+      sni: trojan.miwan.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10848
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7_GB_英国_2"
+      network: tcp
+      password: 81dfb458-9a26-486a-a0da-914c380459c6
+      port: 443
+      server: 198.244.190.189
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.156.123.121
+      skip-cert-verify: true
+      sni: trojan.miwan.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10837
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
+      network: tcp
+      password: f0883703-3161-4d18-b243-4b2ca0647a05
+      port: 10850
+      server: xibaozi.19890604.day
+      skip-cert-verify: true
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "3034554413"
-      port: 55384
-      server: 172.105.101.86
+      password: "9371292831"
+      port: 55536
+      server: 172.105.6.214
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-44
-      password: "3034554413"
-      port: 55384
-      server: 172.105.119.33
+      name: DE-德国-56
+      password: "9371292831"
+      port: 55536
+      server: 172.105.73.40
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "3034554413"
-      port: 55384
-      server: 213.219.38.249
+      name: SG-新加坡-47
+      password: "9371292831"
+      port: 55536
+      server: 192.46.228.88
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "3034554413"
-      port: 55384
-      server: 45.56.73.88
+      name: UK-英国-24
+      password: "9371292831"
+      port: 55536
+      server: 212.71.239.21
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "3034554413"
-      port: 55384
-      server: 50.116.30.87
+      password: "9371292831"
+      port: 55536
+      server: 198.58.118.215
       type: null
 proxy-groups:
     "0":
         proxies:
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10847
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1EC\U0001F1E7_GB_英国_1"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 13.42.93.180
+              skip-cert-verify: true
+              sni: trojan.miwan.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1FA\U0001F1F8_US_美国"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 44.237.40.234
+              skip-cert-verify: true
+              sni: trj.rollingnext.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10838
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1FF_CZ_捷克"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10846
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1E6_UA_乌克兰"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10845
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 18.157.63.148
+              skip-cert-verify: false
+              sni: trojan.miwan.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E6\U0001F1F9_AT_奥地利"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10848
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1EC\U0001F1E7_GB_英国_2"
+              network: tcp
+              password: 81dfb458-9a26-486a-a0da-914c380459c6
+              port: 443
+              server: 198.244.190.189
+              skip-cert-verify: true
+              type: trojan
+              udp: true
+            - name: "\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 18.156.123.121
+              skip-cert-verify: true
+              sni: trojan.miwan.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10837
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
+              network: tcp
+              password: f0883703-3161-4d18-b243-4b2ca0647a05
+              port: 10850
+              server: xibaozi.19890604.day
+              skip-cert-verify: true
+              sni: cloudflare.node-ssl.cdn-alibaba.com
+              type: trojan
+              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "3034554413"
-              port: 55384
-              server: 172.105.101.86
+              password: "9371292831"
+              port: 55536
+              server: 172.105.6.214
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-44
-              password: "3034554413"
-              port: 55384
-              server: 172.105.119.33
+              name: DE-德国-56
+              password: "9371292831"
+              port: 55536
+              server: 172.105.73.40
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "3034554413"
-              port: 55384
-              server: 213.219.38.249
+              name: SG-新加坡-47
+              password: "9371292831"
+              port: 55536
+              server: 192.46.228.88
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "3034554413"
-              port: 55384
-              server: 45.56.73.88
+              name: UK-英国-24
+              password: "9371292831"
+              port: 55536
+              server: 212.71.239.21
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "3034554413"
-              port: 55384
-              server: 50.116.30.87
+              password: "9371292831"
+              port: 55536
+              server: 198.58.118.215
               type: null
 rule-providers:
     apple:
