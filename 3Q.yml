@@ -86,13 +86,13 @@ proxies:
       name: CA-加拿大-54
       password: "1015305417"
       port: 55663
-      server: 172.105.5.74
+      server: 172.105.29.205
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "1015305417"
       port: 55663
-      server: 139.162.145.20
+      server: 139.162.165.126
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -191,13 +191,13 @@ proxy-groups:
               name: CA-加拿大-54
               password: "1015305417"
               port: 55663
-              server: 172.105.5.74
+              server: 172.105.29.205
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "1015305417"
               port: 55663
-              server: 139.162.145.20
+              server: 139.162.165.126
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
