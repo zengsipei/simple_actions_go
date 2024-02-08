@@ -171,7 +171,7 @@ proxies:
       name: DE-德国-50
       password: "9365786850"
       port: 56083
-      server: 139.162.134.57
+      server: 172.104.245.100
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -183,7 +183,7 @@ proxies:
       name: SG-新加坡-47
       password: "9365786850"
       port: 56083
-      server: 172.104.45.198
+      server: 139.162.5.212
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -195,7 +195,7 @@ proxies:
       name: US-美国-50
       password: "9365786850"
       port: 56083
-      server: 45.33.18.185
+      server: 45.79.42.125
       type: null
 proxy-groups:
     "0":
@@ -361,7 +361,7 @@ proxy-groups:
               name: DE-德国-50
               password: "9365786850"
               port: 56083
-              server: 139.162.134.57
+              server: 172.104.245.100
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -373,7 +373,7 @@ proxy-groups:
               name: SG-新加坡-47
               password: "9365786850"
               port: 56083
-              server: 172.104.45.198
+              server: 139.162.5.212
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -385,7 +385,7 @@ proxy-groups:
               name: US-美国-50
               password: "9365786850"
               port: 56083
-              server: 45.33.18.185
+              server: 45.79.42.125
               type: null
 rule-providers:
     apple:
