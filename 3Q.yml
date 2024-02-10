@@ -10,137 +10,11 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - grpc-opts:
-        grpc-service-name: server-53651.prod.hosts.ooklaserver.net
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F9\U0001F1F7_TR_土耳其_1"
-      network: grpc
-      password: YS7mIZvKNt
-      port: 2053
-      server: 104.21.72.61
-      skip-cert-verify: false
-      sni: panell.followprovider.ir
-      type: trojan
-      udp: true
-    - name: "\U0001F1E8\U0001F1E6_CA_加拿大"
-      network: tcp
-      password: telegram-id-directvpn
-      port: 22222
-      server: 3.97.177.99
-      skip-cert-verify: true
-      sni: trojan.miwan.co.uk
-      type: trojan
-      udp: true
-    - grpc-opts:
-        grpc-service-name: 443trojan
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-      network: grpc
-      password: qj1Dz1CJmFQRhWr1SP80aA
-      port: 443
-      server: 172.67.204.84
-      skip-cert-verify: true
-      sni: cdn-21.gsmxreality.com
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: ws
-      port: 8080
-      server: 172.67.221.183
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-      ws-opts:
-        headers:
-            host: www.blueberrywindow.online
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: ws
-      port: 8880
-      server: server20.beheshtbaneh.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
-      ws-opts:
-        headers:
-            host: server20.beheshtbaneh.com
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
-      network: ws
-      port: 8080
-      server: 172.67.212.114
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-      ws-opts:
-        headers:
-            host: www.crispyrainbow.biz
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      network: ws
-      port: 8080
-      server: 104.21.31.244
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-      ws-opts:
-        headers:
-            host: www.nahck.site
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
-      network: ws
-      port: 8080
-      server: www.crispyrainbow.online
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-      ws-opts:
-        headers:
-            host: www.crispyrainbow.online
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6"
-      network: ws
-      port: 8080
-      server: www.blueberrywindow.online
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-      ws-opts:
-        headers:
-            host: www.blueberrywindow.online
-        path: /
-    - grpc-opts:
-        grpc-service-name: server-53651.prod.hosts.ooklaserver.net
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F9\U0001F1F7_TR_土耳其_2"
-      network: grpc
-      password: YS7mIZvKNt
-      port: 2053
-      server: 172.67.175.243
-      skip-cert-verify: false
-      sni: panell.followprovider.ir
-      type: trojan
-      udp: true
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "9365786850"
       port: 56083
-      server: 139.177.179.11
+      server: 172.104.229.171
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -164,142 +38,16 @@ proxies:
       name: US-美国-50
       password: "9365786850"
       port: 56083
-      server: 66.228.50.124
+      server: 198.58.99.106
       type: null
 proxy-groups:
     "0":
         proxies:
-            - grpc-opts:
-                grpc-service-name: server-53651.prod.hosts.ooklaserver.net
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F9\U0001F1F7_TR_土耳其_1"
-              network: grpc
-              password: YS7mIZvKNt
-              port: 2053
-              server: 104.21.72.61
-              skip-cert-verify: false
-              sni: panell.followprovider.ir
-              type: trojan
-              udp: true
-            - name: "\U0001F1E8\U0001F1E6_CA_加拿大"
-              network: tcp
-              password: telegram-id-directvpn
-              port: 22222
-              server: 3.97.177.99
-              skip-cert-verify: true
-              sni: trojan.miwan.co.uk
-              type: trojan
-              udp: true
-            - grpc-opts:
-                grpc-service-name: 443trojan
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-              network: grpc
-              password: qj1Dz1CJmFQRhWr1SP80aA
-              port: 443
-              server: 172.67.204.84
-              skip-cert-verify: true
-              sni: cdn-21.gsmxreality.com
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              network: ws
-              port: 8080
-              server: 172.67.221.183
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-              ws-opts:
-                headers:
-                    host: www.blueberrywindow.online
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_2"
-              network: ws
-              port: 8880
-              server: server20.beheshtbaneh.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
-              ws-opts:
-                headers:
-                    host: server20.beheshtbaneh.com
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_3"
-              network: ws
-              port: 8080
-              server: 172.67.212.114
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-              ws-opts:
-                headers:
-                    host: www.crispyrainbow.biz
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_4"
-              network: ws
-              port: 8080
-              server: 104.21.31.244
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-              ws-opts:
-                headers:
-                    host: www.nahck.site
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_5"
-              network: ws
-              port: 8080
-              server: www.crispyrainbow.online
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-              ws-opts:
-                headers:
-                    host: www.crispyrainbow.online
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_6"
-              network: ws
-              port: 8080
-              server: www.blueberrywindow.online
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-              ws-opts:
-                headers:
-                    host: www.blueberrywindow.online
-                path: /
-            - grpc-opts:
-                grpc-service-name: server-53651.prod.hosts.ooklaserver.net
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F9\U0001F1F7_TR_土耳其_2"
-              network: grpc
-              password: YS7mIZvKNt
-              port: 2053
-              server: 172.67.175.243
-              skip-cert-verify: false
-              sni: panell.followprovider.ir
-              type: trojan
-              udp: true
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "9365786850"
               port: 56083
-              server: 139.177.179.11
+              server: 172.104.229.171
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -323,7 +71,7 @@ proxy-groups:
               name: US-美国-50
               password: "9365786850"
               port: 56083
-              server: 66.228.50.124
+              server: 198.58.99.106
               type: null
 rule-providers:
     apple:
