@@ -530,7 +530,7 @@ proxies:
       name: US-美国-55
       password: "5119061225"
       port: 56468
-      server: 72.14.191.11
+      server: 45.79.51.110
       type: null
 proxy-groups:
     "0":
@@ -1055,7 +1055,7 @@ proxy-groups:
               name: US-美国-55
               password: "5119061225"
               port: 56468
-              server: 72.14.191.11
+              server: 45.79.51.110
               type: null
 rule-providers:
     apple:
