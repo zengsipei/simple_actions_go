@@ -678,7 +678,7 @@ proxies:
       name: US-美国-55
       password: "6586226808"
       port: 56618
-      server: 96.126.126.16
+      server: 45.79.41.254
       type: null
 proxy-groups:
     "0":
@@ -1351,7 +1351,7 @@ proxy-groups:
               name: US-美国-55
               password: "6586226808"
               port: 56618
-              server: 96.126.126.16
+              server: 45.79.41.254
               type: null
 rule-providers:
     apple:
