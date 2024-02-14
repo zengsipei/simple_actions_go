@@ -652,33 +652,33 @@ proxies:
         path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "5119061225"
-      port: 56468
-      server: 172.105.9.64
+      password: "6586226808"
+      port: 56618
+      server: 172.105.104.58
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "5119061225"
-      port: 56468
-      server: 139.162.171.12
+      password: "6586226808"
+      port: 56618
+      server: 172.104.150.235
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-44
-      password: "5119061225"
-      port: 56468
-      server: 139.177.187.218
+      name: UK-英国-23
+      password: "6586226808"
+      port: 56618
+      server: 139.162.229.137
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-47
-      password: "5119061225"
-      port: 56468
-      server: 172.104.45.177
+      name: US-美国-50
+      password: "6586226808"
+      port: 56618
+      server: 198.58.115.141
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "5119061225"
-      port: 56468
-      server: 104.237.132.162
+      password: "6586226808"
+      port: 56618
+      server: 96.126.126.16
       type: null
 proxy-groups:
     "0":
@@ -1325,33 +1325,33 @@ proxy-groups:
                 path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "5119061225"
-              port: 56468
-              server: 172.105.9.64
+              password: "6586226808"
+              port: 56618
+              server: 172.105.104.58
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "5119061225"
-              port: 56468
-              server: 139.162.171.12
+              password: "6586226808"
+              port: 56618
+              server: 172.104.150.235
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-44
-              password: "5119061225"
-              port: 56468
-              server: 139.177.187.218
+              name: UK-英国-23
+              password: "6586226808"
+              port: 56618
+              server: 139.162.229.137
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-47
-              password: "5119061225"
-              port: 56468
-              server: 172.104.45.177
+              name: US-美国-50
+              password: "6586226808"
+              port: 56618
+              server: 198.58.115.141
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "5119061225"
-              port: 56468
-              server: 104.237.132.162
+              password: "6586226808"
+              port: 56618
+              server: 96.126.126.16
               type: null
 rule-providers:
     apple:
