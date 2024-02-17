@@ -661,7 +661,7 @@ proxies:
       name: CA-加拿大-54
       password: "8171450980"
       port: 56764
-      server: 192.53.121.33
+      server: 172.105.98.73
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -1341,7 +1341,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "8171450980"
               port: 56764
-              server: 192.53.121.33
+              server: 172.105.98.73
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
