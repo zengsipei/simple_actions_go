@@ -694,7 +694,7 @@ proxies:
       name: DE-德国-56
       password: "7709147565"
       port: 56936
-      server: 172.104.228.207
+      server: 139.162.133.159
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -706,13 +706,13 @@ proxies:
       name: UK-英国-24
       password: "7709147565"
       port: 56936
-      server: 176.58.103.216
+      server: 178.79.134.28
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "7709147565"
       port: 56936
-      server: 45.79.7.153
+      server: 50.116.25.104
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -1407,7 +1407,7 @@ proxy-groups:
               name: DE-德国-56
               password: "7709147565"
               port: 56936
-              server: 172.104.228.207
+              server: 139.162.133.159
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -1419,13 +1419,13 @@ proxy-groups:
               name: UK-英国-24
               password: "7709147565"
               port: 56936
-              server: 176.58.103.216
+              server: 178.79.134.28
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "7709147565"
               port: 56936
-              server: 45.79.7.153
+              server: 50.116.25.104
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
