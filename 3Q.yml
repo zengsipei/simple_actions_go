@@ -738,7 +738,7 @@ proxies:
       name: US-美国-55
       password: "9552020460"
       port: 57301
-      server: 45.56.77.227
+      server: 45.33.113.41
       type: null
 proxy-groups:
     "0":
@@ -1471,7 +1471,7 @@ proxy-groups:
               name: US-美国-55
               password: "9552020460"
               port: 57301
-              server: 45.56.77.227
+              server: 45.33.113.41
               type: null
 rule-providers:
     apple:
