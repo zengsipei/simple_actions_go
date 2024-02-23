@@ -683,7 +683,7 @@ proxies:
       name: CA-加拿大-54
       password: "9552020460"
       port: 57301
-      server: 192.46.223.247
+      server: 172.105.109.138
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
@@ -695,7 +695,7 @@ proxies:
       name: DE-德国-56
       password: "9552020460"
       port: 57301
-      server: 172.104.130.155
+      server: 172.104.227.25
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -707,7 +707,7 @@ proxies:
       name: US-美国-55
       password: "9552020460"
       port: 57301
-      server: 104.237.139.172
+      server: 23.239.26.214
       type: null
 proxy-groups:
     "0":
@@ -1385,7 +1385,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "9552020460"
               port: 57301
-              server: 192.46.223.247
+              server: 172.105.109.138
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
@@ -1397,7 +1397,7 @@ proxy-groups:
               name: DE-德国-56
               password: "9552020460"
               port: 57301
-              server: 172.104.130.155
+              server: 172.104.227.25
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
@@ -1409,7 +1409,7 @@ proxy-groups:
               name: US-美国-55
               password: "9552020460"
               port: 57301
-              server: 104.237.139.172
+              server: 23.239.26.214
               type: null
 rule-providers:
     apple:
