@@ -79,52 +79,10 @@ mixed-port: 7890
 proxies:
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-      network: ws
-      port: 8080
-      server: 190.93.245.173
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
-      ws-opts:
-        headers:
-            host: larger-marketing-amounts-skin.trycloudflare.com
-        path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-      network: ws
-      port: 8080
-      server: 190.93.247.2
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-      ws-opts:
-        headers:
-            host: pcs-referenced-camera-concerns.trycloudflare.com
-        path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-      network: ws
-      port: 8080
-      server: 198.41.205.138
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c
-      ws-opts:
-        headers:
-            host: larger-marketing-amounts-skin.trycloudflare.com
-        path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm
-    - alterid: 0
-      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
       network: ws
       port: 80
-      server: 104.21.239.99
+      server: 104.21.228.21
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -132,27 +90,13 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: ws
-      port: 8080
-      server: yh2.dtku41.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9084653a-ee34-4293-979e-7c2b50dffb84
-      ws-opts:
-        headers:
-            host: configured-creek-relating-theater.trycloudflare.com
-        path: 9084653a-ee34-4293-979e-7c2b50dffb84-vm
+        path: /?ed=2048
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
       network: ws
       port: 80
-      server: 104.21.225.255
+      server: 104.21.239.78
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -160,13 +104,13 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /
+        path: /?ed=2048
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       network: ws
       port: 80
-      server: 104.21.225.15
+      server: 104.21.225.94
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -180,7 +124,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
       network: ws
       port: 80
-      server: 104.21.227.16
+      server: 104.21.231.38
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -194,7 +138,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
       network: ws
       port: 80
-      server: 104.21.237.67
+      server: 104.21.225.166
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -208,7 +152,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
       network: ws
       port: 80
-      server: 104.21.225.197
+      server: 104.21.225.228
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -222,7 +166,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
       network: ws
       port: 80
-      server: 104.21.225.166
+      server: 104.21.225.34
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -236,7 +180,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
       network: ws
       port: 80
-      server: 104.21.225.187
+      server: 104.21.228.20
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -244,13 +188,13 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /
+        path: /?ed=2048
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
       network: ws
       port: 80
-      server: 104.21.225.21
+      server: 104.21.237.87
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -264,7 +208,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
       network: ws
       port: 80
-      server: 104.21.225.176
+      server: 104.21.225.185
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -278,7 +222,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
       network: ws
       port: 80
-      server: 104.21.230.52
+      server: 104.21.225.27
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -286,13 +230,13 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /?ed=2048
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
       network: ws
       port: 80
-      server: 104.21.228.44
+      server: 104.21.236.61
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -320,7 +264,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
       network: ws
       port: 80
-      server: 104.21.225.180
+      server: 104.21.225.148
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -334,7 +278,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
       network: ws
       port: 80
-      server: 104.21.225.116
+      server: 104.21.225.179
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -348,7 +292,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
       network: ws
       port: 80
-      server: 104.21.225.38
+      server: 104.21.233.68
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -357,40 +301,12 @@ proxies:
         headers:
             host: a.prapt5.ir
         path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
-      network: ws
-      port: 8080
-      server: 190.93.246.113
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
-      ws-opts:
-        headers:
-            host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-        path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
       network: ws
       port: 80
-      server: 104.21.233.66
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-      network: ws
-      port: 80
-      server: 104.21.225.36
+      server: 104.21.225.105
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -401,10 +317,24 @@ proxies:
         path: /
     - alterid: 0
       cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
+      network: ws
+      port: 80
+      server: 104.16.77.74
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
       network: ws
       port: 80
-      server: 104.21.239.97
+      server: 104.21.231.57
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -412,13 +342,13 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /?ed=2048
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
       network: ws
       port: 80
-      server: 104.21.225.191
+      server: 104.21.225.150
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -432,21 +362,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
       network: ws
       port: 80
-      server: 104.21.225.252
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-      network: ws
-      port: 80
-      server: 104.21.236.82
+      server: 104.21.229.29
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -457,10 +373,10 @@ proxies:
         path: /?ed=2048
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
       network: ws
       port: 80
-      server: 104.21.225.142
+      server: 104.21.225.238
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -471,10 +387,24 @@ proxies:
         path: /
     - alterid: 0
       cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
+      network: ws
+      port: 80
+      server: 104.21.232.61
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
       network: ws
       port: 80
-      server: 104.21.225.115
+      server: 104.21.225.62
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -488,7 +418,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
       network: ws
       port: 80
-      server: 104.21.225.200
+      server: 104.21.225.121
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -502,7 +432,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
       network: ws
       port: 80
-      server: 104.21.225.67
+      server: 104.21.239.98
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -516,7 +446,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
       network: ws
       port: 80
-      server: 104.21.225.104
+      server: 104.21.225.98
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -530,7 +460,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
       network: ws
       port: 80
-      server: 104.21.234.73
+      server: 104.21.232.44
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -538,13 +468,13 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /?ed=2048
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
       network: ws
       port: 80
-      server: 104.21.225.204
+      server: 104.21.225.92
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -558,7 +488,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
       network: ws
       port: 80
-      server: 104.21.225.113
+      server: 104.21.225.221
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -572,7 +502,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
       network: ws
       port: 80
-      server: 104.21.225.239
+      server: 104.21.225.55
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -586,7 +516,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
       network: ws
       port: 80
-      server: 104.21.225.74
+      server: 104.21.236.81
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -600,7 +530,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
       network: ws
       port: 80
-      server: 104.21.225.178
+      server: 104.21.225.233
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -614,7 +544,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
       network: ws
       port: 80
-      server: 172.67.254.171
+      server: 104.21.225.113
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -622,55 +552,41 @@ proxies:
       ws-opts:
         headers:
             host: a.prapt5.ir
-        path: /?ed=2048
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
       network: ws
       port: 80
-      server: 172.67.253.31
+      server: 104.21.225.68
       skip-cert-verify: true
       tls: false
       type: vmess
       uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
       ws-opts:
         headers:
-            host: my1.tooters.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-      network: ws
-      port: 8080
-      server: 172.67.97.213
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
-      ws-opts:
-        headers:
-            host: pcs-referenced-camera-concerns.trycloudflare.com
-        path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+            host: a.prapt5.ir
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
       network: ws
       port: 80
-      server: 104.21.69.44
+      server: 104.21.225.35
       skip-cert-verify: true
       tls: false
       type: vmess
       uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
       ws-opts:
         headers:
-            host: a.prapt4.ir
+            host: a.prapt5.ir
         path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
       network: ws
       port: 80
-      server: 172.67.254.3
+      server: 104.21.225.206
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -684,7 +600,91 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
       network: ws
       port: 80
-      server: 104.24.208.37
+      server: 104.21.235.76
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+      network: ws
+      port: 80
+      server: 104.21.225.17
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+      network: ws
+      port: 80
+      server: 104.21.225.136
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+      network: ws
+      port: 80
+      server: 104.21.69.44
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt4.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+      network: ws
+      port: 80
+      server: 172.67.254.191
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+      network: ws
+      port: 80
+      server: 172.67.255.79
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+      network: ws
+      port: 80
+      server: 172.67.253.71
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -692,6 +692,20 @@ proxies:
       ws-opts:
         headers:
             host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 8880
+      server: 94.140.0.110
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+      ws-opts:
+        headers:
+            host: food.zhaal.ir
         path: /
     - alterid: 0
       cipher: auto
@@ -707,38 +721,50 @@ proxies:
         headers:
             host: a.prapt5.ir
         path: /
-    - grpc-opts:
-        grpc-service-name: grpc
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: grpc
-      password: f85e2ad7-3e26-4589-b478-b0b15b9b5907
-      port: 2087
-      server: 172.67.193.36
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+      network: ws
+      port: 80
+      server: 172.67.241.103
       skip-cert-verify: true
-      sni: us1.trojanvpn.de
-      type: trojan
-      udp: true
-    - grpc-opts:
-        grpc-service-name: 443trojan
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-      network: grpc
-      password: qj1Dz1CJmFQRhWr1SP80aA
-      port: 443
-      server: 172.67.204.84
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt5.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+      network: tcp
+      port: 50004
+      server: 14.18.91.151
       skip-cert-verify: true
-      sni: cdn-21.gsmxreality.com
-      type: trojan
-      udp: true
+      tls: false
+      type: vmess
+      uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
+      network: ws
+      port: 8080
+      server: 104.17.123.55
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+      ws-opts:
+        headers:
+            host: pq.kmoljklj.top
+        path: /qZTtpya?ed=2048
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - ♻️ 自动选择
         - DIRECT
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -754,7 +780,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -774,22 +799,25 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       type: select
     - interval: 300
       name: ♻️ 自动选择
       proxies:
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -805,7 +833,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -825,13 +852,20 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       tolerance: 50
       type: url-test
       url: http://www.gstatic.com/generate_204
@@ -840,11 +874,7 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - ♻️ 自动选择
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -860,7 +890,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -880,23 +909,26 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       type: select
     - name: "\U0001F4F2 电报信息"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -912,7 +944,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -932,23 +963,26 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       type: select
     - name: Ⓜ️ 微软服务
       proxies:
         - "\U0001F3AF 全球直连"
         - "\U0001F680 节点选择"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -964,7 +998,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -984,23 +1017,26 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       type: select
     - name: "\U0001F34E 苹果服务"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -1016,7 +1052,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -1036,13 +1071,20 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -1065,11 +1107,7 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
         - ♻️ 自动选择
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
@@ -1085,7 +1123,6 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-        - "\U0001F1E8\U0001F1F7_CR_哥斯达黎加"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
@@ -1105,13 +1142,20 @@ proxy-groups:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
