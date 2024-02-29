@@ -82,7 +82,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
       network: ws
       port: 80
-      server: 104.21.224.2
+      server: 104.21.225.251
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -91,597 +91,91 @@ proxies:
         headers:
             host: a.prapt5.ir
         path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-      network: ws
-      port: 80
-      server: 104.21.225.66
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
-      network: ws
-      port: 80
-      server: 104.21.228.23
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
-      network: ws
-      port: 80
-      server: 104.21.225.250
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
-      network: ws
-      port: 80
-      server: 104.21.225.134
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
-      network: ws
-      port: 80
-      server: 104.21.225.186
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
-      network: ws
-      port: 80
-      server: 104.21.225.122
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
-      network: ws
-      port: 80
-      server: 104.21.225.90
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
-      network: ws
-      port: 80
-      server: 104.21.225.72
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
-      network: ws
-      port: 80
-      server: 104.21.225.220
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
-      network: ws
-      port: 80
-      server: 104.21.227.38
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
-      network: ws
-      port: 80
-      server: 104.21.227.39
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
-      network: ws
-      port: 80
-      server: 104.21.238.91
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
-      network: ws
-      port: 80
-      server: 104.21.228.44
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
-      network: ws
-      port: 80
-      server: 104.21.225.202
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
-      network: ws
-      port: 80
-      server: 104.21.225.148
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
-      network: ws
-      port: 80
-      server: 104.21.232.43
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-      network: ws
-      port: 80
-      server: 104.21.232.40
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_1"
       network: ws
       port: 80
-      server: 104.21.225.67
+      server: 172.64.141.3
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
       ws-opts:
         headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-      network: ws
-      port: 80
-      server: 104.21.237.67
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-      network: ws
-      port: 80
-      server: 104.21.231.37
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-      network: ws
-      port: 80
-      server: 104.21.230.52
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-      network: ws
-      port: 80
-      server: 104.21.231.55
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-      network: ws
-      port: 80
-      server: 104.21.233.68
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-      network: ws
-      port: 80
-      server: 104.21.225.191
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-      network: ws
-      port: 80
-      server: 104.21.236.82
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-      network: ws
-      port: 80
-      server: 104.21.225.5
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-      network: ws
-      port: 80
-      server: 104.21.226.30
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-      network: ws
-      port: 80
-      server: 104.21.225.230
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-      network: ws
-      port: 80
-      server: 104.21.225.37
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-      network: ws
-      port: 80
-      server: 104.21.224.24
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-      network: ws
-      port: 80
-      server: 104.21.225.207
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-      network: ws
-      port: 80
-      server: 104.21.229.45
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-      network: ws
-      port: 80
-      server: 104.21.225.180
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-      network: ws
-      port: 80
-      server: 104.21.234.72
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /?ed=2048
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-      network: ws
-      port: 80
-      server: 104.21.225.118
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-      network: ws
-      port: 80
-      server: 104.21.225.142
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-      network: ws
-      port: 80
-      server: 104.21.230.33
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-      network: ws
-      port: 80
-      server: 104.21.225.104
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
+            host: newus2.xn--mes53ddysu0o3gl.top
+        path: /xn--mes53ddysu0o3gl
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_2"
       network: ws
-      port: 80
-      server: 104.21.239.77
+      port: 8080
+      server: 162.159.130.208
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
       ws-opts:
         headers:
-            host: a.prapt5.ir
-        path: /
+            host: widescreen-instruction-breakdown-postage.trycloudflare.com
+        path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+      network: ws
+      password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+      port: 443
+      server: 23.227.38.11
+      skip-cert-verify: true
+      sni: syndication-statutes-wanted-logo.trycloudflare.com
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /argox-tr
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      password: amazonskr05
+      port: 443
+      server: 54.202.3.34
+      type: ss
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
       network: ws
       port: 80
-      server: 104.21.233.47
+      server: 104.16.77.74
       skip-cert-verify: true
       tls: false
       type: vmess
       uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
       ws-opts:
         headers:
-            host: a.prapt5.ir
+            host: my1.tooters.ir
         path: /?ed=2048
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
       network: ws
-      port: 80
-      server: 104.21.225.79
+      port: 8880
+      server: cfcdn1.sanfencdn9.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      uuid: de6969ab-ec16-4263-8c11-9187e8ca0782
       ws-opts:
         headers:
-            host: a.prapt5.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-      network: ws
-      port: 80
-      server: 104.21.225.7
+            host: us6gzxQRrE4.fzbqfrse.xyz
+        path: /video/bYdJ7Vc2We
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 3.136.126.36
       skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt5.ir
-        path: /
+      sni: trojan.miwan.co.uk
+      type: trojan
+      udp: true
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       network: ws
       port: 80
       server: for-irancell.outline-vpn.cloud
@@ -695,35 +189,229 @@ proxies:
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
+      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
       network: ws
       port: 80
-      server: 172.67.254.3
+      server: 45.144.2.113
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 88bd03e6-5ada-42da-9e77-448cd8c60e13
+      ws-opts:
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
+      network: ws
+      port: 80
+      server: 172.67.253.243
       skip-cert-verify: true
       tls: false
       type: vmess
       uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
       ws-opts:
         headers:
-            host: a.prapt5.ir
-        path: /
+            host: my1.tooters.ir
+        path: /?ed=2048
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
       network: ws
       port: 80
-      server: 104.21.224.4
+      server: 172.67.253.158
       skip-cert-verify: true
       tls: false
       type: vmess
       uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
       ws-opts:
         headers:
-            host: a.prapt5.ir
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 8880
+      server: 94.140.0.110
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+      ws-opts:
+        headers:
+            host: food.zhaal.ir
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+      network: ws
+      port: 80
+      server: 172.67.253.221
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
+      network: ws
+      port: 8080
+      server: www.ywnouvbale.biz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.ywnouvbale.biz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
+      network: ws
+      port: 8080
+      server: 104.17.123.55
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+      ws-opts:
+        headers:
+            host: pq.kmoljklj.top
+        path: /qZTtpya?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
+      network: ws
+      port: 80
+      server: 172.67.253.239
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
+      network: ws
+      port: 80
+      server: 172.67.253.71
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+      network: ws
+      port: 80
+      server: 172.67.253.105
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_7"
+      network: ws
+      port: 8080
+      server: 104.21.54.252
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.velvetmountain.shop
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
+      network: ws
+      port: 80
+      server: 172.67.253.230
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+      network: ws
+      port: 80
+      server: 104.21.69.44
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt4.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_8"
+      network: ws
+      port: 8080
+      server: www.brightocean.lol
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.brightocean.lol
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+      network: ws
+      port: 80
+      server: 172.67.253.190
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1_NL_荷兰"
+      network: ws
+      port: 80
+      server: 188.114.96.113
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt4.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
       network: ws
       port: 80
       server: 172.67.253.134
@@ -737,7 +425,7 @@ proxies:
         path: /?ed=2048
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
       network: ws
       port: 80
       server: 172.67.253.194
@@ -751,21 +439,77 @@ proxies:
         path: /?ed=2048
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
+      name: "\U0001F1FA\U0001F1F8_US_美国_9"
+      network: ws
+      port: 8080
+      server: www.velvetmountain.shop
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.velvetmountain.shop
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_10"
+      network: ws
+      port: 8080
+      server: 172.67.136.12
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+      ws-opts:
+        headers:
+            host: www.ywnouvbale.biz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
       network: ws
       port: 80
-      server: 172.67.241.165
+      server: 172.67.253.31
       skip-cert-verify: true
       tls: false
       type: vmess
       uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
       ws-opts:
         headers:
-            host: a.prapt5.ir
+            host: my1.tooters.ir
+        path: /?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
+      network: ws
+      port: 80
+      server: 104.24.208.37
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
+      network: ws
+      port: 80
+      server: 104.22.51.162
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: my1.tooters.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
       network: ws
       port: 80
       server: 104.20.231.30
@@ -777,115 +521,192 @@ proxies:
         headers:
             host: my1.tooters.ir
         path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 8880
+      server: 57.128.173.202
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+      ws-opts:
+        headers:
+            host: internet.life.com.by
+        path: /
+    - name: "\U0001F1FA\U0001F1F8_US_美国_11"
+      network: tcp
+      password: 180c7f40-c29e-445d-8056-ae92f3b451d7
+      port: 443
+      server: kz-full.privateip.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+      network: ws
+      port: 2082
+      server: s1c.v2.v001sss.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+      network: ws
+      port: 2082
+      server: 172.67.130.140
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_12"
+      network: ws
+      port: 80
+      server: 172.67.217.144
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+      ws-opts:
+        headers:
+            host: lv1.xv2ray.net
+        path: /
+    - name: "\U0001F1FA\U0001F1F8_US_美国_13"
+      network: tcp
+      password: 915dc116-70c6-403b-8a03-18d885c311bf
+      port: 443
+      server: it-full.privateip.net
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_14"
+      network: tcp
+      password: 180c7f40-c29e-445d-8056-ae92f3b451d7
+      port: 443
+      server: 95.164.114.43
+      skip-cert-verify: true
+      sni: kz-full.privateip.net
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
+      network: ws
+      port: 8080
+      server: de-01.cloudlion.me
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+      ws-opts:
+        headers:
+            host: de-01.cloudlion.me
+        path: /
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - ♻️ 自动选择
         - DIRECT
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       type: select
     - interval: 300
       name: ♻️ 自动选择
       proxies:
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       tolerance: 50
       type: url-test
       url: http://www.gstatic.com/generate_204
@@ -895,220 +716,184 @@ proxy-groups:
         - ♻️ 自动选择
         - "\U0001F3AF 全球直连"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       type: select
     - name: "\U0001F4F2 电报信息"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       type: select
     - name: Ⓜ️ 微软服务
       proxies:
         - "\U0001F3AF 全球直连"
         - "\U0001F680 节点选择"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       type: select
     - name: "\U0001F34E 苹果服务"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -1132,55 +917,46 @@ proxy-groups:
         - "\U0001F3AF 全球直连"
         - ♻️ 自动选择
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+        - "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EF\U0001F1F5_JP_日本"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_12"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_13"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_14"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_15"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_16"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_17"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_18"
-        - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1EB\U0001F1F7_FR_法国->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+        - "\U0001F1FA\U0001F1F8_US_美国_12"
+        - "\U0001F1FA\U0001F1F8_US_美国_13"
+        - "\U0001F1FA\U0001F1F8_US_美国_14"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_19"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_20"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_21"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_22"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_23"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_24"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_25"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_26"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_27"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_28"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_29"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_30"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_31"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_32"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_33"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_34"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_35"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_36"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_37"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_38"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_39"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_40"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_41"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_42"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_43"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_44"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_45"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_46"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_47"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_48"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
