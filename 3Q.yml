@@ -559,7 +559,7 @@ proxies:
       name: DE-德国-56
       password: "1052190355"
       port: 57769
-      server: 139.162.181.21
+      server: 172.105.69.214
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -1131,7 +1131,7 @@ proxy-groups:
               name: DE-德国-56
               password: "1052190355"
               port: 57769
-              server: 139.162.181.21
+              server: 172.105.69.214
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
