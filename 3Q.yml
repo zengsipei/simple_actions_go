@@ -10,225 +10,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-      network: ws
-      port: 8080
-      server: fbi.gov
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 693da022-8e1f-4dab-b3ac-556321989f17
-      ws-opts:
-        headers:
-            host: nest-emily-healing-h.trycloudflare.com
-        path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: ws
-      port: 8880
-      server: cfcdn1.sanfencdn9.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
-      ws-opts:
-        headers:
-            host: us6gzxQRrE4.fzbqfrse.xyz
-        path: /video/bYdJ7Vc2We
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-      network: ws
-      port: 8080
-      server: yh1.freeh1.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
-      ws-opts:
-        headers:
-            host: larger-marketing-amounts-skin.trycloudflare.com
-        path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: ws
-      port: 8880
-      server: 104.18.36.174
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005
-      ws-opts:
-        headers:
-            host: us6gzxQRrE4.fzbqfrse.xyz
-        path: /video/bYdJ7Vc2We
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
-      network: ws
-      port: 19344
-      server: 165.1.79.252
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: ac9dd407-d053-4c67-e44e-31d6a5833ff4
-      ws-opts:
-        headers:
-            host: soe.cheeshon.cyou
-        path: /ac9dd407
-    - alterid: 0
-      cipher: chacha20-poly1305
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F7_IR_伊朗"
-      network: ws
-      port: 80
-      server: you2.fastiran.info
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9c9d54e5-b213-4e5d-a6fe-4cf40b2b2baf
-      ws-opts:
-        headers:
-            host: y2.fastiran.info
-        path: /R5ymmhAFAg5fXQOaPOZVq
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      network: ws
-      port: 80
-      server: 104.20.30.205
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-      ws-opts:
-        headers:
-            host: newus1.xn--mes53ddysu0o3gl.top
-        path: /xn--mes53ddysu0o3gl
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F3\U0001F1F1_NL_荷兰"
-      network: ws
-      port: 80
-      server: 188.114.96.113
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt4.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-      network: ws
-      port: 80
-      server: 104.21.69.44
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-      ws-opts:
-        headers:
-            host: a.prapt4.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-      network: ws
-      port: 8880
-      server: 94.140.0.110
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-      ws-opts:
-        headers:
-            host: food.zhaal.ir
-        path: /
-    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-      network: ws
-      password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-      port: 443
-      server: 23.227.38.11
-      skip-cert-verify: true
-      sni: syndication-statutes-wanted-logo.trycloudflare.com
-      type: trojan
-      udp: true
-      ws-opts:
-        path: /argox-tr
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EA\U0001F1F8_ES_西班牙->\U0001F1ED\U0001F1F0_HK_香港"
-      network: ws
-      port: 34601
-      server: 185.214.103.156
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-      ws-opts:
-        headers:
-            host: cache-hk-2.cn-db.top
-        path: /db00
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
-      network: ws
-      port: 443
-      server: cold-dawn-9246.fly.dev
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-      ws-opts:
-        path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-      network: ws
-      port: 8080
-      server: de-01.cloudlion.me
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-      ws-opts:
-        headers:
-            host: de-01.cloudlion.me
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
-      network: ws
-      port: 2082
-      server: 172.67.130.140
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
-      network: ws
-      port: 2082
-      server: s1c.v2.v001sss.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "9714288897"
@@ -239,248 +20,29 @@ proxies:
       name: DE-德国-50
       password: "9714288897"
       port: 58029
-      server: 172.104.144.233
+      server: 172.104.226.100
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "9714288897"
       port: 58029
-      server: 139.162.29.164
+      server: 139.162.47.142
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
       password: "9714288897"
       port: 58029
-      server: 192.53.118.72
+      server: 172.104.47.252
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "9714288897"
       port: 58029
-      server: 198.58.98.151
+      server: 50.116.22.179
       type: null
 proxy-groups:
     "0":
         proxies:
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-              network: ws
-              port: 8080
-              server: fbi.gov
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 693da022-8e1f-4dab-b3ac-556321989f17
-              ws-opts:
-                headers:
-                    host: nest-emily-healing-h.trycloudflare.com
-                path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              network: ws
-              port: 8880
-              server: cfcdn1.sanfencdn9.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
-              ws-opts:
-                headers:
-                    host: us6gzxQRrE4.fzbqfrse.xyz
-                path: /video/bYdJ7Vc2We
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-              network: ws
-              port: 8080
-              server: yh1.freeh1.xyz
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
-              ws-opts:
-                headers:
-                    host: larger-marketing-amounts-skin.trycloudflare.com
-                path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_2"
-              network: ws
-              port: 8880
-              server: 104.18.36.174
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005
-              ws-opts:
-                headers:
-                    host: us6gzxQRrE4.fzbqfrse.xyz
-                path: /video/bYdJ7Vc2We
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_3"
-              network: ws
-              port: 19344
-              server: 165.1.79.252
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: ac9dd407-d053-4c67-e44e-31d6a5833ff4
-              ws-opts:
-                headers:
-                    host: soe.cheeshon.cyou
-                path: /ac9dd407
-            - alterid: 0
-              cipher: chacha20-poly1305
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F7_IR_伊朗"
-              network: ws
-              port: 80
-              server: you2.fastiran.info
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 9c9d54e5-b213-4e5d-a6fe-4cf40b2b2baf
-              ws-opts:
-                headers:
-                    host: y2.fastiran.info
-                path: /R5ymmhAFAg5fXQOaPOZVq
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_4"
-              network: ws
-              port: 80
-              server: 104.20.30.205
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-              ws-opts:
-                headers:
-                    host: newus1.xn--mes53ddysu0o3gl.top
-                path: /xn--mes53ddysu0o3gl
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1F3\U0001F1F1_NL_荷兰"
-              network: ws
-              port: 80
-              server: 188.114.96.113
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-              ws-opts:
-                headers:
-                    host: a.prapt4.ir
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-              network: ws
-              port: 80
-              server: 104.21.69.44
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-              ws-opts:
-                headers:
-                    host: a.prapt4.ir
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-              network: ws
-              port: 8880
-              server: 94.140.0.110
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-              ws-opts:
-                headers:
-                    host: food.zhaal.ir
-                path: /
-            - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-              network: ws
-              password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-              port: 443
-              server: 23.227.38.11
-              skip-cert-verify: true
-              sni: syndication-statutes-wanted-logo.trycloudflare.com
-              type: trojan
-              udp: true
-              ws-opts:
-                path: /argox-tr
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1EA\U0001F1F8_ES_西班牙->\U0001F1ED\U0001F1F0_HK_香港"
-              network: ws
-              port: 34601
-              server: 185.214.103.156
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-              ws-opts:
-                headers:
-                    host: cache-hk-2.cn-db.top
-                path: /db00
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_5"
-              network: ws
-              port: 443
-              server: cold-dawn-9246.fly.dev
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-              ws-opts:
-                path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-              network: ws
-              port: 8080
-              server: de-01.cloudlion.me
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-              ws-opts:
-                headers:
-                    host: de-01.cloudlion.me
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
-              network: ws
-              port: 2082
-              server: 172.67.130.140
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-              ws-opts:
-                headers:
-                    host: s1c.v2.v001sss.xyz
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
-              network: ws
-              port: 2082
-              server: s1c.v2.v001sss.xyz
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-              ws-opts:
-                headers:
-                    host: s1c.v2.v001sss.xyz
-                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "9714288897"
@@ -491,25 +53,25 @@ proxy-groups:
               name: DE-德国-50
               password: "9714288897"
               port: 58029
-              server: 172.104.144.233
+              server: 172.104.226.100
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "9714288897"
               port: 58029
-              server: 139.162.29.164
+              server: 139.162.47.142
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
               password: "9714288897"
               port: 58029
-              server: 192.53.118.72
+              server: 172.104.47.252
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "9714288897"
               port: 58029
-              server: 198.58.98.151
+              server: 50.116.22.179
               type: null
 rule-providers:
     apple:
