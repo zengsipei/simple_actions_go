@@ -10,68 +10,444 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      network: ws
+      port: 8080
+      server: yh1.freeh1.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
+      ws-opts:
+        headers:
+            host: larger-marketing-amounts-skin.trycloudflare.com
+        path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: ws
+      port: 8080
+      server: yh2.freeh1.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+      ws-opts:
+        headers:
+            host: pcs-referenced-camera-concerns.trycloudflare.com
+        path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+      port: 443
+      server: 23.227.38.11
+      skip-cert-verify: true
+      sni: syndication-statutes-wanted-logo.trycloudflare.com
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /argox-tr
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+      network: ws
+      port: 8080
+      server: fbi.gov
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 693da022-8e1f-4dab-b3ac-556321989f17
+      ws-opts:
+        headers:
+            host: nest-emily-healing-h.trycloudflare.com
+        path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 8080
+      server: 23.227.38.23
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+      ws-opts:
+        headers:
+            host: uh-lawyers-instruments-kernel.trycloudflare.com
+        path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 80
+      server: 104.21.69.44
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt4.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 8880
+      server: 94.140.0.110
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+      ws-opts:
+        headers:
+            host: food.zhaal.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+      network: ws
+      port: 2082
+      server: 172.67.130.140
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 8080
+      server: 23.227.39.24
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
+      ws-opts:
+        headers:
+            host: per-essex-patterns-bowling.trycloudflare.com
+        path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+      network: ws
+      port: 2082
+      server: s1c.v2.v001sss.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - name: "\U0001F1EC\U0001F1E7_GB_英国"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 13.41.37.40
+      skip-cert-verify: true
+      sni: trojan.miwan.co.uk
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1_NL_荷兰"
+      network: ws
+      port: 80
+      server: 188.114.96.113
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt4.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 8080
+      server: 172.67.169.158
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+      ws-opts:
+        headers:
+            host: fr-01.cloudlion.me
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国"
+      network: ws
+      port: 8080
+      server: yh2.dtku41.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+      ws-opts:
+        headers:
+            host: uh-lawyers-instruments-kernel.trycloudflare.com
+        path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
     - cipher: chacha20-ietf-poly1305
-      name: CA-加拿大-54
-      password: "9714288897"
-      port: 58029
-      server: 172.105.110.24
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "9714288897"
-      port: 58029
-      server: 172.104.226.100
+      name: DE-德国-56
+      password: "4271501273"
+      port: 58172
+      server: 172.104.147.116
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "9714288897"
-      port: 58029
+      password: "4271501273"
+      port: 58172
       server: 139.162.47.142
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-47
-      password: "9714288897"
-      port: 58029
-      server: 172.104.47.252
+      name: UK-英国-24
+      password: "4271501273"
+      port: 58172
+      server: 109.74.196.250
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "9714288897"
-      port: 58029
-      server: 50.116.22.179
+      password: "4271501273"
+      port: 58172
+      server: 45.56.120.47
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "4271501273"
+      port: 58172
+      server: 45.33.120.241
       type: null
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              network: ws
+              port: 8080
+              server: yh1.freeh1.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: fbacc445-fe1c-4122-a2dd-c28c733ea043
+              ws-opts:
+                headers:
+                    host: larger-marketing-amounts-skin.trycloudflare.com
+                path: fbacc445-fe1c-4122-a2dd-c28c733ea043-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: ws
+              port: 8080
+              server: yh2.freeh1.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: bdce8656-2802-4470-8946-ef3cf5244aa6
+              ws-opts:
+                headers:
+                    host: pcs-referenced-camera-concerns.trycloudflare.com
+                path: bdce8656-2802-4470-8946-ef3cf5244aa6-vm
+            - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+              port: 443
+              server: 23.227.38.11
+              skip-cert-verify: true
+              sni: syndication-statutes-wanted-logo.trycloudflare.com
+              type: trojan
+              udp: true
+              ws-opts:
+                path: /argox-tr
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+              network: ws
+              port: 8080
+              server: fbi.gov
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 693da022-8e1f-4dab-b3ac-556321989f17
+              ws-opts:
+                headers:
+                    host: nest-emily-healing-h.trycloudflare.com
+                path: 693da022-8e1f-4dab-b3ac-556321989f17-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 8080
+              server: 23.227.38.23
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+              ws-opts:
+                headers:
+                    host: uh-lawyers-instruments-kernel.trycloudflare.com
+                path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 80
+              server: 104.21.69.44
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+              ws-opts:
+                headers:
+                    host: a.prapt4.ir
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+              network: ws
+              port: 8880
+              server: 94.140.0.110
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+              ws-opts:
+                headers:
+                    host: food.zhaal.ir
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+              network: ws
+              port: 2082
+              server: 172.67.130.140
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 8080
+              server: 23.227.39.24
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: e62899a7-438c-40ef-96d6-259cb26d6fdd
+              ws-opts:
+                headers:
+                    host: per-essex-patterns-bowling.trycloudflare.com
+                path: e62899a7-438c-40ef-96d6-259cb26d6fdd-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+              network: ws
+              port: 2082
+              server: s1c.v2.v001sss.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
+            - name: "\U0001F1EC\U0001F1E7_GB_英国"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 13.41.37.40
+              skip-cert-verify: true
+              sni: trojan.miwan.co.uk
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F3\U0001F1F1_NL_荷兰"
+              network: ws
+              port: 80
+              server: 188.114.96.113
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+              ws-opts:
+                headers:
+                    host: a.prapt4.ir
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 8080
+              server: 172.67.169.158
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+              ws-opts:
+                headers:
+                    host: fr-01.cloudlion.me
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国"
+              network: ws
+              port: 8080
+              server: yh2.dtku41.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 80b48bc6-1faa-41f5-91f8-0bce015a8bea
+              ws-opts:
+                headers:
+                    host: uh-lawyers-instruments-kernel.trycloudflare.com
+                path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
             - cipher: chacha20-ietf-poly1305
-              name: CA-加拿大-54
-              password: "9714288897"
-              port: 58029
-              server: 172.105.110.24
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "9714288897"
-              port: 58029
-              server: 172.104.226.100
+              name: DE-德国-56
+              password: "4271501273"
+              port: 58172
+              server: 172.104.147.116
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "9714288897"
-              port: 58029
+              password: "4271501273"
+              port: 58172
               server: 139.162.47.142
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-47
-              password: "9714288897"
-              port: 58029
-              server: 172.104.47.252
+              name: UK-英国-24
+              password: "4271501273"
+              port: 58172
+              server: 109.74.196.250
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "9714288897"
-              port: 58029
-              server: 50.116.22.179
+              password: "4271501273"
+              port: 58172
+              server: 45.56.120.47
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "4271501273"
+              port: 58172
+              server: 45.33.120.241
               type: null
 rule-providers:
     apple:
