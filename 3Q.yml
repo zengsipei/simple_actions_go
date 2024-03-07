@@ -215,7 +215,7 @@ proxies:
       name: US-美国-55
       password: "1440205511"
       port: 58312
-      server: 173.255.193.48
+      server: 104.200.18.81
       type: null
 proxy-groups:
     "0":
@@ -425,7 +425,7 @@ proxy-groups:
               name: US-美国-55
               password: "1440205511"
               port: 58312
-              server: 173.255.193.48
+              server: 104.200.18.81
               type: null
 rule-providers:
     apple:
