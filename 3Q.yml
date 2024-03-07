@@ -209,7 +209,7 @@ proxies:
       name: US-美国-50
       password: "1440205511"
       port: 58312
-      server: 50.116.30.115
+      server: 198.58.126.19
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -419,7 +419,7 @@ proxy-groups:
               name: US-美国-50
               password: "1440205511"
               port: 58312
-              server: 50.116.30.115
+              server: 198.58.126.19
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
