@@ -198,7 +198,7 @@ proxies:
       name: DE-德国-50
       password: "5806809748"
       port: 58441
-      server: 172.104.244.43
+      server: 139.162.159.23
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -210,7 +210,7 @@ proxies:
       name: US-美国-50
       password: "5806809748"
       port: 58441
-      server: 45.33.15.49
+      server: 50.116.25.177
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -409,7 +409,7 @@ proxy-groups:
               name: DE-德国-50
               password: "5806809748"
               port: 58441
-              server: 172.104.244.43
+              server: 139.162.159.23
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -421,7 +421,7 @@ proxy-groups:
               name: US-美国-50
               password: "5806809748"
               port: 58441
-              server: 45.33.15.49
+              server: 50.116.25.177
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
