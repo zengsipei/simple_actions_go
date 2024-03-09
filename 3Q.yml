@@ -10,45 +10,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-      network: ws
-      password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-      port: 443
-      server: 23.227.38.11
-      skip-cert-verify: true
-      sni: syndication-statutes-wanted-logo.trycloudflare.com
-      type: trojan
-      udp: true
-      ws-opts:
-        path: /argox-tr
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 8880
-      server: 94.140.0.110
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-      ws-opts:
-        headers:
-            host: food.zhaal.ir
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 2082
-      server: 172.67.130.140
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "1440205511"
@@ -59,7 +20,7 @@ proxies:
       name: UK-英国-23
       password: "1440205511"
       port: 58312
-      server: 178.79.153.20
+      server: 213.52.128.25
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -82,45 +43,6 @@ proxies:
 proxy-groups:
     "0":
         proxies:
-            - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-              network: ws
-              password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
-              port: 443
-              server: 23.227.38.11
-              skip-cert-verify: true
-              sni: syndication-statutes-wanted-logo.trycloudflare.com
-              type: trojan
-              udp: true
-              ws-opts:
-                path: /argox-tr
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EB\U0001F1F7_FR_法国"
-              network: ws
-              port: 8880
-              server: 94.140.0.110
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-              ws-opts:
-                headers:
-                    host: food.zhaal.ir
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-              network: ws
-              port: 2082
-              server: 172.67.130.140
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-              ws-opts:
-                headers:
-                    host: s1c.v2.v001sss.xyz
-                path: /
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "1440205511"
@@ -131,7 +53,7 @@ proxy-groups:
               name: UK-英国-23
               password: "1440205511"
               port: 58312
-              server: 178.79.153.20
+              server: 213.52.128.25
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
