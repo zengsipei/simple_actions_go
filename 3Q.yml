@@ -198,7 +198,7 @@ proxies:
       name: DE-德国-50
       password: "5806809748"
       port: 58441
-      server: 139.162.154.90
+      server: 172.104.244.43
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -409,7 +409,7 @@ proxy-groups:
               name: DE-德国-50
               password: "5806809748"
               port: 58441
-              server: 139.162.154.90
+              server: 172.104.244.43
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
