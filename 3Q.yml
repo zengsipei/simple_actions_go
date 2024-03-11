@@ -278,7 +278,7 @@ proxies:
       name: SG-新加坡-44
       password: "1558442302"
       port: 58610
-      server: 172.105.122.59
+      server: 103.3.62.165
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
@@ -290,7 +290,7 @@ proxies:
       name: US-美国-50
       password: "1558442302"
       port: 58610
-      server: 45.33.122.10
+      server: 50.116.26.117
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -569,7 +569,7 @@ proxy-groups:
               name: SG-新加坡-44
               password: "1558442302"
               port: 58610
-              server: 172.105.122.59
+              server: 103.3.62.165
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
@@ -581,7 +581,7 @@ proxy-groups:
               name: US-美国-50
               password: "1558442302"
               port: 58610
-              server: 45.33.122.10
+              server: 50.116.26.117
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
