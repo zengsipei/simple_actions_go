@@ -461,7 +461,7 @@ proxies:
       name: UK-英国-24
       password: "1795056075"
       port: 58725
-      server: 176.58.117.80
+      server: 109.74.194.106
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -923,7 +923,7 @@ proxy-groups:
               name: UK-英国-24
               password: "1795056075"
               port: 58725
-              server: 176.58.117.80
+              server: 109.74.194.106
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
