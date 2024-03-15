@@ -10,68 +10,676 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
+      network: tcp
+      port: 30013
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      network: ws
+      port: 8080
+      server: yh3.freeh1.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+      ws-opts:
+        headers:
+            host: larger-marketing-amounts-skin.trycloudflare.com
+        path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: ws
+      port: 8080
+      server: yh2.freeh1.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+      ws-opts:
+        headers:
+            host: nest-emily-healing-h.trycloudflare.com
+        path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+      network: ws
+      port: 8080
+      server: fbi.gov
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+      ws-opts:
+        headers:
+            host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+        path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
+      network: ws
+      port: 8080
+      server: 162.159.1.33
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+      ws-opts:
+        headers:
+            host: pcs-referenced-camera-concerns.trycloudflare.com
+        path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
+      network: tcp
+      port: 30058
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+      network: ws
+      password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+      port: 443
+      server: 23.227.38.11
+      skip-cert-verify: true
+      sni: syndication-statutes-wanted-logo.trycloudflare.com
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /argox-tr
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
+      network: tcp
+      port: 30129
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - name: "\U0001F1EC\U0001F1E7_GB_英国"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.135.242.0
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 8080
+      server: yh1.dtku41.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+      ws-opts:
+        headers:
+            host: per-essex-patterns-bowling.trycloudflare.com
+        path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 8880
+      server: 94.140.0.110
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+      ws-opts:
+        headers:
+            host: food.zhaal.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      network: http
+      port: 3389
+      server: 134.122.41.160
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7_FR_法国"
+      network: http
+      port: 3389
+      server: 51.159.155.52
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
+      network: tcp
+      port: 30015
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
+      network: tcp
+      port: 30141
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
+      network: tcp
+      port: 30051
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
+      network: tcp
+      port: 30139
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
+      network: ws
+      port: 52052
+      server: 223.113.130.55
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: c7395784-c77d-390a-9db6-67152462b95b
+      ws-opts:
+        headers:
+            host: cache-hk-1.cn-db.top
+        path: /db00
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
+      network: tcp
+      port: 30147
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: ws
+      port: 8080
+      server: 23.227.38.23
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+      ws-opts:
+        headers:
+            host: uh-lawyers-instruments-kernel.trycloudflare.com
+        path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
+      network: tcp
+      port: 30032
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
+      network: tcp
+      port: 30137
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
+      network: tcp
+      port: 30145
+      server: 183.232.170.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 2095
+      server: 104.26.4.57
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+      ws-opts:
+        headers:
+            host: ssrsub.v03.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国"
+      network: ws
+      port: 58080
+      server: 223.113.130.55
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
+      ws-opts:
+        headers:
+            host: data-hk-2.cn-db.top
+        path: /db00
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+      network: ws
+      port: 80
+      server: 104.21.20.19
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8
+      ws-opts:
+        headers:
+            host: de2.xv2ray.net
+        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "1795056075"
-      port: 58725
-      server: 172.105.8.82
+      password: "6283421960"
+      port: 58818
+      server: 192.46.223.230
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "1795056075"
-      port: 58725
-      server: 172.105.78.229
+      name: DE-德国-56
+      password: "6283421960"
+      port: 58818
+      server: 139.162.185.63
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: SG-新加坡-44
+      password: "6283421960"
+      port: 58818
+      server: 139.162.55.184
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: SG-新加坡-47
+      password: "6283421960"
+      port: 58818
+      server: 172.104.34.119
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "1795056075"
-      port: 58725
-      server: 212.71.239.80
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "1795056075"
-      port: 58725
-      server: 109.74.194.106
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-55
-      password: "1795056075"
-      port: 58725
-      server: 45.79.16.56
+      password: "6283421960"
+      port: 58818
+      server: 178.79.165.160
       type: null
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
+              network: tcp
+              port: 30013
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              network: ws
+              port: 8080
+              server: yh3.freeh1.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+              ws-opts:
+                headers:
+                    host: larger-marketing-amounts-skin.trycloudflare.com
+                path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: ws
+              port: 8080
+              server: yh2.freeh1.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+              ws-opts:
+                headers:
+                    host: nest-emily-healing-h.trycloudflare.com
+                path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+              network: ws
+              port: 8080
+              server: fbi.gov
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+              ws-opts:
+                headers:
+                    host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+                path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
+              network: ws
+              port: 8080
+              server: 162.159.1.33
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+              ws-opts:
+                headers:
+                    host: pcs-referenced-camera-concerns.trycloudflare.com
+                path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
+              network: tcp
+              port: 30058
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+              network: ws
+              password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+              port: 443
+              server: 23.227.38.11
+              skip-cert-verify: true
+              sni: syndication-statutes-wanted-logo.trycloudflare.com
+              type: trojan
+              udp: true
+              ws-opts:
+                path: /argox-tr
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
+              network: tcp
+              port: 30129
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - name: "\U0001F1EC\U0001F1E7_GB_英国"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 18.135.242.0
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              port: 8080
+              server: yh1.dtku41.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+              ws-opts:
+                headers:
+                    host: per-essex-patterns-bowling.trycloudflare.com
+                path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+              network: ws
+              port: 8880
+              server: 94.140.0.110
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+              ws-opts:
+                headers:
+                    host: food.zhaal.ir
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              network: http
+              port: 3389
+              server: 134.122.41.160
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1EB\U0001F1F7_FR_法国"
+              network: http
+              port: 3389
+              server: 51.159.155.52
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
+              network: tcp
+              port: 30015
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
+              network: tcp
+              port: 30141
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
+              network: tcp
+              port: 30051
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
+              network: tcp
+              port: 30139
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
+              network: ws
+              port: 52052
+              server: 223.113.130.55
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: c7395784-c77d-390a-9db6-67152462b95b
+              ws-opts:
+                headers:
+                    host: cache-hk-1.cn-db.top
+                path: /db00
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
+              network: tcp
+              port: 30147
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: ws
+              port: 8080
+              server: 23.227.38.23
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+              ws-opts:
+                headers:
+                    host: uh-lawyers-instruments-kernel.trycloudflare.com
+                path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
+              network: tcp
+              port: 30032
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
+              network: tcp
+              port: 30137
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
+              network: tcp
+              port: 30145
+              server: 183.232.170.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 2095
+              server: 104.26.4.57
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+              ws-opts:
+                headers:
+                    host: ssrsub.v03.ssrsub.com
+                path: /api/v3/download.getFile
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国"
+              network: ws
+              port: 58080
+              server: 223.113.130.55
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
+              ws-opts:
+                headers:
+                    host: data-hk-2.cn-db.top
+                path: /db00
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+              network: ws
+              port: 80
+              server: 104.21.20.19
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8
+              ws-opts:
+                headers:
+                    host: de2.xv2ray.net
+                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "1795056075"
-              port: 58725
-              server: 172.105.8.82
+              password: "6283421960"
+              port: 58818
+              server: 192.46.223.230
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "1795056075"
-              port: 58725
-              server: 172.105.78.229
+              name: DE-德国-56
+              password: "6283421960"
+              port: 58818
+              server: 139.162.185.63
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: SG-新加坡-44
+              password: "6283421960"
+              port: 58818
+              server: 139.162.55.184
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: SG-新加坡-47
+              password: "6283421960"
+              port: 58818
+              server: 172.104.34.119
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "1795056075"
-              port: 58725
-              server: 212.71.239.80
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "1795056075"
-              port: 58725
-              server: 109.74.194.106
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-55
-              password: "1795056075"
-              port: 58725
-              server: 45.79.16.56
+              password: "6283421960"
+              port: 58818
+              server: 178.79.165.160
               type: null
 rule-providers:
     apple:
