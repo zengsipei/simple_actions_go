@@ -318,31 +318,31 @@ proxies:
       name: CA-加拿大-54
       password: "6283421960"
       port: 58818
-      server: 192.46.223.230
+      server: 172.105.14.126
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "6283421960"
       port: 58818
-      server: 139.162.185.63
+      server: 172.105.79.155
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "6283421960"
       port: 58818
-      server: 139.162.55.184
+      server: 139.162.23.186
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
       password: "6283421960"
       port: 58818
-      server: 172.104.34.119
+      server: 192.53.113.122
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "6283421960"
       port: 58818
-      server: 178.79.165.160
+      server: 213.168.248.235
       type: null
 proxy-groups:
     "0":
@@ -655,31 +655,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "6283421960"
               port: 58818
-              server: 192.46.223.230
+              server: 172.105.14.126
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "6283421960"
               port: 58818
-              server: 139.162.185.63
+              server: 172.105.79.155
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "6283421960"
               port: 58818
-              server: 139.162.55.184
+              server: 139.162.23.186
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
               password: "6283421960"
               port: 58818
-              server: 172.104.34.119
+              server: 192.53.113.122
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "6283421960"
               port: 58818
-              server: 178.79.165.160
+              server: 213.168.248.235
               type: null
 rule-providers:
     apple:
