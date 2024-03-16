@@ -277,13 +277,13 @@ proxies:
       name: DE-德国-56
       password: "6283421960"
       port: 58818
-      server: 192.46.236.10
+      server: 139.162.156.8
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "6283421960"
       port: 58818
-      server: 139.162.14.168
+      server: 172.105.119.120
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
@@ -567,13 +567,13 @@ proxy-groups:
               name: DE-德国-56
               password: "6283421960"
               port: 58818
-              server: 192.46.236.10
+              server: 139.162.156.8
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "6283421960"
               port: 58818
-              server: 139.162.14.168
+              server: 172.105.119.120
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
