@@ -289,13 +289,13 @@ proxies:
       name: SG-新加坡-47
       password: "6283421960"
       port: 58818
-      server: 172.104.181.226
+      server: 172.104.169.237
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "6283421960"
       port: 58818
-      server: 212.71.251.34
+      server: 80.85.85.105
       type: null
 proxy-groups:
     "0":
@@ -579,13 +579,13 @@ proxy-groups:
               name: SG-新加坡-47
               password: "6283421960"
               port: 58818
-              server: 172.104.181.226
+              server: 172.104.169.237
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "6283421960"
               port: 58818
-              server: 212.71.251.34
+              server: 80.85.85.105
               type: null
 rule-providers:
     apple:
