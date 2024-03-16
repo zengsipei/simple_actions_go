@@ -77,19 +77,57 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
+      password: e59a3d9e-201d-4818-823c-c29c3f16841e
+      port: 27252
+      server: gtm1.ktmwan.com
+      type: ss
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-      network: tcp
-      port: 30013
-      server: 183.232.170.22
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 8080
+      server: 162.159.134.23
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+      uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
+      ws-opts:
+        headers:
+            host: championship-bidding-oxygen-brochure.trycloudflare.com
+        path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 80
+      server: 104.21.225.9
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+      ws-opts:
+        headers:
+            host: a.prapt4.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 8080
+      server: 162.159.137.249
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+      ws-opts:
+        headers:
+            host: nest-emily-healing-h.trycloudflare.com
+        path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
       network: ws
       port: 8080
       server: yh3.freeh1.xyz
@@ -103,57 +141,105 @@ proxies:
         path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
       network: ws
-      port: 8080
-      server: yh2.freeh1.xyz
+      port: 2082
+      server: 104.18.202.250
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
       ws-opts:
         headers:
-            host: nest-emily-healing-h.trycloudflare.com
-        path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+            host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+        path: /nina.bond/linkvws
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
       network: ws
       port: 8080
-      server: fbi.gov
+      server: 23.227.38.23
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+      uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
       ws-opts:
         headers:
-            host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-        path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+            host: uh-lawyers-instruments-kernel.trycloudflare.com
+        path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 2086
+      server: 104.16.234.190
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 3d840eb7-9400-4caf-a511-e4724a003ec4
+      ws-opts:
+        headers:
+            host: us77SmSk86j.fzbqfrse.xyz
+        path: /video/Z7qdcrAGRw
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
+      network: ws
+      port: 2086
+      server: cfcdn1.sanfencdn9.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 3d840eb7-9400-4caf-a511-e4724a003ec4
+      ws-opts:
+        headers:
+            host: us77SmSk86j.fzbqfrse.xyz
+        path: /video/Z7qdcrAGRw
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+      password: e59a3d9e-201d-4818-823c-c29c3f16841e
+      port: 27256
+      server: gtm1.ktmwan.com
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_7"
       network: ws
       port: 8080
-      server: 162.159.1.33
+      server: yh2.dtku41.xyz
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+      uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
       ws-opts:
         headers:
-            host: pcs-referenced-camera-concerns.trycloudflare.com
-        path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
+            host: per-essex-patterns-bowling.trycloudflare.com
+        path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-      network: tcp
-      port: 30058
-      server: 183.232.170.22
+      name: "\U0001F1FA\U0001F1F8_US_美国_8"
+      network: ws
+      port: 8880
+      server: russia.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+      uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+      ws-opts:
+        headers:
+            host: ssrsub.v03.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: http
+      port: 3389
+      server: 134.122.41.160
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
       network: ws
       password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
       port: 443
@@ -164,39 +250,6 @@ proxies:
       udp: true
       ws-opts:
         path: /argox-tr
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-      network: tcp
-      port: 30129
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - name: "\U0001F1EC\U0001F1E7_GB_英国"
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 18.135.242.0
-      skip-cert-verify: false
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: ws
-      port: 8080
-      server: yh1.dtku41.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
-      ws-opts:
-        headers:
-            host: per-essex-patterns-bowling.trycloudflare.com
-        path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     - alterid: 0
       cipher: auto
       name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
@@ -213,135 +266,63 @@ proxies:
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-      network: http
-      port: 3389
-      server: 134.122.41.160
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EB\U0001F1F7_FR_法国"
-      network: http
-      port: 3389
-      server: 51.159.155.52
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-      network: tcp
-      port: 30015
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-      network: tcp
-      port: 30141
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-      network: tcp
-      port: 30051
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-      network: tcp
-      port: 30139
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-      network: ws
-      port: 52052
-      server: 223.113.130.55
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: c7395784-c77d-390a-9db6-67152462b95b
-      ws-opts:
-        headers:
-            host: cache-hk-1.cn-db.top
-        path: /db00
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-      network: tcp
-      port: 30147
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
       network: ws
       port: 8080
-      server: 23.227.38.23
+      server: 23.227.38.22
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+      uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
       ws-opts:
         headers:
-            host: uh-lawyers-instruments-kernel.trycloudflare.com
-        path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+            host: per-essex-patterns-bowling.trycloudflare.com
+        path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-      network: tcp
-      port: 30032
-      server: 183.232.170.22
+      name: "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+      network: ws
+      port: 44332
+      server: 118.163.101.44
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+      ws-opts:
+        headers:
+            host: cfhk.393930.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_9"
+      network: ws
+      port: 2095
+      server: russia.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+      uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+      ws-opts:
+        headers:
+            host: ssrsub.v03.ssrsub.com
+        path: /api/v3/download.getFile
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-      network: tcp
-      port: 30137
-      server: 183.232.170.22
+      name: "\U0001F1FA\U0001F1F8_US_美国_10"
+      network: ws
+      port: 2095
+      server: 104.26.5.57
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
+      uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+      ws-opts:
+        headers:
+            host: ssrsub.v03.ssrsub.com
+        path: /api/v3/download.getFile
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
-      network: tcp
-      port: 30145
-      server: 183.232.170.22
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 5635bc13-e51c-4381-ae56-949406fbd3ba
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      name: "\U0001F1FA\U0001F1F8_US_美国_11"
       network: ws
       port: 2095
       server: 104.26.4.57
@@ -353,95 +334,55 @@ proxies:
         headers:
             host: ssrsub.v03.ssrsub.com
         path: /api/v3/download.getFile
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1F3_CN_中国"
-      network: ws
-      port: 58080
-      server: 223.113.130.55
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 75a68200-4d76-3eb6-b510-39b8e63b7823
-      ws-opts:
-        headers:
-            host: data-hk-2.cn-db.top
-        path: /db00
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: ws
-      port: 80
-      server: 104.21.20.19
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 4be6650b-41be-4878-a28e-553fc4fb73e8
-      ws-opts:
-        headers:
-            host: de2.xv2ray.net
-        path: /
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - ♻️ 自动选择
         - DIRECT
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       type: select
     - interval: 300
       name: ♻️ 自动选择
       proxies:
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       tolerance: 50
       type: url-test
       url: http://www.gstatic.com/generate_204
@@ -450,125 +391,101 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - ♻️ 自动选择
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       type: select
     - name: "\U0001F4F2 电报信息"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       type: select
     - name: Ⓜ️ 微软服务
       proxies:
         - "\U0001F3AF 全球直连"
         - "\U0001F680 节点选择"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       type: select
     - name: "\U0001F34E 苹果服务"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -591,32 +508,26 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
         - ♻️ 自动选择
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1EE\U0001F1F3_IN_印度"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
-        - "\U0001F1EB\U0001F1F7_FR_法国"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F5\U0001F1F8_PS_巴勒斯坦"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1ED\U0001F1F0_HK_香港"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_8"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_9"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_10"
         - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1E8\U0001F1F3_CN_中国"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_5"
+        - "\U0001F1FA\U0001F1F8_US_美国_6"
+        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E8\U0001F1E6_CA_加拿大"
+        - "\U0001F1FA\U0001F1F8_US_美国_7"
+        - "\U0001F1FA\U0001F1F8_US_美国_8"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EC\U0001F1E7_GB_英国"
+        - "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F9\U0001F1FC_TW_台湾->\U0001F1ED\U0001F1F0_HK_香港"
+        - "\U0001F1FA\U0001F1F8_US_美国_9"
+        - "\U0001F1FA\U0001F1F8_US_美国_10"
+        - "\U0001F1FA\U0001F1F8_US_美国_11"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
