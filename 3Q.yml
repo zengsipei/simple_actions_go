@@ -10,68 +10,420 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+      network: ws
+      password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+      port: 443
+      server: 23.227.38.11
+      skip-cert-verify: true
+      sni: syndication-statutes-wanted-logo.trycloudflare.com
+      type: trojan
+      udp: true
+      ws-opts:
+        path: /argox-tr
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      network: ws
+      port: 8080
+      server: 108.181.23.161
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+      ws-opts:
+        headers:
+            host: internet.life.com.by
+        path: /1IKYjV0r/
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 2082
+      server: 104.18.202.250
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        headers:
+            host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+        path: /nina.bond/linkvws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: http
+      port: 3389
+      server: 134.122.41.160
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - name: "\U0001F1EB\U0001F1F7_FR_法国_1"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 15.188.94.128
+      skip-cert-verify: false
+      sni: trojan.miwan.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 3.17.106.39
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F1\U0001F1FA_LU_卢森堡_1"
+      network: http
+      port: 3389
+      server: 78.111.102.232
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - name: "\U0001F1EC\U0001F1E7_GB_英国"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 13.43.105.161
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 8080
+      server: 162.159.130.208
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+      ws-opts:
+        headers:
+            host: widescreen-instruction-breakdown-postage.trycloudflare.com
+        path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 8080
+      server: 162.159.137.249
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+      ws-opts:
+        headers:
+            host: nest-emily-healing-h.trycloudflare.com
+        path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F1\U0001F1FA_LU_卢森堡_2"
+      network: http
+      port: 3389
+      server: 45.82.31.164
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 2095
+      server: 104.26.4.57
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+      ws-opts:
+        headers:
+            host: ssrsub.v03.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1EB\U0001F1F7_FR_法国_2"
+      network: http
+      port: 3389
+      server: 51.159.155.52
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EB\U0001F1F7_FR_法国"
+      network: ws
+      port: 8880
+      server: 94.140.0.110
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+      ws-opts:
+        headers:
+            host: food.zhaal.ir
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
+      network: ws
+      port: 2095
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+      ws-opts:
+        headers:
+            host: ssrsub.v03.ssrsub.com
+        path: /api/v3/download.getFile
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "6283421960"
-      port: 58818
-      server: 172.105.24.77
+      password: "1859928158"
+      port: 58978
+      server: 172.105.26.134
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: DE-德国-50
+      password: "1859928158"
+      port: 58978
+      server: 139.162.153.225
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "6283421960"
-      port: 58818
-      server: 139.162.156.8
+      password: "1859928158"
+      port: 58978
+      server: 139.162.183.73
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "6283421960"
-      port: 58818
-      server: 139.162.12.212
+      password: "1859928158"
+      port: 58978
+      server: 170.187.228.252
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-47
-      password: "6283421960"
-      port: 58818
-      server: 172.104.163.112
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "6283421960"
-      port: 58818
-      server: 80.85.85.105
+      name: UK-英国-24
+      password: "1859928158"
+      port: 58978
+      server: 212.71.245.188
       type: null
 proxy-groups:
     "0":
         proxies:
+            - name: "\U0001F1E8\U0001F1E6_CA_加拿大->\U0001F1FA\U0001F1F8_US_美国"
+              network: ws
+              password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+              port: 443
+              server: 23.227.38.11
+              skip-cert-verify: true
+              sni: syndication-statutes-wanted-logo.trycloudflare.com
+              type: trojan
+              udp: true
+              ws-opts:
+                path: /argox-tr
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              network: ws
+              port: 8080
+              server: 108.181.23.161
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
+              ws-opts:
+                headers:
+                    host: internet.life.com.by
+                path: /1IKYjV0r/
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              port: 2082
+              server: 104.18.202.250
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+              ws-opts:
+                headers:
+                    host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+                path: /nina.bond/linkvws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: http
+              port: 3389
+              server: 134.122.41.160
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - name: "\U0001F1EB\U0001F1F7_FR_法国_1"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 15.188.94.128
+              skip-cert-verify: false
+              sni: trojan.miwan.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 3.17.106.39
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F1\U0001F1FA_LU_卢森堡_1"
+              network: http
+              port: 3389
+              server: 78.111.102.232
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - name: "\U0001F1EC\U0001F1E7_GB_英国"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 13.43.105.161
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 8080
+              server: 162.159.130.208
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+              ws-opts:
+                headers:
+                    host: widescreen-instruction-breakdown-postage.trycloudflare.com
+                path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              port: 8080
+              server: 162.159.137.249
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+              ws-opts:
+                headers:
+                    host: nest-emily-healing-h.trycloudflare.com
+                path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F1\U0001F1FA_LU_卢森堡_2"
+              network: http
+              port: 3389
+              server: 45.82.31.164
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: ws
+              port: 2095
+              server: 104.26.4.57
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+              ws-opts:
+                headers:
+                    host: ssrsub.v03.ssrsub.com
+                path: /api/v3/download.getFile
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1EB\U0001F1F7_FR_法国_2"
+              network: http
+              port: 3389
+              server: 51.159.155.52
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E6\U0001F1EA_AE_阿联酋->\U0001F1EB\U0001F1F7_FR_法国"
+              network: ws
+              port: 8880
+              server: 94.140.0.110
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+              ws-opts:
+                headers:
+                    host: food.zhaal.ir
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_6"
+              network: ws
+              port: 2095
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+              ws-opts:
+                headers:
+                    host: ssrsub.v03.ssrsub.com
+                path: /api/v3/download.getFile
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "6283421960"
-              port: 58818
-              server: 172.105.24.77
+              password: "1859928158"
+              port: 58978
+              server: 172.105.26.134
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: DE-德国-50
+              password: "1859928158"
+              port: 58978
+              server: 139.162.153.225
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "6283421960"
-              port: 58818
-              server: 139.162.156.8
+              password: "1859928158"
+              port: 58978
+              server: 139.162.183.73
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "6283421960"
-              port: 58818
-              server: 139.162.12.212
+              password: "1859928158"
+              port: 58978
+              server: 170.187.228.252
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-47
-              password: "6283421960"
-              port: 58818
-              server: 172.104.163.112
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "6283421960"
-              port: 58818
-              server: 80.85.85.105
+              name: UK-英国-24
+              password: "1859928158"
+              port: 58978
+              server: 212.71.245.188
               type: null
 rule-providers:
     apple:
