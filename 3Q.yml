@@ -190,19 +190,19 @@ proxies:
       name: CA-加拿大-54
       password: "1859928158"
       port: 58978
-      server: 172.105.26.134
+      server: 172.105.104.128
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "1859928158"
       port: 58978
-      server: 139.162.153.225
+      server: 45.79.250.136
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "1859928158"
       port: 58978
-      server: 139.162.183.73
+      server: 172.105.74.130
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -399,19 +399,19 @@ proxy-groups:
               name: CA-加拿大-54
               password: "1859928158"
               port: 58978
-              server: 172.105.26.134
+              server: 172.105.104.128
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "1859928158"
               port: 58978
-              server: 139.162.153.225
+              server: 45.79.250.136
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "1859928158"
               port: 58978
-              server: 139.162.183.73
+              server: 172.105.74.130
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
