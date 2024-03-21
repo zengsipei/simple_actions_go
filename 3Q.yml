@@ -253,7 +253,7 @@ proxies:
       name: DE-德国-50
       password: "9546100693"
       port: 59227
-      server: 172.104.245.249
+      server: 139.162.130.233
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -265,13 +265,13 @@ proxies:
       name: SG-新加坡-47
       password: "9546100693"
       port: 59227
-      server: 139.162.32.98
+      server: 139.162.41.168
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "9546100693"
       port: 59227
-      server: 178.79.144.252
+      server: 139.162.237.87
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -525,7 +525,7 @@ proxy-groups:
               name: DE-德国-50
               password: "9546100693"
               port: 59227
-              server: 172.104.245.249
+              server: 139.162.130.233
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
@@ -537,13 +537,13 @@ proxy-groups:
               name: SG-新加坡-47
               password: "9546100693"
               port: 59227
-              server: 139.162.32.98
+              server: 139.162.41.168
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "9546100693"
               port: 59227
-              server: 178.79.144.252
+              server: 139.162.237.87
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
