@@ -249,6 +249,36 @@ proxies:
         headers:
             host: s1c.v2.v001sss.xyz
         path: /
+    - cipher: chacha20-ietf-poly1305
+      name: SG-新加坡-47
+      password: "5859476923"
+      port: 59646
+      server: 172.104.48.179
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: UK-英国-23
+      password: "5859476923"
+      port: 59646
+      server: 80.85.85.113
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: UK-英国-24
+      password: "5859476923"
+      port: 59646
+      server: 139.162.192.68
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-50
+      password: "5859476923"
+      port: 59646
+      server: 198.58.122.22
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "5859476923"
+      port: 59646
+      server: 96.126.127.135
+      type: null
 proxy-groups:
     "0":
         proxies:
@@ -491,6 +521,36 @@ proxy-groups:
                 headers:
                     host: s1c.v2.v001sss.xyz
                 path: /
+            - cipher: chacha20-ietf-poly1305
+              name: SG-新加坡-47
+              password: "5859476923"
+              port: 59646
+              server: 172.104.48.179
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: UK-英国-23
+              password: "5859476923"
+              port: 59646
+              server: 80.85.85.113
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: UK-英国-24
+              password: "5859476923"
+              port: 59646
+              server: 139.162.192.68
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-50
+              password: "5859476923"
+              port: 59646
+              server: 198.58.122.22
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "5859476923"
+              port: 59646
+              server: 96.126.127.135
+              type: null
 rule-providers:
     apple:
         behavior: domain
