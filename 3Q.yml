@@ -250,34 +250,34 @@ proxies:
             host: s1c.v2.v001sss.xyz
         path: /
     - cipher: chacha20-ietf-poly1305
+      name: CA-加拿大-54
+      password: "5397841266"
+      port: 59851
+      server: 172.105.15.223
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "0515329213"
-      port: 59753
+      password: "5397841266"
+      port: 59851
       server: 172.105.65.22
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "0515329213"
-      port: 59753
-      server: 139.162.34.191
+      password: "5397841266"
+      port: 59851
+      server: 192.46.225.184
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "0515329213"
-      port: 59753
-      server: 109.74.198.67
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "0515329213"
-      port: 59753
-      server: 198.58.112.134
+      password: "5397841266"
+      port: 59851
+      server: 85.159.210.146
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "0515329213"
-      port: 59753
-      server: 45.33.24.13
+      password: "5397841266"
+      port: 59851
+      server: 45.33.29.125
       type: null
 proxy-groups:
     "0":
@@ -522,34 +522,34 @@ proxy-groups:
                     host: s1c.v2.v001sss.xyz
                 path: /
             - cipher: chacha20-ietf-poly1305
+              name: CA-加拿大-54
+              password: "5397841266"
+              port: 59851
+              server: 172.105.15.223
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "0515329213"
-              port: 59753
+              password: "5397841266"
+              port: 59851
               server: 172.105.65.22
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "0515329213"
-              port: 59753
-              server: 139.162.34.191
+              password: "5397841266"
+              port: 59851
+              server: 192.46.225.184
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "0515329213"
-              port: 59753
-              server: 109.74.198.67
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "0515329213"
-              port: 59753
-              server: 198.58.112.134
+              password: "5397841266"
+              port: 59851
+              server: 85.159.210.146
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "0515329213"
-              port: 59753
-              server: 45.33.24.13
+              password: "5397841266"
+              port: 59851
+              server: 45.33.29.125
               type: null
 rule-providers:
     apple:
