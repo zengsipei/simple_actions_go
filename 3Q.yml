@@ -253,31 +253,31 @@ proxies:
       name: CA-加拿大-54
       password: "5397841266"
       port: 59851
-      server: 172.105.5.32
+      server: 172.105.7.21
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "5397841266"
       port: 59851
-      server: 172.105.93.33
+      server: 172.104.235.217
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "5397841266"
       port: 59851
-      server: 192.53.114.135
+      server: 139.162.49.197
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "5397841266"
       port: 59851
-      server: 178.79.190.207
+      server: 212.71.251.247
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "5397841266"
       port: 59851
-      server: 96.126.122.252
+      server: 104.237.129.36
       type: null
 proxy-groups:
     "0":
@@ -525,31 +525,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "5397841266"
               port: 59851
-              server: 172.105.5.32
+              server: 172.105.7.21
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "5397841266"
               port: 59851
-              server: 172.105.93.33
+              server: 172.104.235.217
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "5397841266"
               port: 59851
-              server: 192.53.114.135
+              server: 139.162.49.197
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "5397841266"
               port: 59851
-              server: 178.79.190.207
+              server: 212.71.251.247
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "5397841266"
               port: 59851
-              server: 96.126.122.252
+              server: 104.237.129.36
               type: null
 rule-providers:
     apple:
