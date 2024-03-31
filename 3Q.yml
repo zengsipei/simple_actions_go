@@ -259,13 +259,13 @@ proxies:
       name: SG-新加坡-44
       password: "1394290060"
       port: 59961
-      server: 139.162.44.24
+      server: 172.104.173.92
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
       password: "1394290060"
       port: 59961
-      server: 139.162.21.155
+      server: 172.105.122.76
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -277,7 +277,7 @@ proxies:
       name: UK-英国-24
       password: "1394290060"
       port: 59961
-      server: 176.58.107.53
+      server: 213.219.38.238
       type: null
 proxy-groups:
     "0":
@@ -531,13 +531,13 @@ proxy-groups:
               name: SG-新加坡-44
               password: "1394290060"
               port: 59961
-              server: 139.162.44.24
+              server: 172.104.173.92
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
               password: "1394290060"
               port: 59961
-              server: 139.162.21.155
+              server: 172.105.122.76
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -549,7 +549,7 @@ proxy-groups:
               name: UK-英国-24
               password: "1394290060"
               port: 59961
-              server: 176.58.107.53
+              server: 213.219.38.238
               type: null
 rule-providers:
     apple:
