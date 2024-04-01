@@ -12,66 +12,66 @@ port: 7890
 proxies:
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "1394290060"
-      port: 59961
-      server: 172.105.93.26
+      password: "8480982175"
+      port: 60120
+      server: 139.162.163.116
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-44
-      password: "1394290060"
-      port: 59961
-      server: 172.104.61.56
+      name: DE-德国-56
+      password: "8480982175"
+      port: 60120
+      server: 172.105.244.225
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
-      password: "1394290060"
-      port: 59961
-      server: 139.162.57.148
+      password: "8480982175"
+      port: 60120
+      server: 192.53.115.154
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "1394290060"
-      port: 59961
-      server: 176.58.126.77
+      password: "8480982175"
+      port: 60120
+      server: 178.79.149.164
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "1394290060"
-      port: 59961
-      server: 213.168.249.65
+      name: US-美国-50
+      password: "8480982175"
+      port: 60120
+      server: 50.116.18.238
       type: null
 proxy-groups:
     "0":
         proxies:
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "1394290060"
-              port: 59961
-              server: 172.105.93.26
+              password: "8480982175"
+              port: 60120
+              server: 139.162.163.116
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-44
-              password: "1394290060"
-              port: 59961
-              server: 172.104.61.56
+              name: DE-德国-56
+              password: "8480982175"
+              port: 60120
+              server: 172.105.244.225
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
-              password: "1394290060"
-              port: 59961
-              server: 139.162.57.148
+              password: "8480982175"
+              port: 60120
+              server: 192.53.115.154
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "1394290060"
-              port: 59961
-              server: 176.58.126.77
+              password: "8480982175"
+              port: 60120
+              server: 178.79.149.164
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "1394290060"
-              port: 59961
-              server: 213.168.249.65
+              name: US-美国-50
+              password: "8480982175"
+              port: 60120
+              server: 50.116.18.238
               type: null
 rule-providers:
     apple:
