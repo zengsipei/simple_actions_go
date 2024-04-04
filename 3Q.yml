@@ -14,31 +14,31 @@ proxies:
       name: DE-德国-50
       password: "8027771237"
       port: 60252
-      server: 172.104.144.237
+      server: 172.104.248.238
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "8027771237"
       port: 60252
-      server: 172.104.183.18
+      server: 139.162.28.194
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
       password: "8027771237"
       port: 60252
-      server: 139.162.53.102
+      server: 139.162.13.84
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "8027771237"
       port: 60252
-      server: 139.162.205.61
+      server: 109.74.195.248
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "8027771237"
       port: 60252
-      server: 45.33.29.206
+      server: 45.79.4.80
       type: null
 proxy-groups:
     "0":
@@ -47,31 +47,31 @@ proxy-groups:
               name: DE-德国-50
               password: "8027771237"
               port: 60252
-              server: 172.104.144.237
+              server: 172.104.248.238
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "8027771237"
               port: 60252
-              server: 172.104.183.18
+              server: 139.162.28.194
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
               password: "8027771237"
               port: 60252
-              server: 139.162.53.102
+              server: 139.162.13.84
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "8027771237"
               port: 60252
-              server: 139.162.205.61
+              server: 109.74.195.248
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "8027771237"
               port: 60252
-              server: 45.33.29.206
+              server: 45.79.4.80
               type: null
 rule-providers:
     apple:
