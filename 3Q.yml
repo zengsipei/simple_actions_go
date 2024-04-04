@@ -14,7 +14,7 @@ proxies:
       name: DE-德国-50
       password: "8027771237"
       port: 60252
-      server: 139.162.179.186
+      server: 172.104.252.103
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
@@ -26,19 +26,19 @@ proxies:
       name: SG-新加坡-47
       password: "8027771237"
       port: 60252
-      server: 139.162.55.87
+      server: 139.162.38.213
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "8027771237"
       port: 60252
-      server: 139.162.241.25
+      server: 178.79.169.181
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "8027771237"
       port: 60252
-      server: 69.164.193.45
+      server: 104.237.131.176
       type: null
 proxy-groups:
     "0":
@@ -47,7 +47,7 @@ proxy-groups:
               name: DE-德国-50
               password: "8027771237"
               port: 60252
-              server: 139.162.179.186
+              server: 172.104.252.103
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
@@ -59,19 +59,19 @@ proxy-groups:
               name: SG-新加坡-47
               password: "8027771237"
               port: 60252
-              server: 139.162.55.87
+              server: 139.162.38.213
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "8027771237"
               port: 60252
-              server: 139.162.241.25
+              server: 178.79.169.181
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "8027771237"
               port: 60252
-              server: 69.164.193.45
+              server: 104.237.131.176
               type: null
 rule-providers:
     apple:
