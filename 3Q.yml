@@ -14,31 +14,31 @@ proxies:
       name: CA-加拿大-54
       password: "9644537197"
       port: 60365
-      server: 172.105.96.252
+      server: 172.105.102.23
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "9644537197"
       port: 60365
-      server: 139.162.184.50
+      server: 172.104.151.47
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "9644537197"
       port: 60365
-      server: 139.162.43.208
+      server: 139.162.51.134
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "9644537197"
       port: 60365
-      server: 109.74.195.98
+      server: 176.58.113.250
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "9644537197"
       port: 60365
-      server: 96.126.122.109
+      server: 96.126.118.80
       type: null
 proxy-groups:
     "0":
@@ -47,31 +47,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "9644537197"
               port: 60365
-              server: 172.105.96.252
+              server: 172.105.102.23
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "9644537197"
               port: 60365
-              server: 139.162.184.50
+              server: 172.104.151.47
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "9644537197"
               port: 60365
-              server: 139.162.43.208
+              server: 139.162.51.134
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "9644537197"
               port: 60365
-              server: 109.74.195.98
+              server: 176.58.113.250
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "9644537197"
               port: 60365
-              server: 96.126.122.109
+              server: 96.126.118.80
               type: null
 rule-providers:
     apple:
