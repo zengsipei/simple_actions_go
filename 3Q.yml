@@ -700,7 +700,7 @@ proxies:
       name: SG-新加坡-47
       password: "1289090790"
       port: 60502
-      server: 172.104.164.133
+      server: 172.104.50.171
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -712,7 +712,7 @@ proxies:
       name: UK-英国-24
       password: "1289090790"
       port: 60502
-      server: 139.162.218.220
+      server: 139.162.203.35
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -1413,7 +1413,7 @@ proxy-groups:
               name: SG-新加坡-47
               password: "1289090790"
               port: 60502
-              server: 172.104.164.133
+              server: 172.104.50.171
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -1425,7 +1425,7 @@ proxy-groups:
               name: UK-英国-24
               password: "1289090790"
               port: 60502
-              server: 139.162.218.220
+              server: 139.162.203.35
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
