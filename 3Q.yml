@@ -11,67 +11,67 @@ mode: Rule
 port: 7890
 proxies:
     - cipher: chacha20-ietf-poly1305
-      name: CA-加拿大-54
-      password: "1302293902"
-      port: 61673
-      server: 172.105.105.166
+      name: DE-德国-50
+      password: "8119100027"
+      port: 61786
+      server: 192.46.239.223
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: DE-德国-56
+      password: "8119100027"
+      port: 61786
+      server: 192.46.239.228
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "1302293902"
-      port: 61673
-      server: 139.162.21.142
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-47
-      password: "1302293902"
-      port: 61673
-      server: 192.46.225.184
+      password: "8119100027"
+      port: 61786
+      server: 139.162.24.114
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "1302293902"
-      port: 61673
-      server: 45.33.18.61
+      password: "8119100027"
+      port: 61786
+      server: 96.126.117.208
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "1302293902"
-      port: 61673
-      server: 198.58.98.171
+      password: "8119100027"
+      port: 61786
+      server: 104.237.129.159
       type: null
 proxy-groups:
     "0":
         proxies:
             - cipher: chacha20-ietf-poly1305
-              name: CA-加拿大-54
-              password: "1302293902"
-              port: 61673
-              server: 172.105.105.166
+              name: DE-德国-50
+              password: "8119100027"
+              port: 61786
+              server: 192.46.239.223
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: DE-德国-56
+              password: "8119100027"
+              port: 61786
+              server: 192.46.239.228
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "1302293902"
-              port: 61673
-              server: 139.162.21.142
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-47
-              password: "1302293902"
-              port: 61673
-              server: 192.46.225.184
+              password: "8119100027"
+              port: 61786
+              server: 139.162.24.114
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "1302293902"
-              port: 61673
-              server: 45.33.18.61
+              password: "8119100027"
+              port: 61786
+              server: 96.126.117.208
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "1302293902"
-              port: 61673
-              server: 198.58.98.171
+              password: "8119100027"
+              port: 61786
+              server: 104.237.129.159
               type: null
 rule-providers:
     apple:
