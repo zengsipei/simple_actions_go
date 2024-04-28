@@ -14,7 +14,7 @@ proxies:
       name: DE-德国-50
       password: "8119100027"
       port: 61786
-      server: 172.104.132.200
+      server: 139.177.180.129
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -32,7 +32,7 @@ proxies:
       name: US-美国-50
       password: "8119100027"
       port: 61786
-      server: 45.33.113.17
+      server: 104.237.140.51
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -47,7 +47,7 @@ proxy-groups:
               name: DE-德国-50
               password: "8119100027"
               port: 61786
-              server: 172.104.132.200
+              server: 139.177.180.129
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -65,7 +65,7 @@ proxy-groups:
               name: US-美国-50
               password: "8119100027"
               port: 61786
-              server: 45.33.113.17
+              server: 104.237.140.51
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
