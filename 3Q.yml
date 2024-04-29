@@ -14,25 +14,25 @@ proxies:
       name: CA-加拿大-54
       password: "4737180969"
       port: 61908
-      server: 192.53.120.107
+      server: 172.105.0.203
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "4737180969"
       port: 61908
-      server: 139.162.177.80
+      server: 172.104.150.213
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "4737180969"
       port: 61908
-      server: 172.105.94.25
+      server: 172.104.227.81
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "4737180969"
       port: 61908
-      server: 192.46.231.208
+      server: 139.162.7.50
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -47,25 +47,25 @@ proxy-groups:
               name: CA-加拿大-54
               password: "4737180969"
               port: 61908
-              server: 192.53.120.107
+              server: 172.105.0.203
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "4737180969"
               port: 61908
-              server: 139.162.177.80
+              server: 172.104.150.213
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "4737180969"
               port: 61908
-              server: 172.105.94.25
+              server: 172.104.227.81
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "4737180969"
               port: 61908
-              server: 192.46.231.208
+              server: 139.162.7.50
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
