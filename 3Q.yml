@@ -26,19 +26,19 @@ proxies:
       name: DE-德国-56
       password: "4737180969"
       port: 61908
-      server: 139.162.151.226
+      server: 172.105.73.223
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "4737180969"
       port: 61908
-      server: 172.104.184.34
+      server: 172.104.57.153
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "4737180969"
       port: 61908
-      server: 69.164.192.92
+      server: 104.237.133.188
       type: null
 proxy-groups:
     "0":
@@ -59,19 +59,19 @@ proxy-groups:
               name: DE-德国-56
               password: "4737180969"
               port: 61908
-              server: 139.162.151.226
+              server: 172.105.73.223
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "4737180969"
               port: 61908
-              server: 172.104.184.34
+              server: 172.104.57.153
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "4737180969"
               port: 61908
-              server: 69.164.192.92
+              server: 104.237.133.188
               type: null
 rule-providers:
     apple:
