@@ -150,19 +150,19 @@ proxies:
       name: SG-新加坡-44
       password: "6994911446"
       port: 62047
-      server: 139.162.25.86
+      server: 172.105.113.103
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "6994911446"
       port: 62047
-      server: 178.79.129.121
+      server: 178.79.165.80
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "6994911446"
       port: 62047
-      server: 176.58.113.163
+      server: 178.79.140.26
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -319,19 +319,19 @@ proxy-groups:
               name: SG-新加坡-44
               password: "6994911446"
               port: 62047
-              server: 139.162.25.86
+              server: 172.105.113.103
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "6994911446"
               port: 62047
-              server: 178.79.129.121
+              server: 178.79.165.80
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "6994911446"
               port: 62047
-              server: 176.58.113.163
+              server: 178.79.140.26
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
