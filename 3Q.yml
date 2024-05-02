@@ -168,13 +168,13 @@ proxies:
       name: US-美国-50
       password: "6994911446"
       port: 62047
-      server: 173.255.205.10
+      server: 45.33.8.34
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "6994911446"
       port: 62047
-      server: 45.33.5.108
+      server: 45.33.16.87
       type: null
 proxy-groups:
     "0":
@@ -337,13 +337,13 @@ proxy-groups:
               name: US-美国-50
               password: "6994911446"
               port: 62047
-              server: 173.255.205.10
+              server: 45.33.8.34
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "6994911446"
               port: 62047
-              server: 45.33.5.108
+              server: 45.33.16.87
               type: null
 rule-providers:
     apple:
