@@ -15,72 +15,6 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
       network: ws
       port: 2052
-      server: 104.18.36.119
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      password: XKFKl2rULjIp74
-      port: 8008
-      server: 23.157.40.66
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 2082
-      server: 104.21.8.157
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-      network: ws
-      port: 2052
-      server: 104.18.19.191
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      password: PCnnH6SQSnfoS27
-      port: 8091
-      server: 23.157.40.66
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
-      password: KixLvKzwjekG00rm
-      port: 8000
-      server: 23.157.40.20
-      type: ss
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      password: Y6R9pAtvxxzmGC
-      port: 5600
-      server: 23.157.40.66
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
-      network: ws
-      port: 2052
       server: 104.19.250.15
       skip-cert-verify: true
       tls: false
@@ -92,7 +26,7 @@ proxies:
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
       network: ws
       port: 2052
       server: cfcdn1.sanfencdn9.com
@@ -114,17 +48,115 @@ proxies:
       tls: false
       type: vmess
       uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 80
+      server: 104.16.61.8
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+      ws-opts:
+        headers:
+            host: d396-flower-d396.megare7260.workers.dev
+        path: /obdii.cfd/linkws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 2052
+      server: 104.18.25.92
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+      ws-opts:
+        headers:
+            host: mysan2.jaquay22.workers.dev
+        path: /afrhms16v.bestxray.buzz/linkws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 80
+      server: speed.cloudflare.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+      ws-opts:
+        headers:
+            host: range-shape-b3fuegu.bananok182.workers.dev
+        path: /hms02.fxiaomi.sbs/link
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 2082
+      server: 104.16.60.8
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+      ws-opts:
+        headers:
+            host: worker-noisy-paper-fa00.hetoj18200.workers.dev
+        path: /afrhms16v.bestxray.buzz/linkws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 2052
+      server: 104.18.36.119
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+      network: ws
+      port: 2052
+      server: 104.18.19.191
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 8880
+      server: 104.19.40.84
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+      ws-opts:
+        headers:
+            host: uk.moss.network
+        path: /d/65dd503.TG.WangCai2.WangCai_8:107690
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "6994911446"
       port: 62047
-      server: 139.162.8.170
+      server: 139.162.25.86
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "6994911446"
       port: 62047
-      server: 139.162.224.207
+      server: 178.79.129.121
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -136,13 +168,13 @@ proxies:
       name: US-美国-50
       password: "6994911446"
       port: 62047
-      server: 45.79.22.6
+      server: 173.255.205.10
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "6994911446"
       port: 62047
-      server: 23.239.31.206
+      server: 45.33.5.108
       type: null
 proxy-groups:
     "0":
@@ -150,72 +182,6 @@ proxy-groups:
             - alterid: 0
               cipher: auto
               name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-              network: ws
-              port: 2052
-              server: 104.18.36.119
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - cipher: aes-256-gcm
-              name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              password: XKFKl2rULjIp74
-              port: 8008
-              server: 23.157.40.66
-              type: ss
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-              network: ws
-              port: 2082
-              server: 104.21.8.157
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-              ws-opts:
-                headers:
-                    host: s1c.v2.v001sss.xyz
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-              network: ws
-              port: 2052
-              server: 104.18.19.191
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - cipher: aes-256-gcm
-              name: "\U0001F1FA\U0001F1F8_US_美国_2"
-              password: PCnnH6SQSnfoS27
-              port: 8091
-              server: 23.157.40.66
-              type: ss
-            - cipher: aes-256-gcm
-              name: "\U0001F1FA\U0001F1F8_US_美国_3"
-              password: KixLvKzwjekG00rm
-              port: 8000
-              server: 23.157.40.20
-              type: ss
-            - cipher: aes-256-gcm
-              name: "\U0001F1FA\U0001F1F8_US_美国_4"
-              password: Y6R9pAtvxxzmGC
-              port: 5600
-              server: 23.157.40.66
-              type: ss
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
               network: ws
               port: 2052
               server: 104.19.250.15
@@ -229,7 +195,7 @@ proxy-groups:
                 path: /
             - alterid: 0
               cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
               network: ws
               port: 2052
               server: cfcdn1.sanfencdn9.com
@@ -251,17 +217,115 @@ proxy-groups:
               tls: false
               type: vmess
               uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 80
+              server: 104.16.61.8
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+              ws-opts:
+                headers:
+                    host: d396-flower-d396.megare7260.workers.dev
+                path: /obdii.cfd/linkws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 2052
+              server: 104.18.25.92
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+              ws-opts:
+                headers:
+                    host: mysan2.jaquay22.workers.dev
+                path: /afrhms16v.bestxray.buzz/linkws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              port: 80
+              server: speed.cloudflare.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+              ws-opts:
+                headers:
+                    host: range-shape-b3fuegu.bananok182.workers.dev
+                path: /hms02.fxiaomi.sbs/link
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: ws
+              port: 2082
+              server: 104.16.60.8
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+              ws-opts:
+                headers:
+                    host: worker-noisy-paper-fa00.hetoj18200.workers.dev
+                path: /afrhms16v.bestxray.buzz/linkws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 2052
+              server: 104.18.36.119
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+              network: ws
+              port: 2052
+              server: 104.18.19.191
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国"
+              network: ws
+              port: 8880
+              server: 104.19.40.84
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+              ws-opts:
+                headers:
+                    host: uk.moss.network
+                path: /d/65dd503.TG.WangCai2.WangCai_8:107690
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "6994911446"
               port: 62047
-              server: 139.162.8.170
+              server: 139.162.25.86
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "6994911446"
               port: 62047
-              server: 139.162.224.207
+              server: 178.79.129.121
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
@@ -273,13 +337,13 @@ proxy-groups:
               name: US-美国-50
               password: "6994911446"
               port: 62047
-              server: 45.79.22.6
+              server: 173.255.205.10
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "6994911446"
               port: 62047
-              server: 23.239.31.206
+              server: 45.33.5.108
               type: null
 rule-providers:
     apple:
