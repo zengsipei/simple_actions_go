@@ -10,256 +10,68 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: ws
-      port: 2052
-      server: 104.19.250.15
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 2082
-      server: 172.67.130.140
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
-    - cipher: aes-256-gcm
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      password: N0k6tSWblI
-      port: 34017
-      server: 129.146.102.22
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1E9\U0001F1EA_DE_德国"
-      password: rpgbNnU9rDDU4aWZ
-      port: 9094
-      server: 80.92.204.106
-      type: ss
-    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: tcp
-      password: MyYoZhfX
-      port: 40316
-      server: 36.138.99.56
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: tcp
-      password: 27876_t7d7f4e3f
-      port: 443
-      server: 23.142.200.175
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
-      network: ws
-      port: 2095
-      server: cfcdn1.sanfencdn9.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12
-      ws-opts:
-        headers:
-            host: us82pRzxDMb.fzbqfrse.xyz
-        path: /video/qYZue4zaWS
-    - cipher: aes-128-cfb
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      password: shadowsocks
-      port: 443
-      server: 156.146.38.163
-      type: ss
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
-      network: ws
-      port: 443
-      server: de2-full.privateip.net
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f
-      ws-opts:
-        path: /RACEVPN
-    - cipher: aes-256-gcm
-      name: "\U0001F1E8\U0001F1E6_CA_加拿大"
-      password: Y6R9pAtvxxzmGC
-      port: 9090
-      server: 23.162.200.215
-      type: ss
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "5522529440"
       port: 62222
-      server: 139.162.25.86
+      server: 172.104.170.61
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
       password: "5522529440"
       port: 62222
-      server: 172.105.126.108
+      server: 139.162.37.8
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "5522529440"
       port: 62222
-      server: 178.79.133.66
+      server: 139.162.245.190
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "5522529440"
       port: 62222
-      server: 50.116.22.59
+      server: 45.33.125.96
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "5522529440"
       port: 62222
-      server: 96.126.118.108
+      server: 45.79.36.198
       type: null
 proxy-groups:
     "0":
         proxies:
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-              network: ws
-              port: 2052
-              server: 104.19.250.15
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-              network: ws
-              port: 2082
-              server: 172.67.130.140
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-              ws-opts:
-                headers:
-                    host: s1c.v2.v001sss.xyz
-                path: /
-            - cipher: aes-256-gcm
-              name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              password: N0k6tSWblI
-              port: 34017
-              server: 129.146.102.22
-              type: ss
-            - cipher: aes-256-cfb
-              name: "\U0001F1E9\U0001F1EA_DE_德国"
-              password: rpgbNnU9rDDU4aWZ
-              port: 9094
-              server: 80.92.204.106
-              type: ss
-            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-              network: tcp
-              password: MyYoZhfX
-              port: 40316
-              server: 36.138.99.56
-              skip-cert-verify: true
-              type: trojan
-              udp: true
-            - name: "\U0001F1FA\U0001F1F8_US_美国_2"
-              network: tcp
-              password: 27876_t7d7f4e3f
-              port: 443
-              server: 23.142.200.175
-              skip-cert-verify: true
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_3"
-              network: ws
-              port: 2095
-              server: cfcdn1.sanfencdn9.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12
-              ws-opts:
-                headers:
-                    host: us82pRzxDMb.fzbqfrse.xyz
-                path: /video/qYZue4zaWS
-            - cipher: aes-128-cfb
-              name: "\U0001F1FA\U0001F1F8_US_美国_4"
-              password: shadowsocks
-              port: 443
-              server: 156.146.38.163
-              type: ss
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_5"
-              network: ws
-              port: 443
-              server: de2-full.privateip.net
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: 7a24704b-5d64-48a9-94d7-726ba993d51f
-              ws-opts:
-                path: /RACEVPN
-            - cipher: aes-256-gcm
-              name: "\U0001F1E8\U0001F1E6_CA_加拿大"
-              password: Y6R9pAtvxxzmGC
-              port: 9090
-              server: 23.162.200.215
-              type: ss
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "5522529440"
               port: 62222
-              server: 139.162.25.86
+              server: 172.104.170.61
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
               password: "5522529440"
               port: 62222
-              server: 172.105.126.108
+              server: 139.162.37.8
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "5522529440"
               port: 62222
-              server: 178.79.133.66
+              server: 139.162.245.190
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "5522529440"
               port: 62222
-              server: 50.116.22.59
+              server: 45.33.125.96
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "5522529440"
               port: 62222
-              server: 96.126.118.108
+              server: 45.79.36.198
               type: null
 rule-providers:
     apple:
