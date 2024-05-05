@@ -156,34 +156,34 @@ proxies:
       type: trojan
       udp: true
     - cipher: chacha20-ietf-poly1305
+      name: CA-加拿大-54
+      password: "9860929870"
+      port: 62388
+      server: 172.105.6.171
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: DE-德国-50
+      password: "9860929870"
+      port: 62388
+      server: 172.104.253.237
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "5522529440"
-      port: 62222
-      server: 139.162.35.247
+      password: "9860929870"
+      port: 62388
+      server: 139.162.30.99
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-47
-      password: "5522529440"
-      port: 62222
-      server: 139.162.5.69
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "5522529440"
-      port: 62222
-      server: 139.162.242.27
+      name: UK-英国-24
+      password: "9860929870"
+      port: 62388
+      server: 178.79.171.143
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "5522529440"
-      port: 62222
-      server: 45.56.127.215
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-55
-      password: "5522529440"
-      port: 62222
-      server: 45.79.49.171
+      password: "9860929870"
+      port: 62388
+      server: 45.79.23.116
       type: null
 proxy-groups:
     "0":
@@ -334,34 +334,34 @@ proxy-groups:
               type: trojan
               udp: true
             - cipher: chacha20-ietf-poly1305
+              name: CA-加拿大-54
+              password: "9860929870"
+              port: 62388
+              server: 172.105.6.171
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: DE-德国-50
+              password: "9860929870"
+              port: 62388
+              server: 172.104.253.237
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "5522529440"
-              port: 62222
-              server: 139.162.35.247
+              password: "9860929870"
+              port: 62388
+              server: 139.162.30.99
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-47
-              password: "5522529440"
-              port: 62222
-              server: 139.162.5.69
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "5522529440"
-              port: 62222
-              server: 139.162.242.27
+              name: UK-英国-24
+              password: "9860929870"
+              port: 62388
+              server: 178.79.171.143
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "5522529440"
-              port: 62222
-              server: 45.56.127.215
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-55
-              password: "5522529440"
-              port: 62222
-              server: 45.79.49.171
+              password: "9860929870"
+              port: 62388
+              server: 45.79.23.116
               type: null
 rule-providers:
     apple:
