@@ -171,7 +171,7 @@ proxies:
       name: SG-新加坡-44
       password: "9860929870"
       port: 62388
-      server: 139.162.30.99
+      server: 172.105.118.157
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -349,7 +349,7 @@ proxy-groups:
               name: SG-新加坡-44
               password: "9860929870"
               port: 62388
-              server: 139.162.30.99
+              server: 172.105.118.157
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
