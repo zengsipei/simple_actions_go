@@ -10,29 +10,238 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 2082
+      server: cfcdn1.sanfencdn9.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+      ws-opts:
+        headers:
+            host: us4Bb5oSgJA.fzbqfrse.xyz
+        path: /video/CuTy87zAzV/
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 2052
+      server: 104.19.250.15
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
+      network: ws
+      port: 443
+      server: 23.158.56.50
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        path: /linkvws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 2052
+      server: cfcdn1.sanfencdn9.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ws
+      port: 8080
+      server: yh4.dtku41.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+      ws-opts:
+        headers:
+            host: dual-nothing-prep-exit.trycloudflare.com
+        path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 80
+      server: 104.19.173.68
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+      ws-opts:
+        headers:
+            host: ustoucjjnid18sj6us.lovebaipiao.com
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+      network: ws
+      port: 2082
+      server: 104.21.8.157
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+      network: ws
+      port: 60999
+      server: 210.87.195.254
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: e8c6eb94-0c48-49de-c3eb-e305a26d1074
+      ws-opts:
+        headers:
+            host: tg.dns68.9669.link
+        path: /TG@dns68维护
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 3.97.29.230
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
+      network: http
+      port: 3389
+      server: 45.82.31.164
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 2052
+      server: 104.18.19.191
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+      network: ws
+      port: 2052
+      server: 104.18.36.119
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+      network: ws
+      port: 2082
+      server: 172.67.130.140
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+      network: ws
+      port: 54321
+      server: eedp257bubu2wefy.lovebaipiao.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+      ws-opts:
+        path: /iphone
+    - name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 18.189.91.107
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1EC\U0001F1E7_GB_英国"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 18.134.191.135
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
+      network: tcp
+      password: MyYoZhfX
+      port: 40316
+      server: 36.138.99.56
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "9860929870"
       port: 62388
-      server: 172.105.96.13
+      server: 172.105.15.218
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "9860929870"
       port: 62388
-      server: 139.162.191.164
+      server: 172.105.74.240
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "9860929870"
       port: 62388
-      server: 172.104.62.37
+      server: 192.53.175.234
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "9860929870"
       port: 62388
-      server: 178.79.169.78
+      server: 178.79.154.117
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -43,29 +252,238 @@ proxies:
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              port: 2082
+              server: cfcdn1.sanfencdn9.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+              ws-opts:
+                headers:
+                    host: us4Bb5oSgJA.fzbqfrse.xyz
+                path: /video/CuTy87zAzV/
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 2052
+              server: 104.19.250.15
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
+              network: ws
+              port: 443
+              server: 23.158.56.50
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+              ws-opts:
+                path: /linkvws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 2052
+              server: cfcdn1.sanfencdn9.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+              network: ws
+              port: 8080
+              server: yh4.dtku41.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+              ws-opts:
+                headers:
+                    host: dual-nothing-prep-exit.trycloudflare.com
+                path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 80
+              server: 104.19.173.68
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+              ws-opts:
+                headers:
+                    host: ustoucjjnid18sj6us.lovebaipiao.com
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_1"
+              network: ws
+              port: 2082
+              server: 104.21.8.157
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+              network: ws
+              port: 60999
+              server: 210.87.195.254
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: e8c6eb94-0c48-49de-c3eb-e305a26d1074
+              ws-opts:
+                headers:
+                    host: tg.dns68.9669.link
+                path: /TG@dns68维护
+            - name: "\U0001F1E8\U0001F1E6_CA_加拿大"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 3.97.29.230
+              skip-cert-verify: true
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
+              network: http
+              port: 3389
+              server: 45.82.31.164
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 2052
+              server: 104.18.19.191
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+              network: ws
+              port: 2052
+              server: 104.18.36.119
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国_2"
+              network: ws
+              port: 2082
+              server: 172.67.130.140
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+              network: ws
+              port: 54321
+              server: eedp257bubu2wefy.lovebaipiao.net
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: bdeaba4b-bdac-426f-94f2-16a63d91352f
+              ws-opts:
+                path: /iphone
+            - name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 18.189.91.107
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1EC\U0001F1E7_GB_英国"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 18.134.191.135
+              skip-cert-verify: true
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
+              network: tcp
+              password: MyYoZhfX
+              port: 40316
+              server: 36.138.99.56
+              skip-cert-verify: true
+              type: trojan
+              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "9860929870"
               port: 62388
-              server: 172.105.96.13
+              server: 172.105.15.218
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "9860929870"
               port: 62388
-              server: 139.162.191.164
+              server: 172.105.74.240
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "9860929870"
               port: 62388
-              server: 172.104.62.37
+              server: 192.53.175.234
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "9860929870"
               port: 62388
-              server: 178.79.169.78
+              server: 178.79.154.117
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
