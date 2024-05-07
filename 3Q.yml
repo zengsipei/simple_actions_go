@@ -206,33 +206,33 @@ proxies:
         path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "9860929870"
-      port: 62388
-      server: 172.105.15.218
+      password: "4184696726"
+      port: 62530
+      server: 192.53.123.106
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "9860929870"
-      port: 62388
-      server: 139.162.153.173
+      password: "4184696726"
+      port: 62530
+      server: 172.105.86.36
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "9860929870"
-      port: 62388
-      server: 192.53.117.206
+      password: "4184696726"
+      port: 62530
+      server: 172.105.118.16
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: UK-英国-23
+      password: "4184696726"
+      port: 62530
+      server: 139.162.248.36
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "9860929870"
-      port: 62388
-      server: 178.79.134.12
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "9860929870"
-      port: 62388
-      server: 96.126.120.80
+      password: "4184696726"
+      port: 62530
+      server: 212.71.233.135
       type: null
 proxy-groups:
     "0":
@@ -433,33 +433,33 @@ proxy-groups:
                 path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "9860929870"
-              port: 62388
-              server: 172.105.15.218
+              password: "4184696726"
+              port: 62530
+              server: 192.53.123.106
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "9860929870"
-              port: 62388
-              server: 139.162.153.173
+              password: "4184696726"
+              port: 62530
+              server: 172.105.86.36
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "9860929870"
-              port: 62388
-              server: 192.53.117.206
+              password: "4184696726"
+              port: 62530
+              server: 172.105.118.16
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: UK-英国-23
+              password: "4184696726"
+              port: 62530
+              server: 139.162.248.36
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "9860929870"
-              port: 62388
-              server: 178.79.134.12
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "9860929870"
-              port: 62388
-              server: 96.126.120.80
+              password: "4184696726"
+              port: 62530
+              server: 212.71.233.135
               type: null
 rule-providers:
     apple:
