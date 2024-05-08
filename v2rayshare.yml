@@ -79,40 +79,32 @@ mixed-port: 7890
 proxies:
     - alterid: 0
       cipher: auto
-      name: "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-      network: ws
-      port: 443
-      server: 23.158.56.50
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        path: /linkvws
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7_GB_英国"
-      network: http
-      port: 80
-      server: 89.213.164.154
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
-    - alterid: 0
-      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_1"
       network: ws
-      port: 80
-      server: 172.67.164.78
+      port: 2052
+      server: 104.19.138.73
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 42507d7c-bc67-4534-8ffc-6b9234b74018
+      uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
       ws-opts:
         headers:
-            host: mai.nekoneko.buzz
-        path: /cctv13/hd.m3u8
+            host: tw1bQiWSE4x.fzbqfrse.xyz
+        path: /video/GQ2qE5Us9g
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 2052
+      server: cfcdn1.sanfencdn9.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+      ws-opts:
+        headers:
+            host: usxm.inekokkk.top
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
@@ -128,7 +120,7 @@ proxies:
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
       network: ws
       port: 2052
-      server: 104.19.250.15
+      server: 104.18.36.119
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -139,116 +131,24 @@ proxies:
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: http
-      port: 80
-      server: 46.3.82.198
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
-    - alterid: 0
-      cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_3"
       network: ws
-      port: 2082
-      server: cfcdn1.sanfencdn9.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-      ws-opts:
-        headers:
-            host: us4Bb5oSgJA.fzbqfrse.xyz
-        path: /video/CuTy87zAzV/
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      network: ws
-      port: 2082
-      server: 104.19.138.73
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-      ws-opts:
-        headers:
-            host: us4Bb5oSgJA.fzbqfrse.xyz
-        path: /video/CuTy87zAzV/
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
-      network: http
-      port: 443
-      server: 46.3.82.198
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
-    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: tcp
-      password: MyYoZhfX
-      port: 40316
-      server: 36.138.99.56
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6"
-      network: ws
       port: 2052
-      server: cfcdn1.sanfencdn9.com
+      server: 104.17.229.133
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
+      uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
       ws-opts:
         headers:
-            host: tw1bQiWSE4x.fzbqfrse.xyz
-        path: /video/GQ2qE5Us9g
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_7"
-      network: ws
-      port: 2082
-      server: 162.159.33.117
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
-      ws-opts:
-        headers:
-            host: us4Bb5oSgJA.fzbqfrse.xyz
-        path: /video/CuTy87zAzV/
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1E8\U0001F1E6_CA_加拿大"
-      network: ws
-      port: 443
-      server: 23.162.200.227
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-      ws-opts:
-        path: /linkvws
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
-      network: http
-      port: 443
-      server: 89.213.164.154
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e57d6217-18be-49f4-b40c-3ace76fd1a5a
+            host: usxm.inekokkk.top
+        path: /
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
       network: ws
       port: 2052
-      server: 104.18.36.119
+      server: 104.19.250.15
       skip-cert-verify: true
       tls: false
       type: vmess
@@ -276,40 +176,22 @@ proxy-groups:
       proxies:
         - ♻️ 自动选择
         - DIRECT
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       type: select
     - interval: 300
       name: ♻️ 自动选择
       proxies:
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       tolerance: 50
@@ -320,20 +202,11 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - ♻️ 自动选择
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       type: select
@@ -341,20 +214,11 @@ proxy-groups:
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       type: select
@@ -362,20 +226,11 @@ proxy-groups:
       proxies:
         - "\U0001F3AF 全球直连"
         - "\U0001F680 节点选择"
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       type: select
@@ -383,20 +238,11 @@ proxy-groups:
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       type: select
@@ -421,20 +267,11 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
         - ♻️ 自动选择
-        - "\U0001F1E9\U0001F1EA_DE_德意志联邦共和国"
-        - "\U0001F1EC\U0001F1E7_GB_英国"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1F1\U0001F1FA_LU_卢森堡"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
         - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1E8\U0001F1E6_CA_加拿大"
-        - "\U0001F1EC\U0001F1E7_GB_英国->\U0001F1FA\U0001F1F8_US_美国"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
         - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
       type: select

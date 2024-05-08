@@ -10,23 +10,117 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 2052
+      server: 104.19.138.73
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+      ws-opts:
+        headers:
+            host: tw1bQiWSE4x.fzbqfrse.xyz
+        path: /video/GQ2qE5Us9g
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 2052
+      server: cfcdn1.sanfencdn9.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+      ws-opts:
+        headers:
+            host: usxm.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
+      network: http
+      port: 3389
+      server: 45.82.31.164
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 2052
+      server: 104.18.36.119
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 2052
+      server: 104.17.229.133
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+      ws-opts:
+        headers:
+            host: usxm.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 2052
+      server: 104.19.250.15
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+      network: ws
+      port: 2052
+      server: 104.18.19.191
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "4184696726"
       port: 62530
-      server: 172.105.30.23
+      server: 170.187.181.14
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "4184696726"
       port: 62530
-      server: 139.162.180.139
+      server: 172.104.227.129
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "4184696726"
       port: 62530
-      server: 139.162.29.124
+      server: 172.104.181.133
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -38,28 +132,122 @@ proxies:
       name: UK-英国-24
       password: "4184696726"
       port: 62530
-      server: 139.162.237.224
+      server: 178.79.154.236
       type: null
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              port: 2052
+              server: 104.19.138.73
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+              ws-opts:
+                headers:
+                    host: tw1bQiWSE4x.fzbqfrse.xyz
+                path: /video/GQ2qE5Us9g
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 2052
+              server: cfcdn1.sanfencdn9.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+              ws-opts:
+                headers:
+                    host: usxm.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
+              network: http
+              port: 3389
+              server: 45.82.31.164
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 2052
+              server: 104.18.36.119
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 2052
+              server: 104.17.229.133
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
+              ws-opts:
+                headers:
+                    host: usxm.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 2052
+              server: 104.19.250.15
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+              network: ws
+              port: 2052
+              server: 104.18.19.191
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "4184696726"
               port: 62530
-              server: 172.105.30.23
+              server: 170.187.181.14
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "4184696726"
               port: 62530
-              server: 139.162.180.139
+              server: 172.104.227.129
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "4184696726"
               port: 62530
-              server: 139.162.29.124
+              server: 172.104.181.133
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -71,7 +259,7 @@ proxy-groups:
               name: UK-英国-24
               password: "4184696726"
               port: 62530
-              server: 139.162.237.224
+              server: 178.79.154.236
               type: null
 rule-providers:
     apple:
