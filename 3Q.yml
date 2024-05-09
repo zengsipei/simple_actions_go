@@ -105,34 +105,34 @@ proxies:
             host: helanv6cf.inekokkk.top
         path: /
     - cipher: chacha20-ietf-poly1305
-      name: CA-加拿大-54
-      password: "4184696726"
-      port: 62530
-      server: 172.105.103.31
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "4184696726"
-      port: 62530
-      server: 192.46.237.207
+      name: DE-德国-56
+      password: "7171956994"
+      port: 62632
+      server: 172.104.147.221
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
-      password: "4184696726"
-      port: 62530
-      server: 172.104.50.26
+      password: "7171956994"
+      port: 62632
+      server: 172.105.126.208
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: SG-新加坡-47
+      password: "7171956994"
+      port: 62632
+      server: 139.162.19.178
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "4184696726"
-      port: 62530
-      server: 176.58.106.225
+      password: "7171956994"
+      port: 62632
+      server: 151.236.218.220
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "4184696726"
-      port: 62530
-      server: 139.162.250.136
+      name: US-美国-50
+      password: "7171956994"
+      port: 62632
+      server: 96.126.127.219
       type: null
 proxy-groups:
     "0":
@@ -232,34 +232,34 @@ proxy-groups:
                     host: helanv6cf.inekokkk.top
                 path: /
             - cipher: chacha20-ietf-poly1305
-              name: CA-加拿大-54
-              password: "4184696726"
-              port: 62530
-              server: 172.105.103.31
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "4184696726"
-              port: 62530
-              server: 192.46.237.207
+              name: DE-德国-56
+              password: "7171956994"
+              port: 62632
+              server: 172.104.147.221
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
-              password: "4184696726"
-              port: 62530
-              server: 172.104.50.26
+              password: "7171956994"
+              port: 62632
+              server: 172.105.126.208
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: SG-新加坡-47
+              password: "7171956994"
+              port: 62632
+              server: 139.162.19.178
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "4184696726"
-              port: 62530
-              server: 176.58.106.225
+              password: "7171956994"
+              port: 62632
+              server: 151.236.218.220
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "4184696726"
-              port: 62530
-              server: 139.162.250.136
+              name: US-美国-50
+              password: "7171956994"
+              port: 62632
+              server: 96.126.127.219
               type: null
 rule-providers:
     apple:
