@@ -87,34 +87,34 @@ proxies:
             host: tw1bQiWSE4x.fzbqfrse.xyz
         path: /video/GQ2qE5Us9g
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "7171956994"
-      port: 62632
-      server: 45.79.249.89
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-44
-      password: "7171956994"
-      port: 62632
-      server: 139.162.22.136
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-47
-      password: "7171956994"
-      port: 62632
-      server: 172.104.172.46
+      name: CA-加拿大-54
+      password: "7462627292"
+      port: 62765
+      server: 172.105.99.36
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "7171956994"
-      port: 62632
-      server: 178.79.130.244
+      password: "7462627292"
+      port: 62765
+      server: 139.162.198.144
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: UK-英国-24
+      password: "7462627292"
+      port: 62765
+      server: 178.79.150.197
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "7171956994"
-      port: 62632
-      server: 45.33.0.46
+      password: "7462627292"
+      port: 62765
+      server: 72.14.185.101
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "7462627292"
+      port: 62765
+      server: 104.200.17.88
       type: null
 proxy-groups:
     "0":
@@ -196,34 +196,34 @@ proxy-groups:
                     host: tw1bQiWSE4x.fzbqfrse.xyz
                 path: /video/GQ2qE5Us9g
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "7171956994"
-              port: 62632
-              server: 45.79.249.89
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-44
-              password: "7171956994"
-              port: 62632
-              server: 139.162.22.136
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-47
-              password: "7171956994"
-              port: 62632
-              server: 172.104.172.46
+              name: CA-加拿大-54
+              password: "7462627292"
+              port: 62765
+              server: 172.105.99.36
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "7171956994"
-              port: 62632
-              server: 178.79.130.244
+              password: "7462627292"
+              port: 62765
+              server: 139.162.198.144
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: UK-英国-24
+              password: "7462627292"
+              port: 62765
+              server: 178.79.150.197
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "7171956994"
-              port: 62632
-              server: 45.33.0.46
+              password: "7462627292"
+              port: 62765
+              server: 72.14.185.101
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "7462627292"
+              port: 62765
+              server: 104.200.17.88
               type: null
 rule-providers:
     apple:
