@@ -10,90 +10,11 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
-      network: http
-      port: 3389
-      server: 45.82.31.164
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-      network: ws
-      port: 12910
-      server: 45.136.245.240
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-      network: ws
-      port: 2052
-      server: 104.18.19.191
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: tcp
-      password: telegram-id-directvpn
-      port: 22222
-      server: 18.189.103.46
-      skip-cert-verify: false
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-      network: tcp
-      password: MyYoZhfX
-      port: 15274
-      server: 223.113.54.154
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 2082
-      server: 172.67.204.84
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 7b39e430-e14d-4920-979b-aa7aa2f5010c
-      ws-opts:
-        headers:
-            host: impr0.impr0.impr0.impr0.99-100uxprjy9vbpushl-djnbtbw28yf9ss2m.impr0sub.com
-        path: /telegram-impr0vpn,impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,hosv2rayng,-V2raynggggg-?ed=2056
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: ws
-      port: 2095
-      server: russia.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-      ws-opts:
-        headers:
-            host: sssub.v2.001.ssrsub.com
-        path: /api/v3/download.getFile
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "7462627292"
       port: 62765
-      server: 172.105.8.164
+      server: 172.105.11.178
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -105,7 +26,7 @@ proxies:
       name: UK-英国-24
       password: "7462627292"
       port: 62765
-      server: 176.58.107.222
+      server: 178.79.138.92
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -117,95 +38,16 @@ proxies:
       name: US-美国-55
       password: "7462627292"
       port: 62765
-      server: 198.58.120.86
+      server: 66.228.49.76
       type: null
 proxy-groups:
     "0":
         proxies:
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1F1\U0001F1FA_LU_卢森堡"
-              network: http
-              port: 3389
-              server: 45.82.31.164
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-              network: ws
-              port: 12910
-              server: 45.136.245.240
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国"
-              network: ws
-              port: 2052
-              server: 104.18.19.191
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              network: tcp
-              password: telegram-id-directvpn
-              port: 22222
-              server: 18.189.103.46
-              skip-cert-verify: false
-              sni: trojan.burgerip.co.uk
-              type: trojan
-              udp: true
-            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-              network: tcp
-              password: MyYoZhfX
-              port: 15274
-              server: 223.113.54.154
-              skip-cert-verify: true
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-              network: ws
-              port: 2082
-              server: 172.67.204.84
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 7b39e430-e14d-4920-979b-aa7aa2f5010c
-              ws-opts:
-                headers:
-                    host: impr0.impr0.impr0.impr0.99-100uxprjy9vbpushl-djnbtbw28yf9ss2m.impr0sub.com
-                path: /telegram-impr0vpn,impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,hosv2rayng,-V2raynggggg-?ed=2056
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_2"
-              network: ws
-              port: 2095
-              server: russia.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-              ws-opts:
-                headers:
-                    host: sssub.v2.001.ssrsub.com
-                path: /api/v3/download.getFile
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "7462627292"
               port: 62765
-              server: 172.105.8.164
+              server: 172.105.11.178
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -217,7 +59,7 @@ proxy-groups:
               name: UK-英国-24
               password: "7462627292"
               port: 62765
-              server: 176.58.107.222
+              server: 178.79.138.92
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
@@ -229,7 +71,7 @@ proxy-groups:
               name: US-美国-55
               password: "7462627292"
               port: 62765
-              server: 198.58.120.86
+              server: 66.228.49.76
               type: null
 rule-providers:
     apple:
