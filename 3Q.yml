@@ -108,33 +108,33 @@ proxies:
         path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "7685363030"
-      port: 62904
-      server: 139.177.198.83
+      password: "9797557089"
+      port: 63012
+      server: 172.105.23.231
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "7685363030"
-      port: 62904
-      server: 139.162.149.41
+      name: SG-新加坡-44
+      password: "9797557089"
+      port: 63012
+      server: 139.162.48.196
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "7685363030"
-      port: 62904
+      password: "9797557089"
+      port: 63012
       server: 139.162.249.42
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "7685363030"
-      port: 62904
-      server: 45.79.8.161
+      name: UK-英国-24
+      password: "9797557089"
+      port: 63012
+      server: 139.162.250.87
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: US-美国-55
-      password: "7685363030"
-      port: 62904
-      server: 23.239.29.146
+      name: US-美国-50
+      password: "9797557089"
+      port: 63012
+      server: 45.33.4.162
       type: null
 proxy-groups:
     "0":
@@ -237,33 +237,33 @@ proxy-groups:
                 path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "7685363030"
-              port: 62904
-              server: 139.177.198.83
+              password: "9797557089"
+              port: 63012
+              server: 172.105.23.231
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "7685363030"
-              port: 62904
-              server: 139.162.149.41
+              name: SG-新加坡-44
+              password: "9797557089"
+              port: 63012
+              server: 139.162.48.196
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "7685363030"
-              port: 62904
+              password: "9797557089"
+              port: 63012
               server: 139.162.249.42
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "7685363030"
-              port: 62904
-              server: 45.79.8.161
+              name: UK-英国-24
+              password: "9797557089"
+              port: 63012
+              server: 139.162.250.87
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: US-美国-55
-              password: "7685363030"
-              port: 62904
-              server: 23.239.29.146
+              name: US-美国-50
+              password: "9797557089"
+              port: 63012
+              server: 45.33.4.162
               type: null
 rule-providers:
     apple:
