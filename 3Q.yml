@@ -10,6 +10,84 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 2052
+      server: 104.18.19.191
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 2052
+      server: 104.18.36.119
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 8880
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 2095
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+      network: tcp
+      password: TNDSJfNv
+      port: 20344
+      server: 36.151.195.48
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+      network: ws
+      port: 2052
+      server: 104.19.250.15
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "9797557089"
@@ -43,6 +121,84 @@ proxies:
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 2052
+              server: 104.18.19.191
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 2052
+              server: 104.18.36.119
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              port: 8880
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 2095
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+              network: tcp
+              password: TNDSJfNv
+              port: 20344
+              server: 36.151.195.48
+              skip-cert-verify: true
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+              network: ws
+              port: 2052
+              server: 104.19.250.15
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "9797557089"
