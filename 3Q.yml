@@ -10,17 +10,79 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 2052
+      server: 104.18.36.119
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ws
+      port: 25996
+      server: 15.156.226.178
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 786c0e71-c2d4-4bdc-913f-5c75dd54721f
+      ws-opts:
+        headers:
+            host: m.linkedin.com
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+      network: ws
+      port: 12910
+      server: 45.136.245.240
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+      ws-opts:
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 2052
+      server: 104.18.19.191
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      ws-opts:
+        headers:
+            host: helanv6cf.inekokkk.top
+        path: /
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+      network: tcp
+      password: TNDSJfNv
+      port: 20344
+      server: 36.151.195.48
+      skip-cert-verify: true
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "9797557089"
       port: 63012
-      server: 139.177.194.57
+      server: 139.177.195.146
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "9797557089"
       port: 63012
-      server: 139.162.18.183
+      server: 139.162.4.224
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -38,22 +100,84 @@ proxies:
       name: US-美国-50
       password: "9797557089"
       port: 63012
-      server: 66.228.50.113
+      server: 173.255.198.49
       type: null
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 2052
+              server: 104.18.36.119
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大"
+              network: ws
+              port: 25996
+              server: 15.156.226.178
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 786c0e71-c2d4-4bdc-913f-5c75dd54721f
+              ws-opts:
+                headers:
+                    host: m.linkedin.com
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+              network: ws
+              port: 12910
+              server: 45.136.245.240
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+              ws-opts:
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 2052
+              server: 104.18.19.191
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              ws-opts:
+                headers:
+                    host: helanv6cf.inekokkk.top
+                path: /
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+              network: tcp
+              password: TNDSJfNv
+              port: 20344
+              server: 36.151.195.48
+              skip-cert-verify: true
+              type: trojan
+              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "9797557089"
               port: 63012
-              server: 139.177.194.57
+              server: 139.177.195.146
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "9797557089"
               port: 63012
-              server: 139.162.18.183
+              server: 139.162.4.224
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -71,7 +195,7 @@ proxy-groups:
               name: US-美国-50
               password: "9797557089"
               port: 63012
-              server: 66.228.50.113
+              server: 173.255.198.49
               type: null
 rule-providers:
     apple:
