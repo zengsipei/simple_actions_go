@@ -111,31 +111,31 @@ proxies:
       name: CA-加拿大-54
       password: "4249586012"
       port: 63128
-      server: 139.177.196.68
+      server: 192.53.121.39
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "4249586012"
       port: 63128
-      server: 172.104.248.47
+      server: 172.104.229.121
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "4249586012"
       port: 63128
-      server: 139.162.37.158
+      server: 172.104.34.206
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "4249586012"
       port: 63128
-      server: 178.79.169.184
+      server: 176.58.117.197
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "4249586012"
       port: 63128
-      server: 212.71.244.101
+      server: 212.71.247.25
       type: null
 proxy-groups:
     "0":
@@ -241,31 +241,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "4249586012"
               port: 63128
-              server: 139.177.196.68
+              server: 192.53.121.39
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "4249586012"
               port: 63128
-              server: 172.104.248.47
+              server: 172.104.229.121
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "4249586012"
               port: 63128
-              server: 139.162.37.158
+              server: 172.104.34.206
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "4249586012"
               port: 63128
-              server: 178.79.169.184
+              server: 176.58.117.197
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "4249586012"
               port: 63128
-              server: 212.71.244.101
+              server: 212.71.247.25
               type: null
 rule-providers:
     apple:
