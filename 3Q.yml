@@ -10,179 +10,23 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-      network: ws
-      port: 2052
-      server: 104.18.19.191
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-      network: ws
-      port: 2052
-      server: 104.18.36.119
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - grpc-opts:
-        grpc-service-name: 443trojan
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: grpc
-      password: qj1Dz1CJmFQRhWr1SP80aA
-      port: 443
-      server: 104.21.69.44
-      skip-cert-verify: true
-      sni: cdn-21.gsmxreality.com
-      type: trojan
-      udp: true
-    - name: "\U0001F1E9\U0001F1EA_DE_德国"
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 52.58.139.44
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
-      network: ws
-      port: 80
-      server: 172.67.166.192
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cd1db809-2de0-409c-aef5-861e95eff53e
-      ws-opts:
-        headers:
-            host: ua1-vmess.sshmax.xyz
-        path: /
-    - name: "\U0001F1EB\U0001F1F7_FR_法国"
-      network: tcp
-      password: telegram-id-privatevpns
-      port: 22222
-      server: 13.37.195.157
-      skip-cert-verify: false
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-      network: tcp
-      port: 33879
-      server: 46.17.45.13
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 3d453a46-b501-4882-8cd0-3c3e0698f90f
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
-      network: ws
-      port: 2052
-      server: cfcdn1.sanfencdn9.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - grpc-opts:
-        grpc-service-name: 443trojan
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: grpc
-      password: qj1Dz1CJmFQRhWr1SP80aA
-      port: 443
-      server: 172.67.204.84
-      skip-cert-verify: true
-      sni: cdn-21.gsmxreality.com
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
-      network: ws
-      port: 80
-      server: speed.cloudflare.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-      ws-opts:
-        headers:
-            host: freevpn878.hamidimorteza680.workers.dev
-        path: /glweidf.cfd/linkws
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
-      network: ws
-      port: 2052
-      server: 104.19.250.15
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      network: ws
-      port: 8880
-      server: russia.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-      ws-opts:
-        headers:
-            host: sssub.v2.001.ssrsub.com
-        path: /api/v3/download.getFile
-    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-      network: tcp
-      password: TNDSJfNv
-      port: 20344
-      server: 36.151.195.48
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "4514643191"
       port: 63256
-      server: 172.105.99.113
+      server: 172.105.15.40
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "4514643191"
       port: 63256
-      server: 139.162.180.151
+      server: 172.105.246.58
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
       password: "4514643191"
       port: 63256
-      server: 139.162.54.187
+      server: 139.162.25.211
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -194,184 +38,28 @@ proxies:
       name: US-美国-55
       password: "4514643191"
       port: 63256
-      server: 104.200.17.6
+      server: 66.228.55.84
       type: null
 proxy-groups:
     "0":
         proxies:
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-              network: ws
-              port: 2052
-              server: 104.18.19.191
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
-              network: ws
-              port: 2052
-              server: 104.18.36.119
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - grpc-opts:
-                grpc-service-name: 443trojan
-              name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              network: grpc
-              password: qj1Dz1CJmFQRhWr1SP80aA
-              port: 443
-              server: 104.21.69.44
-              skip-cert-verify: true
-              sni: cdn-21.gsmxreality.com
-              type: trojan
-              udp: true
-            - name: "\U0001F1E9\U0001F1EA_DE_德国"
-              network: tcp
-              password: telegram-id-privatevpns
-              port: 22222
-              server: 52.58.139.44
-              skip-cert-verify: true
-              sni: trojan.burgerip.co.uk
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
-              network: ws
-              port: 80
-              server: 172.67.166.192
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: cd1db809-2de0-409c-aef5-861e95eff53e
-              ws-opts:
-                headers:
-                    host: ua1-vmess.sshmax.xyz
-                path: /
-            - name: "\U0001F1EB\U0001F1F7_FR_法国"
-              network: tcp
-              password: telegram-id-privatevpns
-              port: 22222
-              server: 13.37.195.157
-              skip-cert-verify: false
-              sni: trojan.burgerip.co.uk
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-              network: tcp
-              port: 33879
-              server: 46.17.45.13
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 3d453a46-b501-4882-8cd0-3c3e0698f90f
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
-              network: ws
-              port: 2052
-              server: cfcdn1.sanfencdn9.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - grpc-opts:
-                grpc-service-name: 443trojan
-              name: "\U0001F1FA\U0001F1F8_US_美国_2"
-              network: grpc
-              password: qj1Dz1CJmFQRhWr1SP80aA
-              port: 443
-              server: 172.67.204.84
-              skip-cert-verify: true
-              sni: cdn-21.gsmxreality.com
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_3"
-              network: ws
-              port: 80
-              server: speed.cloudflare.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-              ws-opts:
-                headers:
-                    host: freevpn878.hamidimorteza680.workers.dev
-                path: /glweidf.cfd/linkws
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
-              network: ws
-              port: 2052
-              server: 104.19.250.15
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_4"
-              network: ws
-              port: 8880
-              server: russia.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-              ws-opts:
-                headers:
-                    host: sssub.v2.001.ssrsub.com
-                path: /api/v3/download.getFile
-            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-              network: tcp
-              password: TNDSJfNv
-              port: 20344
-              server: 36.151.195.48
-              skip-cert-verify: true
-              type: trojan
-              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "4514643191"
               port: 63256
-              server: 172.105.99.113
+              server: 172.105.15.40
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "4514643191"
               port: 63256
-              server: 139.162.180.151
+              server: 172.105.246.58
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
               password: "4514643191"
               port: 63256
-              server: 139.162.54.187
+              server: 139.162.25.211
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
@@ -383,7 +71,7 @@ proxy-groups:
               name: US-美国-55
               password: "4514643191"
               port: 63256
-              server: 104.200.17.6
+              server: 66.228.55.84
               type: null
 rule-providers:
     apple:
