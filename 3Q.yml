@@ -10,104 +10,34 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: ws
-      port: 8880
-      server: russia.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-      ws-opts:
-        headers:
-            host: sssub.v2.001.ssrsub.com
-        path: /api/v3/download.getFile
     - grpc-opts:
         grpc-service-name: 443trojan
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
       network: grpc
       password: qj1Dz1CJmFQRhWr1SP80aA
       port: 443
-      server: 172.67.204.84
+      server: 104.21.69.44
       skip-cert-verify: true
       sni: cdn-21.gsmxreality.com
       type: trojan
       udp: true
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
       network: ws
-      port: 2086
-      server: 104.25.115.32
+      port: 2096
+      server: 104.24.197.20
       skip-cert-verify: true
-      tls: false
+      tls: true
       type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+      uuid: 5dc153a1-67e5-44a7-9684-4a41ef180c9d
       ws-opts:
         headers:
-            host: 100-100-17-412.db-link02.top
-        path: /dabai.in104.25.115.32
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      network: ws
-      port: 80
-      server: speed.cloudflare.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-      ws-opts:
-        headers:
-            host: 4868-poetry-4868.napora7003.workers.dev
-        path: /obdii.cfd/linkws
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
-      network: ws
-      port: 8080
-      server: 104.17.77.85
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-      ws-opts:
-        headers:
-            host: 100-100-17-225.db-link01.top
-        path: /dabai.in104.17.77.85
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-      network: ws
-      port: 2052
-      server: 104.18.36.119
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
+            host: dl2.exoshop.ir
         path: /
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6"
-      network: ws
-      port: 2082
-      server: 104.25.29.33
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-      ws-opts:
-        headers:
-            host: 100-100-17-225.db-link01.top
-        path: /dabai.in104.25.29.33
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_7"
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
       network: ws
       port: 2096
       server: 104.17.247.203
@@ -119,31 +49,35 @@ proxies:
         headers:
             host: dl2.exoshop.ir
         path: /
-    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-      network: tcp
-      password: TNDSJfNv
-      port: 20344
-      server: 36.151.195.48
-      skip-cert-verify: true
-      type: trojan
-      udp: true
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_8"
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
       network: ws
-      port: 2095
-      server: 104.21.37.123
+      port: 443
+      server: 23.154.136.2
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+      ws-opts:
+        path: /linkvws
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 8880
+      server: 172.67.243.40
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+      uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
       ws-opts:
         headers:
-            host: 100-100-17-425.cn-db.top
-        path: /dabai.in104.21.37.123
+            host: us6gzxQRrE4.fzbqfrse.xyz
+        path: /video/bYdJ7Vc2We
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_9"
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
       network: ws
       port: 8880
       server: cfcdn1.sanfencdn9.com
@@ -155,34 +89,31 @@ proxies:
         headers:
             host: us6gzxQRrE4.fzbqfrse.xyz
         path: /video/bYdJ7Vc2We
+    - grpc-opts:
+        grpc-service-name: 443trojan
+      name: "\U0001F1FA\U0001F1F8_US_美国_7"
+      network: grpc
+      password: qj1Dz1CJmFQRhWr1SP80aA
+      port: 443
+      server: 172.67.204.84
+      skip-cert-verify: true
+      sni: cdn-21.gsmxreality.com
+      type: trojan
+      udp: true
     - alterid: 0
       cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      name: "\U0001F1FA\U0001F1F8_US_美国_8"
       network: ws
-      port: 2052
-      server: 104.19.250.15
+      port: 8880
+      server: russia.com
       skip-cert-verify: true
       tls: false
       type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+      uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
       ws-opts:
         headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_10"
-      network: ws
-      port: 2053
-      server: 172.67.90.176
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-      ws-opts:
-        headers:
-            host: 100-100-17-410.db-link01.top
-        path: /dabai.in172.67.90.176
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F3_IN_印度"
@@ -197,118 +128,11 @@ proxies:
         headers:
             host: in3.wish.ml
         path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
-      network: ws
-      port: 2052
-      server: cfcdn1.sanfencdn9.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
-      network: ws
-      port: 80
-      server: 172.67.166.192
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: cd1db809-2de0-409c-aef5-861e95eff53e
-      ws-opts:
-        headers:
-            host: ua1-vmess.sshmax.xyz
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-      network: ws
-      port: 12910
-      server: 45.136.245.240
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-      ws-opts:
-        path: /
-    - grpc-opts:
-        grpc-service-name: 443trojan
-      name: "\U0001F1FA\U0001F1F8_US_美国_11"
-      network: grpc
-      password: qj1Dz1CJmFQRhWr1SP80aA
-      port: 443
-      server: 104.21.69.44
-      skip-cert-verify: true
-      sni: cdn-21.gsmxreality.com
-      type: trojan
-      udp: true
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_12"
-      network: ws
-      port: 8880
-      server: 104.24.188.13
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-      ws-opts:
-        headers:
-            host: 100-100-17-254.db-link01.top
-        path: /dabai.in104.24.188.13
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
-      network: ws
-      port: 2052
-      server: 104.18.19.191
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-      ws-opts:
-        headers:
-            host: helanv6cf.inekokkk.top
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_13"
-      network: ws
-      port: 2052
-      server: 104.20.45.232
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-      ws-opts:
-        headers:
-            host: 100-100-17-38.db-link01.top
-        path: /dabai.in104.20.45.232
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_14"
-      network: ws
-      port: 2053
-      server: 104.24.229.174
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-      ws-opts:
-        headers:
-            host: 100-100-17-486.db-link02.top
-        path: /dabai.in104.24.229.174
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "4514643191"
       port: 63256
-      server: 172.105.13.124
+      server: 139.177.194.75
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -320,7 +144,7 @@ proxies:
       name: SG-新加坡-47
       password: "4514643191"
       port: 63256
-      server: 139.162.13.168
+      server: 172.104.180.69
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -337,104 +161,34 @@ proxies:
 proxy-groups:
     "0":
         proxies:
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_1"
-              network: ws
-              port: 8880
-              server: russia.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
-              ws-opts:
-                headers:
-                    host: sssub.v2.001.ssrsub.com
-                path: /api/v3/download.getFile
             - grpc-opts:
                 grpc-service-name: 443trojan
-              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
               network: grpc
               password: qj1Dz1CJmFQRhWr1SP80aA
               port: 443
-              server: 172.67.204.84
+              server: 104.21.69.44
               skip-cert-verify: true
               sni: cdn-21.gsmxreality.com
               type: trojan
               udp: true
             - alterid: 0
               cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
               network: ws
-              port: 2086
-              server: 104.25.115.32
+              port: 2096
+              server: 104.24.197.20
               skip-cert-verify: true
-              tls: false
+              tls: true
               type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+              uuid: 5dc153a1-67e5-44a7-9684-4a41ef180c9d
               ws-opts:
                 headers:
-                    host: 100-100-17-412.db-link02.top
-                path: /dabai.in104.25.115.32
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_4"
-              network: ws
-              port: 80
-              server: speed.cloudflare.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-              ws-opts:
-                headers:
-                    host: 4868-poetry-4868.napora7003.workers.dev
-                path: /obdii.cfd/linkws
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_5"
-              network: ws
-              port: 8080
-              server: 104.17.77.85
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-              ws-opts:
-                headers:
-                    host: 100-100-17-225.db-link01.top
-                path: /dabai.in104.17.77.85
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
-              network: ws
-              port: 2052
-              server: 104.18.36.119
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
+                    host: dl2.exoshop.ir
                 path: /
             - alterid: 0
               cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_6"
-              network: ws
-              port: 2082
-              server: 104.25.29.33
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-              ws-opts:
-                headers:
-                    host: 100-100-17-225.db-link01.top
-                path: /dabai.in104.25.29.33
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_7"
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
               network: ws
               port: 2096
               server: 104.17.247.203
@@ -446,31 +200,35 @@ proxy-groups:
                 headers:
                     host: dl2.exoshop.ir
                 path: /
-            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
-              network: tcp
-              password: TNDSJfNv
-              port: 20344
-              server: 36.151.195.48
-              skip-cert-verify: true
-              type: trojan
-              udp: true
             - alterid: 0
               cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_8"
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
               network: ws
-              port: 2095
-              server: 104.21.37.123
+              port: 443
+              server: 23.154.136.2
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+              ws-opts:
+                path: /linkvws
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: ws
+              port: 8880
+              server: 172.67.243.40
               skip-cert-verify: true
               tls: false
               type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
+              uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248
               ws-opts:
                 headers:
-                    host: 100-100-17-425.cn-db.top
-                path: /dabai.in104.21.37.123
+                    host: us6gzxQRrE4.fzbqfrse.xyz
+                path: /video/bYdJ7Vc2We
             - alterid: 0
               cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_9"
+              name: "\U0001F1FA\U0001F1F8_US_美国_6"
               network: ws
               port: 8880
               server: cfcdn1.sanfencdn9.com
@@ -482,34 +240,31 @@ proxy-groups:
                 headers:
                     host: us6gzxQRrE4.fzbqfrse.xyz
                 path: /video/bYdJ7Vc2We
+            - grpc-opts:
+                grpc-service-name: 443trojan
+              name: "\U0001F1FA\U0001F1F8_US_美国_7"
+              network: grpc
+              password: qj1Dz1CJmFQRhWr1SP80aA
+              port: 443
+              server: 172.67.204.84
+              skip-cert-verify: true
+              sni: cdn-21.gsmxreality.com
+              type: trojan
+              udp: true
             - alterid: 0
               cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              name: "\U0001F1FA\U0001F1F8_US_美国_8"
               network: ws
-              port: 2052
-              server: 104.19.250.15
+              port: 8880
+              server: russia.com
               skip-cert-verify: true
               tls: false
               type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+              uuid: 64a57b5f-45e0-40c3-8316-97d0ff53fd96
               ws-opts:
                 headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_10"
-              network: ws
-              port: 2053
-              server: 172.67.90.176
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-              ws-opts:
-                headers:
-                    host: 100-100-17-410.db-link01.top
-                path: /dabai.in172.67.90.176
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
             - alterid: 0
               cipher: auto
               name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F3_IN_印度"
@@ -524,118 +279,11 @@ proxy-groups:
                 headers:
                     host: in3.wish.ml
                 path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
-              network: ws
-              port: 2052
-              server: cfcdn1.sanfencdn9.com
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1FA\U0001F1E6_UA_乌克兰"
-              network: ws
-              port: 80
-              server: 172.67.166.192
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: cd1db809-2de0-409c-aef5-861e95eff53e
-              ws-opts:
-                headers:
-                    host: ua1-vmess.sshmax.xyz
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
-              network: ws
-              port: 12910
-              server: 45.136.245.240
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-              ws-opts:
-                path: /
-            - grpc-opts:
-                grpc-service-name: 443trojan
-              name: "\U0001F1FA\U0001F1F8_US_美国_11"
-              network: grpc
-              password: qj1Dz1CJmFQRhWr1SP80aA
-              port: 443
-              server: 104.21.69.44
-              skip-cert-verify: true
-              sni: cdn-21.gsmxreality.com
-              type: trojan
-              udp: true
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_12"
-              network: ws
-              port: 8880
-              server: 104.24.188.13
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-              ws-opts:
-                headers:
-                    host: 100-100-17-254.db-link01.top
-                path: /dabai.in104.24.188.13
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
-              network: ws
-              port: 2052
-              server: 104.18.19.191
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-              ws-opts:
-                headers:
-                    host: helanv6cf.inekokkk.top
-                path: /
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_13"
-              network: ws
-              port: 2052
-              server: 104.20.45.232
-              skip-cert-verify: true
-              tls: false
-              type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-              ws-opts:
-                headers:
-                    host: 100-100-17-38.db-link01.top
-                path: /dabai.in104.20.45.232
-            - alterid: 0
-              cipher: auto
-              name: "\U0001F1FA\U0001F1F8_US_美国_14"
-              network: ws
-              port: 2053
-              server: 104.24.229.174
-              skip-cert-verify: true
-              tls: true
-              type: vmess
-              uuid: e6933218-ad65-3943-9afd-0d78638a61dd
-              ws-opts:
-                headers:
-                    host: 100-100-17-486.db-link02.top
-                path: /dabai.in104.24.229.174
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "4514643191"
               port: 63256
-              server: 172.105.13.124
+              server: 139.177.194.75
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -647,7 +295,7 @@ proxy-groups:
               name: SG-新加坡-47
               password: "4514643191"
               port: 63256
-              server: 139.162.13.168
+              server: 172.104.180.69
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
