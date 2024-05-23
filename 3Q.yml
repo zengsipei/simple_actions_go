@@ -264,13 +264,13 @@ proxies:
       name: UK-英国-24
       password: "9200763599"
       port: 63520
-      server: 178.79.153.32
+      server: 85.159.210.177
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "9200763599"
       port: 63520
-      server: 198.58.103.93
+      server: 45.33.5.109
       type: null
 proxy-groups:
     "0":
@@ -529,13 +529,13 @@ proxy-groups:
               name: UK-英国-24
               password: "9200763599"
               port: 63520
-              server: 178.79.153.32
+              server: 85.159.210.177
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "9200763599"
               port: 63520
-              server: 198.58.103.93
+              server: 45.33.5.109
               type: null
 rule-providers:
     apple:
