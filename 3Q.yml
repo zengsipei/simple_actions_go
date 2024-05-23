@@ -243,33 +243,33 @@ proxies:
             host: ca-cfcdn.aikunapp.com
         path: /index?ed=20
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "4006634015"
-      port: 63375
-      server: 139.162.185.50
-      type: null
-    - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "4006634015"
-      port: 63375
+      password: "9200763599"
+      port: 63520
       server: 139.162.134.210
       type: null
     - cipher: chacha20-ietf-poly1305
+      name: SG-新加坡-44
+      password: "9200763599"
+      port: 63520
+      server: 139.162.5.84
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
-      password: "4006634015"
-      port: 63375
+      password: "9200763599"
+      port: 63520
       server: 139.162.32.35
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "4006634015"
-      port: 63375
-      server: 178.79.131.111
+      name: UK-英国-24
+      password: "9200763599"
+      port: 63520
+      server: 178.79.153.32
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "4006634015"
-      port: 63375
+      password: "9200763599"
+      port: 63520
       server: 198.58.103.93
       type: null
 proxy-groups:
@@ -508,33 +508,33 @@ proxy-groups:
                     host: ca-cfcdn.aikunapp.com
                 path: /index?ed=20
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "4006634015"
-              port: 63375
-              server: 139.162.185.50
-              type: null
-            - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "4006634015"
-              port: 63375
+              password: "9200763599"
+              port: 63520
               server: 139.162.134.210
               type: null
             - cipher: chacha20-ietf-poly1305
+              name: SG-新加坡-44
+              password: "9200763599"
+              port: 63520
+              server: 139.162.5.84
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
-              password: "4006634015"
-              port: 63375
+              password: "9200763599"
+              port: 63520
               server: 139.162.32.35
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "4006634015"
-              port: 63375
-              server: 178.79.131.111
+              name: UK-英国-24
+              password: "9200763599"
+              port: 63520
+              server: 178.79.153.32
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "4006634015"
-              port: 63375
+              password: "9200763599"
+              port: 63520
               server: 198.58.103.93
               type: null
 rule-providers:
