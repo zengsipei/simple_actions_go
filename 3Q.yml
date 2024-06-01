@@ -201,19 +201,19 @@ proxies:
       name: DE-德国-50
       password: "4818548192"
       port: 25534
-      server: 139.144.67.56
+      server: 139.162.167.240
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "4818548192"
       port: 25534
-      server: 172.104.151.111
+      server: 194.233.168.160
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "4818548192"
       port: 25534
-      server: 45.33.122.146
+      server: 96.126.122.242
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -415,19 +415,19 @@ proxy-groups:
               name: DE-德国-50
               password: "4818548192"
               port: 25534
-              server: 139.144.67.56
+              server: 139.162.167.240
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "4818548192"
               port: 25534
-              server: 172.104.151.111
+              server: 194.233.168.160
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "4818548192"
               port: 25534
-              server: 45.33.122.146
+              server: 96.126.122.242
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
