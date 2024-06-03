@@ -201,33 +201,33 @@ proxies:
       udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "4818548192"
-      port: 25534
-      server: 172.105.13.152
+      password: "4622386865"
+      port: 21750
+      server: 172.105.21.119
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "4818548192"
-      port: 25534
-      server: 139.162.143.5
+      password: "4622386865"
+      port: 21750
+      server: 192.46.234.174
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "4818548192"
-      port: 25534
-      server: 172.104.249.25
+      name: SG-新加坡-44
+      password: "4622386865"
+      port: 21750
+      server: 45.118.133.4
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "4818548192"
-      port: 25534
-      server: 45.79.30.98
+      name: UK-英国-23
+      password: "4622386865"
+      port: 21750
+      server: 212.71.239.111
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "4818548192"
-      port: 25534
-      server: 45.33.2.145
+      password: "4622386865"
+      port: 21750
+      server: 72.14.182.72
       type: null
 proxy-groups:
     "0":
@@ -423,33 +423,33 @@ proxy-groups:
               udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "4818548192"
-              port: 25534
-              server: 172.105.13.152
+              password: "4622386865"
+              port: 21750
+              server: 172.105.21.119
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "4818548192"
-              port: 25534
-              server: 139.162.143.5
+              password: "4622386865"
+              port: 21750
+              server: 192.46.234.174
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "4818548192"
-              port: 25534
-              server: 172.104.249.25
+              name: SG-新加坡-44
+              password: "4622386865"
+              port: 21750
+              server: 45.118.133.4
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "4818548192"
-              port: 25534
-              server: 45.79.30.98
+              name: UK-英国-23
+              password: "4622386865"
+              port: 21750
+              server: 212.71.239.111
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "4818548192"
-              port: 25534
-              server: 45.33.2.145
+              password: "4622386865"
+              port: 21750
+              server: 72.14.182.72
               type: null
 rule-providers:
     apple:
