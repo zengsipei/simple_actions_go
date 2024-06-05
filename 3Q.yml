@@ -10,6 +10,225 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: tcp
+      port: 2083
+      server: kz-v2ray.ipracevpn.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 2595193e-3b5e-437e-8998-7be6dbfbed71
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 2082
+      server: 104.21.8.157
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 2095
+      server: zula.ir
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+      ws-opts:
+        headers:
+            host: Asdfghjkl10.unique69.com.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+      network: ws
+      port: 56148
+      server: 46.226.163.143
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 368c014e-761c-4e0b-85cd-b680f2b10a6d
+      ws-opts:
+        headers:
+            host: its-github.com-so.ir-whereareyoumylady.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.arvancloud.online.
+        path: /telegram-@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad?ed=2048
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E7\U0001F1F7_BR_巴西"
+      network: ws
+      port: 2095
+      server: c1.v2raybrasil.cloud
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: a5dc7082-3433-48ad-9216-ddc9768e5160
+      ws-opts:
+        headers:
+            host: ybr.redbullplus.xyz
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 8080
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1_NL_荷兰"
+      network: tcp
+      port: 443
+      server: nl-v2ray.ipracevpn.com
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 836181bb-cf0e-4e3a-9795-0b4264e76ad5
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 2095
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 2082
+      server: 172.67.130.140
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 2095
+      server: 104.18.202.232
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+      ws-opts:
+        headers:
+            host: Asdfghjkl10.unique69.com.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+      network: ws
+      port: 2095
+      server: 172.67.204.84
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+      ws-opts:
+        headers:
+            host: Asdfghjkl10.unique69.com.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ""
+      port: 17163
+      server: 108.181.200.220
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: d54814a1-7a93-45f8-9117-db317a25d100
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
+      network: ws
+      port: 2095
+      server: Www.speedtest.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+      ws-opts:
+        headers:
+            host: Asdfghjkl10.unique69.com.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+      network: ws
+      port: 2095
+      server: 104.21.69.44
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+      ws-opts:
+        headers:
+            host: Asdfghjkl10.unique69.com.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0_HK_香港"
+      network: ws
+      port: 12909
+      server: 210.3.159.224
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+      ws-opts:
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
+      network: http
+      port: 3389
+      server: 64.176.15.74
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+      network: ws
+      port: 2082
+      server: s1c.v2.v001sss.xyz
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+      ws-opts:
+        headers:
+            host: s1c.v2.v001sss.xyz
+        path: /
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "4622386865"
@@ -20,13 +239,13 @@ proxies:
       name: DE-德国-50
       password: "4622386865"
       port: 21750
-      server: 172.104.128.96
+      server: 139.177.179.45
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-44
       password: "4622386865"
       port: 21750
-      server: 172.105.117.178
+      server: 172.104.175.228
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -38,11 +257,230 @@ proxies:
       name: US-美国-55
       password: "4622386865"
       port: 21750
-      server: 45.56.68.36
+      server: 45.33.28.105
       type: null
 proxy-groups:
     "0":
         proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: tcp
+              port: 2083
+              server: kz-v2ray.ipracevpn.com
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 2595193e-3b5e-437e-8998-7be6dbfbed71
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 2082
+              server: 104.21.8.157
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 2095
+              server: zula.ir
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+              ws-opts:
+                headers:
+                    host: Asdfghjkl10.unique69.com.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+              network: ws
+              port: 56148
+              server: 46.226.163.143
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 368c014e-761c-4e0b-85cd-b680f2b10a6d
+              ws-opts:
+                headers:
+                    host: its-github.com-so.ir-whereareyoumylady.xn--9iqtb0z3kmg58ejur6wfbwf9muugk7rck30b0frbqkvk2bye0bm1a.arvancloud.online.
+                path: /telegram-@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad,@ItIsMeAhmad?ed=2048
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E7\U0001F1F7_BR_巴西"
+              network: ws
+              port: 2095
+              server: c1.v2raybrasil.cloud
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: a5dc7082-3433-48ad-9216-ddc9768e5160
+              ws-opts:
+                headers:
+                    host: ybr.redbullplus.xyz
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 8080
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F3\U0001F1F1_NL_荷兰"
+              network: tcp
+              port: 443
+              server: nl-v2ray.ipracevpn.com
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 836181bb-cf0e-4e3a-9795-0b4264e76ad5
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              port: 2095
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: ws
+              port: 2082
+              server: 172.67.130.140
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 2095
+              server: 104.18.202.232
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+              ws-opts:
+                headers:
+                    host: Asdfghjkl10.unique69.com.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_3"
+              network: ws
+              port: 2095
+              server: 172.67.204.84
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+              ws-opts:
+                headers:
+                    host: Asdfghjkl10.unique69.com.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大"
+              network: ""
+              port: 17163
+              server: 108.181.200.220
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: d54814a1-7a93-45f8-9117-db317a25d100
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_4"
+              network: ws
+              port: 2095
+              server: Www.speedtest.net
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+              ws-opts:
+                headers:
+                    host: Asdfghjkl10.unique69.com.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_5"
+              network: ws
+              port: 2095
+              server: 104.21.69.44
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4
+              ws-opts:
+                headers:
+                    host: Asdfghjkl10.unique69.com.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1ED\U0001F1F0_HK_香港"
+              network: ws
+              port: 12909
+              server: 210.3.159.224
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+              ws-opts:
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_6"
+              network: http
+              port: 3389
+              server: 64.176.15.74
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+              network: ws
+              port: 2082
+              server: s1c.v2.v001sss.xyz
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+              ws-opts:
+                headers:
+                    host: s1c.v2.v001sss.xyz
+                path: /
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "4622386865"
@@ -53,13 +491,13 @@ proxy-groups:
               name: DE-德国-50
               password: "4622386865"
               port: 21750
-              server: 172.104.128.96
+              server: 139.177.179.45
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-44
               password: "4622386865"
               port: 21750
-              server: 172.105.117.178
+              server: 172.104.175.228
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -71,7 +509,7 @@ proxy-groups:
               name: US-美国-55
               password: "4622386865"
               port: 21750
-              server: 45.56.68.36
+              server: 45.33.28.105
               type: null
 rule-providers:
     apple:
