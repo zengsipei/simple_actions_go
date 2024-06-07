@@ -233,34 +233,34 @@ proxies:
       server: 51.77.53.200
       type: ss
     - cipher: chacha20-ietf-poly1305
+      name: DE-德国-50
+      password: "7727007944"
+      port: 22911
+      server: 139.162.174.109
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "6397663050"
-      port: 30792
-      server: 139.162.143.175
+      password: "7727007944"
+      port: 22911
+      server: 139.162.149.59
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
-      password: "6397663050"
-      port: 30792
-      server: 192.53.114.197
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "6397663050"
-      port: 30792
-      server: 213.52.130.37
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "6397663050"
-      port: 30792
-      server: 109.74.195.199
+      password: "7727007944"
+      port: 22911
+      server: 172.104.161.62
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "6397663050"
-      port: 30792
-      server: 173.255.197.200
+      password: "7727007944"
+      port: 22911
+      server: 96.126.124.8
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "7727007944"
+      port: 22911
+      server: 45.79.28.207
       type: null
 proxy-groups:
     "0":
@@ -488,34 +488,34 @@ proxy-groups:
               server: 51.77.53.200
               type: ss
             - cipher: chacha20-ietf-poly1305
+              name: DE-德国-50
+              password: "7727007944"
+              port: 22911
+              server: 139.162.174.109
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "6397663050"
-              port: 30792
-              server: 139.162.143.175
+              password: "7727007944"
+              port: 22911
+              server: 139.162.149.59
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
-              password: "6397663050"
-              port: 30792
-              server: 192.53.114.197
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "6397663050"
-              port: 30792
-              server: 213.52.130.37
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "6397663050"
-              port: 30792
-              server: 109.74.195.199
+              password: "7727007944"
+              port: 22911
+              server: 172.104.161.62
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "6397663050"
-              port: 30792
-              server: 173.255.197.200
+              password: "7727007944"
+              port: 22911
+              server: 96.126.124.8
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "7727007944"
+              port: 22911
+              server: 45.79.28.207
               type: null
 rule-providers:
     apple:
