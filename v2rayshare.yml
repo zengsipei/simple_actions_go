@@ -77,103 +77,21 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_1"
+      password: e4FCWrgpkji3QY
+      port: 9102
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_2"
+      password: g5MeD6Ft3CWlJId
+      port: 5003
+      server: 51.77.53.200
+      type: ss
     - alterid: 0
       cipher: auto
       name: "\U0001F1FA\U0001F1F8_US_美国_1"
-      network: ws
-      port: 80
-      server: cf2.ftclashcloud.site
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 348d6595-93e9-4bd6-b9d4-88ab54b37d5e
-      ws-opts:
-        headers:
-            host: mhyusa01.ftclashcloud.online
-        path: /ws?ed=2560
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_2"
-      network: ws
-      port: 2052
-      server: www.speedtest.net
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9e5f73da-a0f4-4a6c-87d8-7426527518c3
-      ws-opts:
-        headers:
-            host: 2d.irvn.debian.6.6.1b71.8.fxp.debian.org.speedtest.net.列列男事的事列上赛男.filter-nakon-madarj.cyou.
-        path: /@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-      network: ws
-      port: 80
-      server: 188.114.97.3
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
-      ws-opts:
-        headers:
-            host: De1.vmess.site.
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_3"
-      network: ws
-      port: 2082
-      server: 172.67.130.140
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_4"
-      network: http
-      port: 3389
-      server: 64.176.15.74
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_5"
-      network: ws
-      port: 2095
-      server: russia.com
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
-      ws-opts:
-        headers:
-            host: sssub.v2.001.ssrsub.com
-        path: /api/v3/download.getFile
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_6"
-      network: ws
-      port: 2082
-      server: s1c.v2.v001sss.xyz
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国_7"
       network: ws
       port: 2095
       server: 104.26.5.57
@@ -185,20 +103,42 @@ proxies:
         headers:
             host: sssub.v2.001.ssrsub.com
         path: /api/v3/download.getFile
-    - alterid: 0
-      cipher: auto
-      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
-      network: ws
-      port: 2082
-      server: 104.21.8.157
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-      ws-opts:
-        headers:
-            host: s1c.v2.v001sss.xyz
-        path: /
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_3"
+      password: FoOiGlkAA9yPEGP
+      port: 7307
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_4"
+      password: Y6R9pAtvxxzmGC
+      port: 5001
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_5"
+      password: faBAoD54k87UJG7
+      port: 2375
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_6"
+      password: kDWvXYZoTBcGkC4
+      port: 8882
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_7"
+      password: PCnnH6SQSnfoS27
+      port: 8090
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_8"
+      password: g5MeD6Ft3CWlJId
+      port: 5004
+      server: 51.77.53.200
+      type: ss
     - alterid: 0
       cipher: auto
       name: "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
@@ -209,35 +149,225 @@ proxies:
       tls: false
       type: vmess
       uuid: 1b457053-80cc-4391-b2bf-badfd71ad8cd
+      ws-opts:
+        path: /ZXzpLGLXPrYffqWUhE
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 8080
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_9"
+      password: zDNVedRFPQexG9v
+      port: 6379
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: none
+      name: "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+      network: ws
+      port: 80
+      server: 188.114.97.3
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
+      ws-opts:
+        headers:
+            host: De1.vmess.site.
+        path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_10"
+      password: pKEW8JPByTVTLtM
+      port: 4444
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_11"
+      password: RexnBgU7EV5ADxG
+      port: 7002
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_12"
+      password: Y6R9pAtvxxzmGC
+      port: 3306
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_13"
+      password: TEzjfAYq2IjtuoS
+      port: 6697
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_14"
+      password: kDWvXYZoTBcGkC4
+      port: 8881
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_15"
+      password: XKFKl2rULjIp74
+      port: 8009
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_16"
+      password: PCnnH6SQSnfoS27
+      port: 8091
+      server: 51.77.53.200
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1EE\U0001F1F7_IR_伊朗"
+      password: saSZ8ITija0kTURaEpki2TYz+BlKaUun2R3TrvMkzbY=
+      port: 1080
+      server: 91.107.201.212
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_17"
+      password: Y6R9pAtvxxzmGC
+      port: 8888
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: http
+      port: 3389
+      server: 64.176.15.74
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_18"
+      password: XKFKl2rULjIp74
+      port: 8008
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 2095
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_19"
+      password: KixLvKzwjekG00rm
+      port: 8000
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_20"
+      password: KixLvKzwjekG00rm
+      port: 5500
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_21"
+      password: Y6R9pAtvxxzmGC
+      port: 5000
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_22"
+      password: e4FCWrgpkji3QY
+      port: 9101
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_23"
+      password: TEzjfAYq2IjtuoS
+      port: 6679
+      server: 51.77.53.200
+      type: ss
 proxy-groups:
     - name: "\U0001F680 节点选择"
       proxies:
         - ♻️ 自动选择
         - DIRECT
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       type: select
     - interval: 300
       name: ♻️ 自动选择
       proxies:
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       tolerance: 50
       type: url-test
       url: http://www.gstatic.com/generate_204
@@ -246,61 +376,141 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - ♻️ 自动选择
         - "\U0001F3AF 全球直连"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       type: select
     - name: "\U0001F4F2 电报信息"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       type: select
     - name: Ⓜ️ 微软服务
       proxies:
         - "\U0001F3AF 全球直连"
         - "\U0001F680 节点选择"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       type: select
     - name: "\U0001F34E 苹果服务"
       proxies:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       type: select
     - name: "\U0001F3AF 全球直连"
       proxies:
@@ -323,16 +533,36 @@ proxy-groups:
         - "\U0001F680 节点选择"
         - "\U0001F3AF 全球直连"
         - ♻️ 自动选择
+        - "\U0001F1F5\U0001F1F1_PL_波兰_1"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_2"
         - "\U0001F1FA\U0001F1F8_US_美国_1"
-        - "\U0001F1FA\U0001F1F8_US_美国_2"
-        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
-        - "\U0001F1FA\U0001F1F8_US_美国_3"
-        - "\U0001F1FA\U0001F1F8_US_美国_4"
-        - "\U0001F1FA\U0001F1F8_US_美国_5"
-        - "\U0001F1FA\U0001F1F8_US_美国_6"
-        - "\U0001F1FA\U0001F1F8_US_美国_7"
-        - "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EB\U0001F1F7_FR_法国"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_5"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_6"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_7"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_8"
         - "\U0001F1EB\U0001F1EE_FI_芬兰->\U0001F1E9\U0001F1EA_DE_德国"
+        - "\U0001F1FA\U0001F1F8_US_美国_2"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_9"
+        - "\U0001F1F3\U0001F1F1_NL_荷兰->\U0001F1EC\U0001F1EE_GI_直布罗陀"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_10"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_11"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_12"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_13"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_14"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_15"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_16"
+        - "\U0001F1EE\U0001F1F7_IR_伊朗"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_17"
+        - "\U0001F1FA\U0001F1F8_US_美国_3"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_18"
+        - "\U0001F1FA\U0001F1F8_US_美国_4"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_19"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_20"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_21"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_22"
+        - "\U0001F1F5\U0001F1F1_PL_波兰_23"
       type: select
 rules:
     - "DOMAIN-SUFFIX,acl4.ssr,\U0001F3AF 全球直连"
