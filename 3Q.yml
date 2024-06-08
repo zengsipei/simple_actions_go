@@ -201,7 +201,7 @@ proxies:
       name: DE-德国-50
       password: "7727007944"
       port: 22911
-      server: 139.162.174.109
+      server: 172.104.238.179
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -213,7 +213,7 @@ proxies:
       name: SG-新加坡-47
       password: "7727007944"
       port: 22911
-      server: 172.104.182.86
+      server: 172.104.35.9
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -225,7 +225,7 @@ proxies:
       name: US-美国-55
       password: "7727007944"
       port: 22911
-      server: 72.14.177.17
+      server: 72.14.178.7
       type: null
 proxy-groups:
     "0":
@@ -421,7 +421,7 @@ proxy-groups:
               name: DE-德国-50
               password: "7727007944"
               port: 22911
-              server: 139.162.174.109
+              server: 172.104.238.179
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -433,7 +433,7 @@ proxy-groups:
               name: SG-新加坡-47
               password: "7727007944"
               port: 22911
-              server: 172.104.182.86
+              server: 172.104.35.9
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
@@ -445,7 +445,7 @@ proxy-groups:
               name: US-美国-55
               password: "7727007944"
               port: 22911
-              server: 72.14.177.17
+              server: 72.14.178.7
               type: null
 rule-providers:
     apple:
