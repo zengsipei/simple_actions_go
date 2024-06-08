@@ -213,7 +213,7 @@ proxies:
       name: SG-新加坡-47
       password: "7727007944"
       port: 22911
-      server: 172.104.161.62
+      server: 172.104.182.86
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -225,7 +225,7 @@ proxies:
       name: US-美国-55
       password: "7727007944"
       port: 22911
-      server: 198.58.101.234
+      server: 72.14.177.17
       type: null
 proxy-groups:
     "0":
@@ -433,7 +433,7 @@ proxy-groups:
               name: SG-新加坡-47
               password: "7727007944"
               port: 22911
-              server: 172.104.161.62
+              server: 172.104.182.86
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
@@ -445,7 +445,7 @@ proxy-groups:
               name: US-美国-55
               password: "7727007944"
               port: 22911
-              server: 198.58.101.234
+              server: 72.14.177.17
               type: null
 rule-providers:
     apple:
