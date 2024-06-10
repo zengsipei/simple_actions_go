@@ -239,13 +239,13 @@ proxies:
       name: UK-英国-23
       password: "6188969598"
       port: 17404
-      server: 213.168.248.135
+      server: 139.162.237.106
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "6188969598"
       port: 17404
-      server: 176.58.119.54
+      server: 212.71.248.94
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -485,13 +485,13 @@ proxy-groups:
               name: UK-英国-23
               password: "6188969598"
               port: 17404
-              server: 213.168.248.135
+              server: 139.162.237.106
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "6188969598"
               port: 17404
-              server: 176.58.119.54
+              server: 212.71.248.94
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
