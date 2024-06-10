@@ -227,7 +227,7 @@ proxies:
       name: DE-德国-50
       password: "6188969598"
       port: 17404
-      server: 172.105.74.36
+      server: 45.79.250.151
       type: null
     - cipher: chacha20-ietf-poly1305
       name: SG-新加坡-47
@@ -245,7 +245,7 @@ proxies:
       name: UK-英国-24
       password: "6188969598"
       port: 17404
-      server: 212.71.248.94
+      server: 178.79.138.172
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -473,7 +473,7 @@ proxy-groups:
               name: DE-德国-50
               password: "6188969598"
               port: 17404
-              server: 172.105.74.36
+              server: 45.79.250.151
               type: null
             - cipher: chacha20-ietf-poly1305
               name: SG-新加坡-47
@@ -491,7 +491,7 @@ proxy-groups:
               name: UK-英国-24
               password: "6188969598"
               port: 17404
-              server: 212.71.248.94
+              server: 178.79.138.172
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
