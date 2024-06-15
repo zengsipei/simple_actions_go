@@ -10,11 +10,274 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_1"
+      password: faBAoD54k87UJG7
+      port: 2376
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_2"
+      password: Y6R9pAtvxxzmGC
+      port: 5601
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_3"
+      password: XKFKl2rULjIp74
+      port: 8009
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+      network: ws
+      port: 2086
+      server: 104.16.60.8
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+      ws-opts:
+        headers:
+            host: vpnsupportfast.vpnsuortfast.workers.dev
+        path: /afrhms07.xfixedfloat.cfd/linkws
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_4"
+      password: Y6R9pAtvxxzmGC
+      port: 8888
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_5"
+      password: PCnnH6SQSnfoS27
+      port: 8090
+      server: 51.77.53.200
+      type: ss
+    - name: "\U0001F1F8\U0001F1EA_SE_瑞典"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 16.16.225.100
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      password: Y6R9pAtvxxzmGC
+      port: 3389
+      server: 23.162.200.28
+      type: ss
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7_GB_英国_1"
+      password: shadowsocks
+      port: 443
+      server: 212.102.53.197
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_6"
+      password: RexnBgU7EV5ADxG
+      port: 7002
+      server: 51.77.53.200
+      type: ss
+    - grpc-opts:
+        grpc-service-name: 443trojan
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: grpc
+      password: qj1Dz1CJmFQRhWr1SP80aA
+      port: 443
+      server: 104.16.1.10
+      skip-cert-verify: true
+      sni: cdn-21.gsmxreality.com
+      type: trojan
+      udp: true
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 80
+      server: www.speedtest.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 1e99893d-8046-4825-9d28-f6de91147337
+      ws-opts:
+        headers:
+            host: De2.vmess.site.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+      network: ws
+      port: 54321
+      server: 46.17.42.4
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+      ws-opts:
+        headers:
+            host: eedp257bubu2wefy1.lovebaipiao.net
+        path: /iphone
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 8080
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7_GB_英国_2"
+      password: shadowsocks
+      port: 443
+      server: uk-dc1.yangon.club
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_7"
+      password: Y6R9pAtvxxzmGC
+      port: 5000
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+      network: ws
+      port: 8080
+      server: www.speedtest.net
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 473261f5-90e5-4281-994f-4308a850c262
+      ws-opts:
+        headers:
+            host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.
+        path: /@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ws
+      port: 8080
+      server: 104.26.9.22
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+      ws-opts:
+        headers:
+            host: dual-nothing-prep-exit.trycloudflare.com
+        path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_8"
+      password: KixLvKzwjekG00rm
+      port: 8080
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: chacha20-poly1305
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 80
+      server: us.eaxeg.be
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: bded6b7a-efe3-4164-badd-0d9cfab6a072
+      ws-opts:
+        headers:
+            host: us.eaxeg.be
+        path: /XC3c53DiSQ9N70H4Y2aW
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国"
+      network: ws
+      port: 80
+      server: zula.ir
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+      ws-opts:
+        headers:
+            host: Uk2.vmess.site.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E6\U0001F1F9_AT_奥地利"
+      network: ws
+      port: 80
+      server: 172.67.193.67
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
+      ws-opts:
+        headers:
+            host: gulasch.online
+        path: /
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_9"
+      password: XKFKl2rULjIp74
+      port: 8008
+      server: 51.77.53.200
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
+      password: 6a8bf2a8-f100-4428-ac3f-ad8ea07e1361
+      port: 60033
+      server: 5.forlive.live
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 18.189.35.133
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 15.157.53.76
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_10"
+      password: TEzjfAYq2IjtuoS
+      port: 6679
+      server: 51.77.53.200
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
+      password: lWaGPVFjmnag
+      port: 443
+      server: 205.134.180.139
+      type: ss
+    - name: "\U0001F1FA\U0001F1F8_US_美国_7"
+      network: tcp
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 51.44.29.109
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "6188125608"
       port: 40944
-      server: 172.105.104.182
+      server: 172.105.11.16
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -43,11 +306,274 @@ proxies:
 proxy-groups:
     "0":
         proxies:
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_1"
+              password: faBAoD54k87UJG7
+              port: 2376
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_2"
+              password: Y6R9pAtvxxzmGC
+              port: 5601
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_3"
+              password: XKFKl2rULjIp74
+              port: 8009
+              server: 51.77.53.200
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_1"
+              network: ws
+              port: 2086
+              server: 104.16.60.8
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+              ws-opts:
+                headers:
+                    host: vpnsupportfast.vpnsuortfast.workers.dev
+                path: /afrhms07.xfixedfloat.cfd/linkws
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_4"
+              password: Y6R9pAtvxxzmGC
+              port: 8888
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_5"
+              password: PCnnH6SQSnfoS27
+              port: 8090
+              server: 51.77.53.200
+              type: ss
+            - name: "\U0001F1F8\U0001F1EA_SE_瑞典"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 16.16.225.100
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              password: Y6R9pAtvxxzmGC
+              port: 3389
+              server: 23.162.200.28
+              type: ss
+            - cipher: aes-128-gcm
+              name: "\U0001F1EC\U0001F1E7_GB_英国_1"
+              password: shadowsocks
+              port: 443
+              server: 212.102.53.197
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_6"
+              password: RexnBgU7EV5ADxG
+              port: 7002
+              server: 51.77.53.200
+              type: ss
+            - grpc-opts:
+                grpc-service-name: 443trojan
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: grpc
+              password: qj1Dz1CJmFQRhWr1SP80aA
+              port: 443
+              server: 104.16.1.10
+              skip-cert-verify: true
+              sni: cdn-21.gsmxreality.com
+              type: trojan
+              udp: true
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 80
+              server: www.speedtest.net
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 1e99893d-8046-4825-9d28-f6de91147337
+              ws-opts:
+                headers:
+                    host: De2.vmess.site.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+              network: ws
+              port: 54321
+              server: 46.17.42.4
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0
+              ws-opts:
+                headers:
+                    host: eedp257bubu2wefy1.lovebaipiao.net
+                path: /iphone
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 8080
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - cipher: aes-128-gcm
+              name: "\U0001F1EC\U0001F1E7_GB_英国_2"
+              password: shadowsocks
+              port: 443
+              server: uk-dc1.yangon.club
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_7"
+              password: Y6R9pAtvxxzmGC
+              port: 5000
+              server: 51.77.53.200
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E9\U0001F1EA_DE_德国_2"
+              network: ws
+              port: 8080
+              server: www.speedtest.net
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 473261f5-90e5-4281-994f-4308a850c262
+              ws-opts:
+                headers:
+                    host: 2.irvn.debian.6.i.6.6.fxp.debian.org.speedtest.net.列列男事的事列上赛男.ghormehsabzi.cyou.
+                path: /@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+              network: ws
+              port: 8080
+              server: 104.26.9.22
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+              ws-opts:
+                headers:
+                    host: dual-nothing-prep-exit.trycloudflare.com
+                path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_8"
+              password: KixLvKzwjekG00rm
+              port: 8080
+              server: 51.77.53.200
+              type: ss
+            - alterid: 0
+              cipher: chacha20-poly1305
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              port: 80
+              server: us.eaxeg.be
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: bded6b7a-efe3-4164-badd-0d9cfab6a072
+              ws-opts:
+                headers:
+                    host: us.eaxeg.be
+                path: /XC3c53DiSQ9N70H4Y2aW
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国"
+              network: ws
+              port: 80
+              server: zula.ir
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+              ws-opts:
+                headers:
+                    host: Uk2.vmess.site.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E6\U0001F1F9_AT_奥地利"
+              network: ws
+              port: 80
+              server: 172.67.193.67
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce
+              ws-opts:
+                headers:
+                    host: gulasch.online
+                path: /
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_9"
+              password: XKFKl2rULjIp74
+              port: 8008
+              server: 51.77.53.200
+              type: ss
+            - cipher: chacha20-ietf-poly1305
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1E9\U0001F1EA_DE_德国"
+              password: 6a8bf2a8-f100-4428-ac3f-ad8ea07e1361
+              port: 60033
+              server: 5.forlive.live
+              type: ss
+            - name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 18.189.35.133
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 15.157.53.76
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_10"
+              password: TEzjfAYq2IjtuoS
+              port: 6679
+              server: 51.77.53.200
+              type: ss
+            - cipher: chacha20-ietf-poly1305
+              name: "\U0001F1FA\U0001F1F8_US_美国_6"
+              password: lWaGPVFjmnag
+              port: 443
+              server: 205.134.180.139
+              type: ss
+            - name: "\U0001F1FA\U0001F1F8_US_美国_7"
+              network: tcp
+              password: telegram-id-privatevpns
+              port: 22222
+              server: 51.44.29.109
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "6188125608"
               port: 40944
-              server: 172.105.104.182
+              server: 172.105.11.16
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
