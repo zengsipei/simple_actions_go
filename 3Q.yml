@@ -382,33 +382,33 @@ proxies:
       type: ss
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "6188125608"
-      port: 40944
+      password: "5760046581"
+      port: 23533
       server: 172.105.19.76
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "6188125608"
-      port: 40944
-      server: 172.104.156.161
+      name: SG-新加坡-47
+      password: "5760046581"
+      port: 23533
+      server: 172.104.58.152
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: SG-新加坡-44
-      password: "6188125608"
-      port: 40944
-      server: 192.53.113.90
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "6188125608"
-      port: 40944
-      server: 213.52.130.104
+      name: UK-英国-23
+      password: "5760046581"
+      port: 23533
+      server: 178.79.129.41
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
-      password: "6188125608"
-      port: 40944
+      password: "5760046581"
+      port: 23533
       server: 96.126.124.8
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "5760046581"
+      port: 23533
+      server: 50.116.19.243
       type: null
 proxy-groups:
     "0":
@@ -785,33 +785,33 @@ proxy-groups:
               type: ss
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "6188125608"
-              port: 40944
+              password: "5760046581"
+              port: 23533
               server: 172.105.19.76
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "6188125608"
-              port: 40944
-              server: 172.104.156.161
+              name: SG-新加坡-47
+              password: "5760046581"
+              port: 23533
+              server: 172.104.58.152
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: SG-新加坡-44
-              password: "6188125608"
-              port: 40944
-              server: 192.53.113.90
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "6188125608"
-              port: 40944
-              server: 213.52.130.104
+              name: UK-英国-23
+              password: "5760046581"
+              port: 23533
+              server: 178.79.129.41
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
-              password: "6188125608"
-              port: 40944
+              password: "5760046581"
+              port: 23533
               server: 96.126.124.8
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "5760046581"
+              port: 23533
+              server: 50.116.19.243
               type: null
 rule-providers:
     apple:
