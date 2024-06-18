@@ -407,7 +407,7 @@ proxies:
       name: UK-英国-23
       password: "3761843584"
       port: 35819
-      server: 139.162.210.99
+      server: 178.79.148.21
       type: null
 proxy-groups:
     "0":
@@ -809,7 +809,7 @@ proxy-groups:
               name: UK-英国-23
               password: "3761843584"
               port: 35819
-              server: 139.162.210.99
+              server: 178.79.148.21
               type: null
 rule-providers:
     apple:
