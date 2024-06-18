@@ -10,6 +10,375 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      password: g5MeD6Ft3CWlJId
+      port: 5004
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      password: g5MeD6Ft3CWlJId
+      port: 5003
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_1"
+      password: Y6R9pAtvxxzmGC
+      port: 5001
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_2"
+      password: RexnBgU7EV5ADxG
+      port: 7002
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      password: Y6R9pAtvxxzmGC
+      port: 5600
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      password: e4FCWrgpkji3QY
+      port: 9102
+      server: 23.162.200.181
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 80
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 8880
+      server: russia.com
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
+      ws-opts:
+        headers:
+            host: sssub.v2.001.ssrsub.com
+        path: /api/v3/download.getFile
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_6"
+      password: kDWvXYZoTBcGkC4
+      port: 8882
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_7"
+      password: Y6R9pAtvxxzmGC
+      port: 5000
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_8"
+      password: TEzjfAYq2IjtuoS
+      port: 6697
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_9"
+      password: kDWvXYZoTBcGkC4
+      port: 8881
+      server: 38.75.136.21
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F1_IL_以色列_1"
+      network: ws
+      port: 443
+      server: Mikohail.rafalion.ir.
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: dddb41b3-0062-4cd1-9932-34d3a6fa2d20
+      ws-opts:
+        path: /
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_3"
+      password: RexnBgU7EV5ADxG
+      port: 7001
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F1_IL_以色列_2"
+      network: ws
+      port: 443
+      server: Efrzowsinia.rafalion.ir.
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: dddb41b3-0062-4cd1-9932-34d3a6fa2d20
+      ws-opts:
+        path: /
+    - name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: tcp
+      password: telegram-id-directvpn
+      port: 22222
+      server: 15.156.141.38
+      skip-cert-verify: false
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_4"
+      password: faBAoD54k87UJG7
+      port: 2376
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_3"
+      password: faBAoD54k87UJG7
+      port: 2376
+      server: 23.162.200.181
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_1"
+      network: ws
+      port: 80
+      server: zula.ir
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+      ws-opts:
+        headers:
+            host: Uk2.vmess.site.
+        path: /
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_4"
+      password: RexnBgU7EV5ADxG
+      port: 7001
+      server: 23.162.200.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_10"
+      password: FoOiGlkAA9yPEGP
+      port: 7307
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_5"
+      password: KixLvKzwjekG00rm
+      port: 8000
+      server: 23.162.200.181
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+      network: ws
+      port: 16928
+      server: 120.232.240.56
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+      ws-opts:
+        headers:
+            host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+        path: /v2ray
+    - name: "\U0001F1FA\U0001F1F8_US_美国_11"
+      network: tcp
+      password: 77fd0e60
+      port: 30171
+      server: 3.132.130.250
+      skip-cert-verify: true
+      sni: proxy.chydao.org
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_12"
+      password: faBAoD54k87UJG7
+      port: 2375
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_13"
+      password: Y6R9pAtvxxzmGC
+      port: 5001
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_5"
+      password: TEzjfAYq2IjtuoS
+      port: 6697
+      server: 51.77.53.200
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+      network: ws
+      port: 8080
+      server: 172.64.97.235
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+      ws-opts:
+        headers:
+            host: luther-soon-uploaded-anxiety.trycloudflare.com
+        path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_6"
+      password: KixLvKzwjekG00rm
+      port: 8080
+      server: 23.162.200.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_14"
+      password: KixLvKzwjekG00rm
+      port: 5500
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_7"
+      password: FoOiGlkAA9yPEGP
+      port: 7306
+      server: 23.162.200.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_6"
+      password: Y6R9pAtvxxzmGC
+      port: 5000
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_7"
+      password: g5MeD6Ft3CWlJId
+      port: 5004
+      server: 51.77.53.200
+      type: ss
+    - grpc-opts:
+        grpc-service-name: 443trojan
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+      network: grpc
+      password: qj1Dz1CJmFQRhWr1SP80aA
+      port: 443
+      server: 104.16.1.10
+      skip-cert-verify: true
+      sni: cdn-21.gsmxreality.com
+      type: trojan
+      udp: true
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_8"
+      password: Y6R9pAtvxxzmGC
+      port: 5001
+      server: 23.162.200.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_15"
+      password: TEzjfAYq2IjtuoS
+      port: 6679
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_16"
+      password: faBAoD54k87UJG7
+      port: 2376
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_9"
+      password: kDWvXYZoTBcGkC4
+      port: 8882
+      server: 23.162.200.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_17"
+      password: e4FCWrgpkji3QY
+      port: 9102
+      server: 38.75.136.21
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1FA\U0001F1F8_US_美国_18"
+      password: ̈́m͒ߍM֡Tyۙҫ1͛P̎
+      port: 20002
+      server: 38.99.82.85
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_19"
+      password: PCnnH6SQSnfoS27
+      port: 8090
+      server: 38.75.136.21
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_2"
+      network: ws
+      port: 80
+      server: 104.21.69.44
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+      ws-opts:
+        headers:
+            host: Uk2.vmess.site.
+        path: /
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_20"
+      network: ws
+      port: 12947
+      server: 195.123.240.45
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_21"
+      password: Y6R9pAtvxxzmGC
+      port: 5601
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_8"
+      password: XKFKl2rULjIp74
+      port: 8009
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1F5\U0001F1F1_PL_波兰_9"
+      password: cdBIDV42DCwnfIN
+      port: 8119
+      server: 51.77.53.200
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1FA\U0001F1F8_US_美国_22"
+      password: cdBIDV42DCwnfIN
+      port: 8118
+      server: 38.75.136.21
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_10"
+      password: faBAoD54k87UJG7
+      port: 2375
+      server: 23.162.200.181
+      type: ss
+    - cipher: aes-256-gcm
+      name: "\U0001F1E8\U0001F1E6_CA_加拿大_11"
+      password: g5MeD6Ft3CWlJId
+      port: 5003
+      server: 23.162.200.181
+      type: ss
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
       password: "5760046581"
@@ -43,6 +412,375 @@ proxies:
 proxy-groups:
     "0":
         proxies:
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              password: g5MeD6Ft3CWlJId
+              port: 5004
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              password: g5MeD6Ft3CWlJId
+              port: 5003
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_1"
+              password: Y6R9pAtvxxzmGC
+              port: 5001
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_2"
+              password: RexnBgU7EV5ADxG
+              port: 7002
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              password: Y6R9pAtvxxzmGC
+              port: 5600
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              password: e4FCWrgpkji3QY
+              port: 9102
+              server: 23.162.200.181
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              port: 80
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: ws
+              port: 8880
+              server: russia.com
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae
+              ws-opts:
+                headers:
+                    host: sssub.v2.001.ssrsub.com
+                path: /api/v3/download.getFile
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_6"
+              password: kDWvXYZoTBcGkC4
+              port: 8882
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_7"
+              password: Y6R9pAtvxxzmGC
+              port: 5000
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_8"
+              password: TEzjfAYq2IjtuoS
+              port: 6697
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_9"
+              password: kDWvXYZoTBcGkC4
+              port: 8881
+              server: 38.75.136.21
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F1_IL_以色列_1"
+              network: ws
+              port: 443
+              server: Mikohail.rafalion.ir.
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: dddb41b3-0062-4cd1-9932-34d3a6fa2d20
+              ws-opts:
+                path: /
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_3"
+              password: RexnBgU7EV5ADxG
+              port: 7001
+              server: 51.77.53.200
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EE\U0001F1F1_IL_以色列_2"
+              network: ws
+              port: 443
+              server: Efrzowsinia.rafalion.ir.
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: dddb41b3-0062-4cd1-9932-34d3a6fa2d20
+              ws-opts:
+                path: /
+            - name: "\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: tcp
+              password: telegram-id-directvpn
+              port: 22222
+              server: 15.156.141.38
+              skip-cert-verify: false
+              sni: trojan.burgerip.co.uk
+              type: trojan
+              udp: true
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_4"
+              password: faBAoD54k87UJG7
+              port: 2376
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_3"
+              password: faBAoD54k87UJG7
+              port: 2376
+              server: 23.162.200.181
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_1"
+              network: ws
+              port: 80
+              server: zula.ir
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+              ws-opts:
+                headers:
+                    host: Uk2.vmess.site.
+                path: /
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_4"
+              password: RexnBgU7EV5ADxG
+              port: 7001
+              server: 23.162.200.181
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_10"
+              password: FoOiGlkAA9yPEGP
+              port: 7307
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_5"
+              password: KixLvKzwjekG00rm
+              port: 8000
+              server: 23.162.200.181
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国"
+              network: ws
+              port: 16928
+              server: 120.232.240.56
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+              ws-opts:
+                headers:
+                    host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+                path: /v2ray
+            - name: "\U0001F1FA\U0001F1F8_US_美国_11"
+              network: tcp
+              password: 77fd0e60
+              port: 30171
+              server: 3.132.130.250
+              skip-cert-verify: true
+              sni: proxy.chydao.org
+              type: trojan
+              udp: true
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_12"
+              password: faBAoD54k87UJG7
+              port: 2375
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_13"
+              password: Y6R9pAtvxxzmGC
+              port: 5001
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_5"
+              password: TEzjfAYq2IjtuoS
+              port: 6697
+              server: 51.77.53.200
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大"
+              network: ws
+              port: 8080
+              server: 172.64.97.235
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+              ws-opts:
+                headers:
+                    host: luther-soon-uploaded-anxiety.trycloudflare.com
+                path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_6"
+              password: KixLvKzwjekG00rm
+              port: 8080
+              server: 23.162.200.181
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_14"
+              password: KixLvKzwjekG00rm
+              port: 5500
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_7"
+              password: FoOiGlkAA9yPEGP
+              port: 7306
+              server: 23.162.200.181
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_6"
+              password: Y6R9pAtvxxzmGC
+              port: 5000
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_7"
+              password: g5MeD6Ft3CWlJId
+              port: 5004
+              server: 51.77.53.200
+              type: ss
+            - grpc-opts:
+                grpc-service-name: 443trojan
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1F7\U0001F1FA_RU_俄罗斯联邦"
+              network: grpc
+              password: qj1Dz1CJmFQRhWr1SP80aA
+              port: 443
+              server: 104.16.1.10
+              skip-cert-verify: true
+              sni: cdn-21.gsmxreality.com
+              type: trojan
+              udp: true
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_8"
+              password: Y6R9pAtvxxzmGC
+              port: 5001
+              server: 23.162.200.181
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_15"
+              password: TEzjfAYq2IjtuoS
+              port: 6679
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_16"
+              password: faBAoD54k87UJG7
+              port: 2376
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_9"
+              password: kDWvXYZoTBcGkC4
+              port: 8882
+              server: 23.162.200.181
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_17"
+              password: e4FCWrgpkji3QY
+              port: 9102
+              server: 38.75.136.21
+              type: ss
+            - cipher: chacha20-ietf-poly1305
+              name: "\U0001F1FA\U0001F1F8_US_美国_18"
+              password: ̈́m͒ߍM֡Tyۙҫ1͛P̎
+              port: 20002
+              server: 38.99.82.85
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_19"
+              password: PCnnH6SQSnfoS27
+              port: 8090
+              server: 38.75.136.21
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EC\U0001F1E7_GB_英国_2"
+              network: ws
+              port: 80
+              server: 104.21.69.44
+              skip-cert-verify: true
+              tls: false
+              type: vmess
+              uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+              ws-opts:
+                headers:
+                    host: Uk2.vmess.site.
+                path: /
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_20"
+              network: ws
+              port: 12947
+              server: 195.123.240.45
+              skip-cert-verify: true
+              tls: true
+              type: vmess
+              uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_21"
+              password: Y6R9pAtvxxzmGC
+              port: 5601
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_8"
+              password: XKFKl2rULjIp74
+              port: 8009
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1F5\U0001F1F1_PL_波兰_9"
+              password: cdBIDV42DCwnfIN
+              port: 8119
+              server: 51.77.53.200
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1FA\U0001F1F8_US_美国_22"
+              password: cdBIDV42DCwnfIN
+              port: 8118
+              server: 38.75.136.21
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_10"
+              password: faBAoD54k87UJG7
+              port: 2375
+              server: 23.162.200.181
+              type: ss
+            - cipher: aes-256-gcm
+              name: "\U0001F1E8\U0001F1E6_CA_加拿大_11"
+              password: g5MeD6Ft3CWlJId
+              port: 5003
+              server: 23.162.200.181
+              type: ss
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
               password: "5760046581"
