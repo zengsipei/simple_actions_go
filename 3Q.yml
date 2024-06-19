@@ -316,7 +316,7 @@ proxies:
       name: UK-英国-23
       password: "3761843584"
       port: 35819
-      server: 139.162.209.127
+      server: 176.58.121.193
       type: null
 proxy-groups:
     "0":
@@ -627,7 +627,7 @@ proxy-groups:
               name: UK-英国-23
               password: "3761843584"
               port: 35819
-              server: 139.162.209.127
+              server: 176.58.121.193
               type: null
 rule-providers:
     apple:
