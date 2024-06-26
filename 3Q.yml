@@ -9,10 +9,300 @@ hosts:
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_1"
+      network: ws
+      port: 80
+      server: 104.20.247.40
+      sni: ""
+      type: vmess
+      uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+    - alterid: 64
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国_1"
+      network: tcp
+      port: 41490
+      server: 183.240.235.166
+      sni: ""
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1F3_CN_中国"
+      network: ws
+      port: 2086
+      server: 104.19.21.63
+      sni: ip11.freegradely.xyz
+      type: vmess
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EA\U0001F1F8_ES_西班牙"
+      network: ws
+      port: 80
+      server: 104.17.184.120
+      sni: ""
+      type: vmess
+      uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_2"
+      network: ws
+      port: 8080
+      server: 104.19.42.49
+      sni: ""
+      type: vmess
+      uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_3"
+      network: ws
+      port: 2086
+      server: 104.19.46.233
+      sni: ""
+      type: vmess
+      uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      network: ws
+      port: 2086
+      server: 104.19.123.11
+      sni: ip11.freegradely.xyz
+      type: vmess
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_4"
+      network: ws
+      port: 80
+      server: 104.19.38.10
+      sni: ""
+      type: vmess
+      uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+    - alterid: 64
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国_2"
+      network: tcp
+      port: 51707
+      server: 183.236.51.23
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - alterid: 64
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
+      network: tcp
+      port: 32998
+      server: 183.240.235.164
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国_5"
+      network: ws
+      port: 80
+      server: 162.159.136.98
+      sni: ""
+      type: vmess
+      uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: ws
+      port: 2086
+      server: 104.20.17.186
+      sni: ip11.freegradely.xyz
+      type: vmess
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+      network: ws
+      port: 2086
+      server: 104.18.57.111
+      sni: ""
+      type: vmess
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+    - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1FA\U0001F1F8_US_美国"
+      network: ws
+      password: moist
+      port: 27335
+      server: 116.47.10.236
+      sni: trojan.freenods.sbs
+      type: trojan
+      udp: true
+    - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
+      password: RmdXQRXg
+      port: 23621
+      server: 223.113.54.154
+      type: trojan
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F3\U0001F1F1_NL_荷兰"
+      network: ws
+      port: 46011
+      server: mmjp11.micloud.buzz
+      sni: ""
+      type: vmess
+      uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+    - alterid: 64
+      cipher: auto
+      name: "\U0001F1E8\U0001F1F3_CN_中国_3"
+      network: tcp
+      port: 50582
+      server: 120.232.153.27
+      type: vmess
+      uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 proxy-groups:
     "0":
-        proxies: []
+        proxies:
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_1"
+              network: ws
+              port: 80
+              server: 104.20.247.40
+              sni: ""
+              type: vmess
+              uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+            - alterid: 64
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国_1"
+              network: tcp
+              port: 41490
+              server: 183.240.235.166
+              sni: ""
+              type: vmess
+              uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1F3_CN_中国"
+              network: ws
+              port: 2086
+              server: 104.19.21.63
+              sni: ip11.freegradely.xyz
+              type: vmess
+              uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1EA\U0001F1F8_ES_西班牙"
+              network: ws
+              port: 80
+              server: 104.17.184.120
+              sni: ""
+              type: vmess
+              uuid: 078c86a6-8dde-4dcc-a08e-378990a8b3b2
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_2"
+              network: ws
+              port: 8080
+              server: 104.19.42.49
+              sni: ""
+              type: vmess
+              uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_3"
+              network: ws
+              port: 2086
+              server: 104.19.46.233
+              sni: ""
+              type: vmess
+              uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              network: ws
+              port: 2086
+              server: 104.19.123.11
+              sni: ip11.freegradely.xyz
+              type: vmess
+              uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_4"
+              network: ws
+              port: 80
+              server: 104.19.38.10
+              sni: ""
+              type: vmess
+              uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+            - alterid: 64
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国_2"
+              network: tcp
+              port: 51707
+              server: 183.236.51.23
+              type: vmess
+              uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+            - alterid: 64
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_1"
+              network: tcp
+              port: 32998
+              server: 183.240.235.164
+              type: vmess
+              uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国_5"
+              network: ws
+              port: 80
+              server: 162.159.136.98
+              sni: ""
+              type: vmess
+              uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: ws
+              port: 2086
+              server: 104.20.17.186
+              sni: ip11.freegradely.xyz
+              type: vmess
+              uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_3"
+              network: ws
+              port: 2086
+              server: 104.18.57.111
+              sni: ""
+              type: vmess
+              uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+            - name: "\U0001F1F0\U0001F1F7_KR_韩国->\U0001F1FA\U0001F1F8_US_美国"
+              network: ws
+              password: moist
+              port: 27335
+              server: 116.47.10.236
+              sni: trojan.freenods.sbs
+              type: trojan
+              udp: true
+            - name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1FA\U0001F1F8_US_美国_2"
+              password: RmdXQRXg
+              port: 23621
+              server: 223.113.54.154
+              type: trojan
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F3\U0001F1F1_NL_荷兰"
+              network: ws
+              port: 46011
+              server: mmjp11.micloud.buzz
+              sni: ""
+              type: vmess
+              uuid: e0affd30-6517-4f32-a2bd-71faab70b40a
+            - alterid: 64
+              cipher: auto
+              name: "\U0001F1E8\U0001F1F3_CN_中国_3"
+              network: tcp
+              port: 50582
+              server: 120.232.153.27
+              type: vmess
+              uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 rule-providers:
     apple:
         behavior: domain
