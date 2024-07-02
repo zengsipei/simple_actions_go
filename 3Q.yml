@@ -9,10 +9,86 @@ hosts:
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+    - cipher: aes-256-cfb
+      name: "\U0001F1FA\U0001F1F8_US_美国"
+      password: amazonskr05
+      port: 443
+      server: 54.218.48.199
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F8\U0001F1EA_SE_瑞典"
+      password: 99301d55-a41f-4919-986b-1435996533aa
+      port: 20003
+      server: deepf.hjkdsak2.com
+      type: ss
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+      network: ws
+      port: 2086
+      server: 104.19.42.49
+      sni: ip11.freegradely.xyz
+      type: vmess
+      uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1F3_CN_中国"
+      network: ws
+      port: 8080
+      server: 104.19.47.186
+      type: vmess
+      uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+    - alterid: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+      network: ws
+      port: 2052
+      server: 104.19.58.175
+      sni: ""
+      type: vmess
+      uuid: d6b6d982-d52f-465a-b988-85670b23f64a
 proxy-groups:
     "0":
-        proxies: []
+        proxies:
+            - cipher: aes-256-cfb
+              name: "\U0001F1FA\U0001F1F8_US_美国"
+              password: amazonskr05
+              port: 443
+              server: 54.218.48.199
+              type: ss
+            - cipher: chacha20-ietf-poly1305
+              name: "\U0001F1E8\U0001F1F3_CN_中国->\U0001F1F8\U0001F1EA_SE_瑞典"
+              password: 99301d55-a41f-4919-986b-1435996533aa
+              port: 20003
+              server: deepf.hjkdsak2.com
+              type: ss
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_1"
+              network: ws
+              port: 2086
+              server: 104.19.42.49
+              sni: ip11.freegradely.xyz
+              type: vmess
+              uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1F3_CN_中国"
+              network: ws
+              port: 8080
+              server: 104.19.47.186
+              type: vmess
+              uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+            - alterid: 0
+              cipher: auto
+              name: "\U0001F1FA\U0001F1F8_US_美国->\U0001F1E8\U0001F1E6_CA_加拿大_2"
+              network: ws
+              port: 2052
+              server: 104.19.58.175
+              sni: ""
+              type: vmess
+              uuid: d6b6d982-d52f-465a-b988-85670b23f64a
 rule-providers:
     apple:
         behavior: domain
