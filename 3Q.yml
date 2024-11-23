@@ -170,19 +170,19 @@ proxies:
       name: DE-德国-50
       password: "8653211177"
       port: 15608
-      server: 139.162.174.39
+      server: 172.105.87.250
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "8653211177"
       port: 15608
-      server: 172.105.39.70
+      server: 172.105.253.243
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "8653211177"
       port: 15608
-      server: 80.85.84.108
+      server: 109.237.27.195
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -353,19 +353,19 @@ proxy-groups:
               name: DE-德国-50
               password: "8653211177"
               port: 15608
-              server: 139.162.174.39
+              server: 172.105.87.250
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "8653211177"
               port: 15608
-              server: 172.105.39.70
+              server: 172.105.253.243
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "8653211177"
               port: 15608
-              server: 80.85.84.108
+              server: 109.237.27.195
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
