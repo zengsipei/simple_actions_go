@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "8653211177"
       port: 15608
-      server: 172.105.27.119
+      server: 172.105.19.136
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "8653211177"
       port: 15608
-      server: 139.162.162.180
+      server: 139.162.180.130
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "8653211177"
       port: 15608
-      server: 172.105.47.45
+      server: 172.105.58.45
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "8653211177"
       port: 15608
-      server: 109.74.197.80
+      server: 178.79.150.138
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "8653211177"
       port: 15608
-      server: 173.255.194.55
+      server: 72.14.182.167
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "8653211177"
               port: 15608
-              server: 172.105.27.119
+              server: 172.105.19.136
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "8653211177"
               port: 15608
-              server: 139.162.162.180
+              server: 139.162.180.130
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "8653211177"
               port: 15608
-              server: 172.105.47.45
+              server: 172.105.58.45
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "8653211177"
               port: 15608
-              server: 109.74.197.80
+              server: 178.79.150.138
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "8653211177"
               port: 15608
-              server: 173.255.194.55
+              server: 72.14.182.167
               type: null
 rule-providers:
     apple:
