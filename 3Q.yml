@@ -164,7 +164,7 @@ proxies:
       name: DE-德国-50
       password: "3667545548"
       port: 15157
-      server: 139.162.154.70
+      server: 85.90.247.223
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "3667545548"
       port: 15157
-      server: 72.14.190.49
+      server: 69.164.201.205
       type: null
 proxy-groups:
     "0":
@@ -347,7 +347,7 @@ proxy-groups:
               name: DE-德国-50
               password: "3667545548"
               port: 15157
-              server: 139.162.154.70
+              server: 85.90.247.223
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "3667545548"
               port: 15157
-              server: 72.14.190.49
+              server: 69.164.201.205
               type: null
 rule-providers:
     apple:
