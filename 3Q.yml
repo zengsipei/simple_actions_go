@@ -161,33 +161,33 @@ proxies:
       type: vmess
       uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "3667545548"
-      port: 15157
-      server: 139.162.132.81
+      name: CA-加拿大-54
+      password: "3743935027"
+      port: 44714
+      server: 172.105.23.7
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "3667545548"
-      port: 15157
-      server: 139.162.159.31
+      name: DE-德国-50
+      password: "3743935027"
+      port: 44714
+      server: 172.105.244.189
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
-      password: "3667545548"
-      port: 15157
+      password: "3743935027"
+      port: 44714
       server: 194.195.116.64
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: US-美国-50
-      password: "3667545548"
-      port: 15157
-      server: 45.33.23.240
+      name: UK-英国-24
+      password: "3743935027"
+      port: 44714
+      server: 178.79.141.139
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "3667545548"
-      port: 15157
+      password: "3743935027"
+      port: 44714
       server: 45.33.114.203
       type: null
 proxy-groups:
@@ -344,33 +344,33 @@ proxy-groups:
               type: vmess
               uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "3667545548"
-              port: 15157
-              server: 139.162.132.81
+              name: CA-加拿大-54
+              password: "3743935027"
+              port: 44714
+              server: 172.105.23.7
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "3667545548"
-              port: 15157
-              server: 139.162.159.31
+              name: DE-德国-50
+              password: "3743935027"
+              port: 44714
+              server: 172.105.244.189
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
-              password: "3667545548"
-              port: 15157
+              password: "3743935027"
+              port: 44714
               server: 194.195.116.64
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: US-美国-50
-              password: "3667545548"
-              port: 15157
-              server: 45.33.23.240
+              name: UK-英国-24
+              password: "3743935027"
+              port: 44714
+              server: 178.79.141.139
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "3667545548"
-              port: 15157
+              password: "3743935027"
+              port: 44714
               server: 45.33.114.203
               type: null
 rule-providers:
