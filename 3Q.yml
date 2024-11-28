@@ -162,33 +162,33 @@ proxies:
       uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "3743935027"
-      port: 44714
+      password: "0530625399"
+      port: 11248
       server: 192.53.121.42
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "3743935027"
-      port: 44714
-      server: 139.162.171.151
+      password: "0530625399"
+      port: 11248
+      server: 172.105.76.247
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: IN-印度-47
-      password: "3743935027"
-      port: 44714
-      server: 192.46.214.119
+      name: DE-德国-56
+      password: "0530625399"
+      port: 11248
+      server: 139.162.189.158
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "3743935027"
-      port: 44714
-      server: 88.80.186.238
+      password: "0530625399"
+      port: 11248
+      server: 178.79.141.160
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "3743935027"
-      port: 44714
-      server: 45.33.117.157
+      password: "0530625399"
+      port: 11248
+      server: 45.33.20.47
       type: null
 proxy-groups:
     "0":
@@ -345,33 +345,33 @@ proxy-groups:
               uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "3743935027"
-              port: 44714
+              password: "0530625399"
+              port: 11248
               server: 192.53.121.42
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "3743935027"
-              port: 44714
-              server: 139.162.171.151
+              password: "0530625399"
+              port: 11248
+              server: 172.105.76.247
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: IN-印度-47
-              password: "3743935027"
-              port: 44714
-              server: 192.46.214.119
+              name: DE-德国-56
+              password: "0530625399"
+              port: 11248
+              server: 139.162.189.158
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "3743935027"
-              port: 44714
-              server: 88.80.186.238
+              password: "0530625399"
+              port: 11248
+              server: 178.79.141.160
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "3743935027"
-              port: 44714
-              server: 45.33.117.157
+              password: "0530625399"
+              port: 11248
+              server: 45.33.20.47
               type: null
 rule-providers:
     apple:
