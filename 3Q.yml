@@ -182,13 +182,13 @@ proxies:
       name: UK-英国-24
       password: "0530625399"
       port: 11248
-      server: 80.85.85.107
+      server: 109.237.27.107
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "0530625399"
       port: 11248
-      server: 69.164.198.34
+      server: 45.33.122.142
       type: null
 proxy-groups:
     "0":
@@ -365,13 +365,13 @@ proxy-groups:
               name: UK-英国-24
               password: "0530625399"
               port: 11248
-              server: 80.85.85.107
+              server: 109.237.27.107
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "0530625399"
               port: 11248
-              server: 69.164.198.34
+              server: 45.33.122.142
               type: null
 rule-providers:
     apple:
