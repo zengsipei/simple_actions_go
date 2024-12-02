@@ -164,7 +164,7 @@ proxies:
       name: DE-德国-50
       password: "1485329421"
       port: 15284
-      server: 172.104.235.245
+      server: 172.104.150.134
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -347,7 +347,7 @@ proxy-groups:
               name: DE-德国-50
               password: "1485329421"
               port: 15284
-              server: 172.104.235.245
+              server: 172.104.150.134
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
