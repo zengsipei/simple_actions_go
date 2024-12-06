@@ -176,7 +176,7 @@ proxies:
       name: DE-德国-56
       password: "5004171426"
       port: 50703
-      server: 139.162.188.133
+      server: 172.104.235.158
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -359,7 +359,7 @@ proxy-groups:
               name: DE-德国-56
               password: "5004171426"
               port: 50703
-              server: 139.162.188.133
+              server: 172.104.235.158
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
