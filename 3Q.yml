@@ -170,7 +170,7 @@ proxies:
       name: DE-德国-56
       password: "8355403419"
       port: 56500
-      server: 172.105.76.253
+      server: 139.162.156.182
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -353,7 +353,7 @@ proxy-groups:
               name: DE-德国-56
               password: "8355403419"
               port: 56500
-              server: 172.105.76.253
+              server: 139.162.156.182
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
