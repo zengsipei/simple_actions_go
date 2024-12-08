@@ -164,7 +164,7 @@ proxies:
       name: CA-加拿大-54
       password: "8355403419"
       port: 56500
-      server: 172.105.18.237
+      server: 192.46.222.151
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
@@ -182,7 +182,7 @@ proxies:
       name: UK-英国-23
       password: "8355403419"
       port: 56500
-      server: 109.74.197.110
+      server: 213.168.249.81
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -347,7 +347,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "8355403419"
               port: 56500
-              server: 172.105.18.237
+              server: 192.46.222.151
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
@@ -365,7 +365,7 @@ proxy-groups:
               name: UK-英国-23
               password: "8355403419"
               port: 56500
-              server: 109.74.197.110
+              server: 213.168.249.81
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
