@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "0379181834"
       port: 44616
-      server: 172.105.6.145
+      server: 172.105.16.231
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "0379181834"
       port: 44616
-      server: 139.162.183.237
+      server: 139.162.161.12
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "0379181834"
       port: 44616
-      server: 80.85.85.88
+      server: 178.79.137.222
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "0379181834"
       port: 44616
-      server: 88.80.185.230
+      server: 88.80.191.174
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "0379181834"
       port: 44616
-      server: 45.79.44.140
+      server: 173.255.194.90
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "0379181834"
               port: 44616
-              server: 172.105.6.145
+              server: 172.105.16.231
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "0379181834"
               port: 44616
-              server: 139.162.183.237
+              server: 139.162.161.12
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "0379181834"
               port: 44616
-              server: 80.85.85.88
+              server: 178.79.137.222
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "0379181834"
               port: 44616
-              server: 88.80.185.230
+              server: 88.80.191.174
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "0379181834"
               port: 44616
-              server: 45.79.44.140
+              server: 173.255.194.90
               type: null
 rule-providers:
     apple:
