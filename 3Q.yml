@@ -170,25 +170,25 @@ proxies:
       name: DE-德国-56
       password: "7426911823"
       port: 23662
-      server: 139.162.156.189
+      server: 172.105.66.4
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "7426911823"
       port: 23662
-      server: 178.79.139.89
+      server: 109.74.194.122
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "7426911823"
       port: 23662
-      server: 45.33.22.151
+      server: 23.239.27.72
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "7426911823"
       port: 23662
-      server: 45.56.126.135
+      server: 45.79.7.19
       type: null
 proxy-groups:
     "0":
@@ -353,25 +353,25 @@ proxy-groups:
               name: DE-德国-56
               password: "7426911823"
               port: 23662
-              server: 139.162.156.189
+              server: 172.105.66.4
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "7426911823"
               port: 23662
-              server: 178.79.139.89
+              server: 109.74.194.122
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "7426911823"
               port: 23662
-              server: 45.33.22.151
+              server: 23.239.27.72
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "7426911823"
               port: 23662
-              server: 45.56.126.135
+              server: 45.79.7.19
               type: null
 rule-providers:
     apple:
