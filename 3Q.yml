@@ -170,13 +170,13 @@ proxies:
       name: DE-德国-56
       password: "7426911823"
       port: 23662
-      server: 139.162.150.65
+      server: 139.162.138.21
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "7426911823"
       port: 23662
-      server: 151.236.216.130
+      server: 213.168.249.34
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -353,13 +353,13 @@ proxy-groups:
               name: DE-德国-56
               password: "7426911823"
               port: 23662
-              server: 139.162.150.65
+              server: 139.162.138.21
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "7426911823"
               port: 23662
-              server: 151.236.216.130
+              server: 213.168.249.34
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
