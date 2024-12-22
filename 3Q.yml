@@ -182,7 +182,7 @@ proxies:
       name: US-美国-50
       password: "0587336293"
       port: 26661
-      server: 45.33.26.52
+      server: 72.14.187.42
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -365,7 +365,7 @@ proxy-groups:
               name: US-美国-50
               password: "0587336293"
               port: 26661
-              server: 45.33.26.52
+              server: 72.14.187.42
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
