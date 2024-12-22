@@ -176,7 +176,7 @@ proxies:
       name: IN-印度-47
       password: "0587336293"
       port: 26661
-      server: 45.79.123.27
+      server: 192.46.212.90
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "0587336293"
       port: 26661
-      server: 45.33.113.196
+      server: 173.255.203.102
       type: null
 proxy-groups:
     "0":
@@ -359,7 +359,7 @@ proxy-groups:
               name: IN-印度-47
               password: "0587336293"
               port: 26661
-              server: 45.79.123.27
+              server: 192.46.212.90
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "0587336293"
               port: 26661
-              server: 45.33.113.196
+              server: 173.255.203.102
               type: null
 rule-providers:
     apple:
