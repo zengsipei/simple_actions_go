@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "6191400803"
       port: 45322
-      server: 172.105.101.238
+      server: 172.105.25.184
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "6191400803"
       port: 45322
-      server: 139.162.157.174
+      server: 139.162.175.217
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "6191400803"
       port: 45322
-      server: 139.162.197.246
+      server: 212.71.244.114
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "6191400803"
       port: 45322
-      server: 50.116.26.168
+      server: 45.56.71.57
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "6191400803"
       port: 45322
-      server: 66.228.50.95
+      server: 45.56.127.186
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "6191400803"
               port: 45322
-              server: 172.105.101.238
+              server: 172.105.25.184
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "6191400803"
               port: 45322
-              server: 139.162.157.174
+              server: 139.162.175.217
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "6191400803"
               port: 45322
-              server: 139.162.197.246
+              server: 212.71.244.114
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "6191400803"
               port: 45322
-              server: 50.116.26.168
+              server: 45.56.71.57
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "6191400803"
               port: 45322
-              server: 66.228.50.95
+              server: 45.56.127.186
               type: null
 rule-providers:
     apple:
