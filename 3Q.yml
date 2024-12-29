@@ -164,13 +164,13 @@ proxies:
       name: DE-德国-50
       password: "8911463689"
       port: 29891
-      server: 139.162.152.234
+      server: 139.162.164.28
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "8911463689"
       port: 29891
-      server: 192.46.234.135
+      server: 172.104.128.69
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -182,13 +182,13 @@ proxies:
       name: US-美国-50
       password: "8911463689"
       port: 29891
-      server: 45.56.69.143
+      server: 69.164.192.249
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "8911463689"
       port: 29891
-      server: 50.116.28.131
+      server: 72.14.179.131
       type: null
 proxy-groups:
     "0":
@@ -347,13 +347,13 @@ proxy-groups:
               name: DE-德国-50
               password: "8911463689"
               port: 29891
-              server: 139.162.152.234
+              server: 139.162.164.28
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "8911463689"
               port: 29891
-              server: 192.46.234.135
+              server: 172.104.128.69
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
@@ -365,13 +365,13 @@ proxy-groups:
               name: US-美国-50
               password: "8911463689"
               port: 29891
-              server: 45.56.69.143
+              server: 69.164.192.249
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "8911463689"
               port: 29891
-              server: 50.116.28.131
+              server: 72.14.179.131
               type: null
 rule-providers:
     apple:
