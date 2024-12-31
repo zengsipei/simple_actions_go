@@ -170,19 +170,19 @@ proxies:
       name: DE-德国-50
       password: "0260976787"
       port: 56177
-      server: 194.233.167.177
+      server: 139.162.147.174
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "0260976787"
       port: 56177
-      server: 172.104.234.235
+      server: 172.104.150.118
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "0260976787"
       port: 56177
-      server: 172.105.63.254
+      server: 172.105.42.168
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -353,19 +353,19 @@ proxy-groups:
               name: DE-德国-50
               password: "0260976787"
               port: 56177
-              server: 194.233.167.177
+              server: 139.162.147.174
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "0260976787"
               port: 56177
-              server: 172.104.234.235
+              server: 172.104.150.118
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "0260976787"
               port: 56177
-              server: 172.105.63.254
+              server: 172.105.42.168
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
