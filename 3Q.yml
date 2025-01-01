@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "4194702886"
       port: 52983
-      server: 170.187.181.5
+      server: 172.105.28.179
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "4194702886"
       port: 52983
-      server: 172.105.246.12
+      server: 192.46.236.92
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "4194702886"
       port: 52983
-      server: 172.104.129.109
+      server: 192.46.236.232
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "4194702886"
       port: 52983
-      server: 172.105.252.203
+      server: 172.105.252.213
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "4194702886"
       port: 52983
-      server: 173.255.201.108
+      server: 69.164.193.106
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "4194702886"
               port: 52983
-              server: 170.187.181.5
+              server: 172.105.28.179
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "4194702886"
               port: 52983
-              server: 172.105.246.12
+              server: 192.46.236.92
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "4194702886"
               port: 52983
-              server: 172.104.129.109
+              server: 192.46.236.232
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "4194702886"
               port: 52983
-              server: 172.105.252.203
+              server: 172.105.252.213
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "4194702886"
               port: 52983
-              server: 173.255.201.108
+              server: 69.164.193.106
               type: null
 rule-providers:
     apple:
