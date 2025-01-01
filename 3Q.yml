@@ -170,13 +170,13 @@ proxies:
       name: DE-德国-50
       password: "4194702886"
       port: 52983
-      server: 139.162.146.213
+      server: 172.105.246.12
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "4194702886"
       port: 52983
-      server: 139.162.190.237
+      server: 172.104.129.109
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -353,13 +353,13 @@ proxy-groups:
               name: DE-德国-50
               password: "4194702886"
               port: 52983
-              server: 139.162.146.213
+              server: 172.105.246.12
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "4194702886"
               port: 52983
-              server: 139.162.190.237
+              server: 172.104.129.109
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
