@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "1326649899"
       port: 30552
-      server: 172.105.20.78
+      server: 172.105.103.139
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "1326649899"
       port: 30552
-      server: 172.104.132.100
+      server: 139.162.170.174
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "1326649899"
       port: 30552
-      server: 139.162.169.123
+      server: 139.162.155.152
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "1326649899"
       port: 30552
-      server: 194.195.118.121
+      server: 172.105.42.27
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "1326649899"
       port: 30552
-      server: 198.58.98.49
+      server: 45.79.43.186
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "1326649899"
               port: 30552
-              server: 172.105.20.78
+              server: 172.105.103.139
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "1326649899"
               port: 30552
-              server: 172.104.132.100
+              server: 139.162.170.174
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "1326649899"
               port: 30552
-              server: 139.162.169.123
+              server: 139.162.155.152
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "1326649899"
               port: 30552
-              server: 194.195.118.121
+              server: 172.105.42.27
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "1326649899"
               port: 30552
-              server: 198.58.98.49
+              server: 45.79.43.186
               type: null
 rule-providers:
     apple:
