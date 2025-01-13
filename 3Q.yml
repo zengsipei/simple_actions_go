@@ -170,7 +170,7 @@ proxies:
       name: DE-德国-56
       password: "9378730614"
       port: 51270
-      server: 85.90.246.249
+      server: 139.162.176.48
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -182,7 +182,7 @@ proxies:
       name: UK-英国-23
       password: "9378730614"
       port: 51270
-      server: 212.71.250.76
+      server: 80.85.84.77
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -353,7 +353,7 @@ proxy-groups:
               name: DE-德国-56
               password: "9378730614"
               port: 51270
-              server: 85.90.246.249
+              server: 139.162.176.48
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
@@ -365,7 +365,7 @@ proxy-groups:
               name: UK-英国-23
               password: "9378730614"
               port: 51270
-              server: 212.71.250.76
+              server: 80.85.84.77
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
