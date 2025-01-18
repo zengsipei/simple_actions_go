@@ -188,7 +188,7 @@ proxies:
       name: US-美国-50
       password: "6985799865"
       port: 30127
-      server: 45.56.75.127
+      server: 50.116.29.33
       type: null
 proxy-groups:
     "0":
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-50
               password: "6985799865"
               port: 30127
-              server: 45.56.75.127
+              server: 50.116.29.33
               type: null
 rule-providers:
     apple:
