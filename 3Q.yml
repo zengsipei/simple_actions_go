@@ -176,7 +176,7 @@ proxies:
       name: IN-印度-47
       password: "6808467326"
       port: 10325
-      server: 172.105.43.12
+      server: 172.105.35.42
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "6808467326"
       port: 10325
-      server: 104.200.16.251
+      server: 198.58.104.44
       type: null
 proxy-groups:
     "0":
@@ -359,7 +359,7 @@ proxy-groups:
               name: IN-印度-47
               password: "6808467326"
               port: 10325
-              server: 172.105.43.12
+              server: 172.105.35.42
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "6808467326"
               port: 10325
-              server: 104.200.16.251
+              server: 198.58.104.44
               type: null
 rule-providers:
     apple:
