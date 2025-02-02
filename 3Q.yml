@@ -164,25 +164,25 @@ proxies:
       name: CA-加拿大-54
       password: "5879604482"
       port: 10012
-      server: 192.53.121.102
+      server: 172.105.106.54
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "5879604482"
       port: 10012
-      server: 172.104.138.84
+      server: 139.162.157.43
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "5879604482"
       port: 10012
-      server: 172.105.34.133
+      server: 172.105.37.8
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "5879604482"
       port: 10012
-      server: 178.79.150.247
+      server: 139.162.220.56
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -347,25 +347,25 @@ proxy-groups:
               name: CA-加拿大-54
               password: "5879604482"
               port: 10012
-              server: 192.53.121.102
+              server: 172.105.106.54
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "5879604482"
               port: 10012
-              server: 172.104.138.84
+              server: 139.162.157.43
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "5879604482"
               port: 10012
-              server: 172.105.34.133
+              server: 172.105.37.8
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "5879604482"
               port: 10012
-              server: 178.79.150.247
+              server: 139.162.220.56
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
