@@ -188,7 +188,7 @@ proxies:
       name: UK-英国-23
       password: "7612041122"
       port: 52980
-      server: 212.71.250.185
+      server: 176.58.126.131
       type: null
 proxy-groups:
     "0":
@@ -371,7 +371,7 @@ proxy-groups:
               name: UK-英国-23
               password: "7612041122"
               port: 52980
-              server: 212.71.250.185
+              server: 176.58.126.131
               type: null
 rule-providers:
     apple:
