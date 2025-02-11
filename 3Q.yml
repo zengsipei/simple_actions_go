@@ -182,7 +182,7 @@ proxies:
       name: UK-英国-23
       password: "0397767029"
       port: 15036
-      server: 178.79.184.115
+      server: 80.85.85.203
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -365,7 +365,7 @@ proxy-groups:
               name: UK-英国-23
               password: "0397767029"
               port: 15036
-              server: 178.79.184.115
+              server: 80.85.85.203
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
