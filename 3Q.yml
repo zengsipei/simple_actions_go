@@ -164,7 +164,7 @@ proxies:
       name: CA-加拿大-54
       password: "0397767029"
       port: 15036
-      server: 172.105.99.23
+      server: 139.177.199.247
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
@@ -182,7 +182,7 @@ proxies:
       name: UK-英国-23
       password: "0397767029"
       port: 15036
-      server: 178.79.168.167
+      server: 178.79.144.168
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
@@ -347,7 +347,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "0397767029"
               port: 15036
-              server: 172.105.99.23
+              server: 139.177.199.247
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
@@ -365,7 +365,7 @@ proxy-groups:
               name: UK-英国-23
               password: "0397767029"
               port: 15036
-              server: 178.79.168.167
+              server: 178.79.144.168
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
