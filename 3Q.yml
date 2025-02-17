@@ -162,32 +162,32 @@ proxies:
       uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "4646227246"
-      port: 45786
-      server: 172.105.4.22
+      password: "1869200090"
+      port: 41762
+      server: 192.46.222.200
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "4646227246"
-      port: 45786
+      password: "1869200090"
+      port: 41762
       server: 172.104.235.132
       type: null
     - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "4646227246"
-      port: 45786
-      server: 212.71.244.181
+      name: IN-印度-47
+      password: "1869200090"
+      port: 41762
+      server: 172.105.252.164
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "4646227246"
-      port: 45786
+      password: "1869200090"
+      port: 41762
       server: 176.58.127.91
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "4646227246"
-      port: 45786
+      password: "1869200090"
+      port: 41762
       server: 23.239.26.168
       type: null
 proxy-groups:
@@ -345,32 +345,32 @@ proxy-groups:
               uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "4646227246"
-              port: 45786
-              server: 172.105.4.22
+              password: "1869200090"
+              port: 41762
+              server: 192.46.222.200
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "4646227246"
-              port: 45786
+              password: "1869200090"
+              port: 41762
               server: 172.104.235.132
               type: null
             - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "4646227246"
-              port: 45786
-              server: 212.71.244.181
+              name: IN-印度-47
+              password: "1869200090"
+              port: 41762
+              server: 172.105.252.164
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "4646227246"
-              port: 45786
+              password: "1869200090"
+              port: 41762
               server: 176.58.127.91
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "4646227246"
-              port: 45786
+              password: "1869200090"
+              port: 41762
               server: 23.239.26.168
               type: null
 rule-providers:
