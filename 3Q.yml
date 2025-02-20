@@ -164,19 +164,19 @@ proxies:
       name: CA-加拿大-54
       password: "1870523919"
       port: 35733
-      server: 172.105.25.210
+      server: 172.105.0.53
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "1870523919"
       port: 35733
-      server: 139.162.135.147
+      server: 172.104.147.84
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "1870523919"
       port: 35733
-      server: 139.162.189.40
+      server: 139.162.176.48
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -188,7 +188,7 @@ proxies:
       name: UK-英国-24
       password: "1870523919"
       port: 35733
-      server: 178.79.166.227
+      server: 109.74.197.84
       type: null
 proxy-groups:
     "0":
@@ -347,19 +347,19 @@ proxy-groups:
               name: CA-加拿大-54
               password: "1870523919"
               port: 35733
-              server: 172.105.25.210
+              server: 172.105.0.53
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "1870523919"
               port: 35733
-              server: 139.162.135.147
+              server: 172.104.147.84
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "1870523919"
               port: 35733
-              server: 139.162.189.40
+              server: 139.162.176.48
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
@@ -371,7 +371,7 @@ proxy-groups:
               name: UK-英国-24
               password: "1870523919"
               port: 35733
-              server: 178.79.166.227
+              server: 109.74.197.84
               type: null
 rule-providers:
     apple:
