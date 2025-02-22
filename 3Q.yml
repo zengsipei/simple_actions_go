@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "2904746225"
       port: 39499
-      server: 192.46.222.72
+      server: 172.105.29.53
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "2904746225"
       port: 39499
-      server: 139.162.179.129
+      server: 172.104.138.106
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "2904746225"
       port: 39499
-      server: 172.104.251.58
+      server: 139.162.150.109
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "2904746225"
       port: 39499
-      server: 192.46.213.16
+      server: 170.187.238.134
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "2904746225"
       port: 39499
-      server: 139.162.228.56
+      server: 109.74.196.160
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "2904746225"
               port: 39499
-              server: 192.46.222.72
+              server: 172.105.29.53
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "2904746225"
               port: 39499
-              server: 139.162.179.129
+              server: 172.104.138.106
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "2904746225"
               port: 39499
-              server: 172.104.251.58
+              server: 139.162.150.109
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "2904746225"
               port: 39499
-              server: 192.46.213.16
+              server: 170.187.238.134
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "2904746225"
               port: 39499
-              server: 139.162.228.56
+              server: 109.74.196.160
               type: null
 rule-providers:
     apple:
