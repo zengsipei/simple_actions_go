@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "6444334195"
       port: 11008
-      server: 172.105.105.203
+      server: 172.105.9.126
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "6444334195"
       port: 11008
-      server: 172.104.150.133
+      server: 139.162.171.149
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "6444334195"
       port: 11008
-      server: 45.79.120.191
+      server: 192.46.208.131
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "6444334195"
       port: 11008
-      server: 176.58.115.31
+      server: 178.79.183.11
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "6444334195"
       port: 11008
-      server: 151.236.216.82
+      server: 88.80.188.197
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "6444334195"
               port: 11008
-              server: 172.105.105.203
+              server: 172.105.9.126
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "6444334195"
               port: 11008
-              server: 172.104.150.133
+              server: 139.162.171.149
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "6444334195"
               port: 11008
-              server: 45.79.120.191
+              server: 192.46.208.131
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "6444334195"
               port: 11008
-              server: 176.58.115.31
+              server: 178.79.183.11
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "6444334195"
               port: 11008
-              server: 151.236.216.82
+              server: 88.80.188.197
               type: null
 rule-providers:
     apple:
