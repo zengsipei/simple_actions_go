@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "1989034934"
       port: 16244
-      server: 172.105.96.64
+      server: 172.105.110.198
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "1989034934"
       port: 16244
-      server: 172.105.246.59
+      server: 139.162.148.82
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "1989034934"
       port: 16244
-      server: 139.162.133.173
+      server: 172.104.129.221
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "1989034934"
       port: 16244
-      server: 45.79.123.208
+      server: 194.195.117.106
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "1989034934"
       port: 16244
-      server: 178.79.148.168
+      server: 178.79.168.124
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "1989034934"
               port: 16244
-              server: 172.105.96.64
+              server: 172.105.110.198
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "1989034934"
               port: 16244
-              server: 172.105.246.59
+              server: 139.162.148.82
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "1989034934"
               port: 16244
-              server: 139.162.133.173
+              server: 172.104.129.221
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "1989034934"
               port: 16244
-              server: 45.79.123.208
+              server: 194.195.117.106
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "1989034934"
               port: 16244
-              server: 178.79.148.168
+              server: 178.79.168.124
               type: null
 rule-providers:
     apple:
