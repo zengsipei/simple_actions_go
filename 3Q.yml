@@ -164,31 +164,31 @@ proxies:
       name: DE-德国-50
       password: "4698995677"
       port: 19357
-      server: 172.104.244.250
+      server: 139.162.170.87
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "4698995677"
       port: 19357
-      server: 170.187.250.27
+      server: 172.105.253.31
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "4698995677"
       port: 19357
-      server: 213.219.38.217
+      server: 178.79.188.78
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "4698995677"
       port: 19357
-      server: 212.71.233.206
+      server: 212.71.248.19
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "4698995677"
       port: 19357
-      server: 23.239.27.87
+      server: 198.58.105.201
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: DE-德国-50
               password: "4698995677"
               port: 19357
-              server: 172.104.244.250
+              server: 139.162.170.87
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "4698995677"
               port: 19357
-              server: 170.187.250.27
+              server: 172.105.253.31
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "4698995677"
               port: 19357
-              server: 213.219.38.217
+              server: 178.79.188.78
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "4698995677"
               port: 19357
-              server: 212.71.233.206
+              server: 212.71.248.19
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "4698995677"
               port: 19357
-              server: 23.239.27.87
+              server: 198.58.105.201
               type: null
 rule-providers:
     apple:
