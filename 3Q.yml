@@ -164,7 +164,7 @@ proxies:
       name: DE-德国-50
       password: "4698995677"
       port: 19357
-      server: 139.162.170.87
+      server: 172.104.142.38
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -188,7 +188,7 @@ proxies:
       name: US-美国-50
       password: "4698995677"
       port: 19357
-      server: 198.58.105.201
+      server: 173.255.205.237
       type: null
 proxy-groups:
     "0":
@@ -347,7 +347,7 @@ proxy-groups:
               name: DE-德国-50
               password: "4698995677"
               port: 19357
-              server: 139.162.170.87
+              server: 172.104.142.38
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-50
               password: "4698995677"
               port: 19357
-              server: 198.58.105.201
+              server: 173.255.205.237
               type: null
 rule-providers:
     apple:
