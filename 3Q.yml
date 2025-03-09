@@ -170,7 +170,7 @@ proxies:
       name: DE-德国-56
       password: "7571934683"
       port: 32701
-      server: 139.162.153.134
+      server: 172.105.244.19
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "7571934683"
       port: 32701
-      server: 96.126.124.97
+      server: 96.126.127.75
       type: null
 proxy-groups:
     "0":
@@ -353,7 +353,7 @@ proxy-groups:
               name: DE-德国-56
               password: "7571934683"
               port: 32701
-              server: 139.162.153.134
+              server: 172.105.244.19
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "7571934683"
               port: 32701
-              server: 96.126.124.97
+              server: 96.126.127.75
               type: null
 rule-providers:
     apple:
