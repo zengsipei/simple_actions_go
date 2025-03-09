@@ -182,13 +182,13 @@ proxies:
       name: US-美国-50
       password: "5519762551"
       port: 36772
-      server: 45.33.20.138
+      server: 198.58.100.16
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "5519762551"
       port: 36772
-      server: 104.200.16.55
+      server: 104.200.21.240
       type: null
 proxy-groups:
     "0":
@@ -365,13 +365,13 @@ proxy-groups:
               name: US-美国-50
               password: "5519762551"
               port: 36772
-              server: 45.33.20.138
+              server: 198.58.100.16
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "5519762551"
               port: 36772
-              server: 104.200.16.55
+              server: 104.200.21.240
               type: null
 rule-providers:
     apple:
