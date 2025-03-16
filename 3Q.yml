@@ -164,31 +164,31 @@ proxies:
       name: DE-德国-50
       password: "9664937810"
       port: 30063
-      server: 85.90.244.117
+      server: 139.162.137.231
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "9664937810"
       port: 30063
-      server: 139.162.166.71
+      server: 172.104.135.167
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "9664937810"
       port: 30063
-      server: 88.80.191.206
+      server: 176.58.124.188
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "9664937810"
       port: 30063
-      server: 173.255.193.194
+      server: 72.14.179.140
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "9664937810"
       port: 30063
-      server: 45.56.124.72
+      server: 104.237.130.47
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: DE-德国-50
               password: "9664937810"
               port: 30063
-              server: 85.90.244.117
+              server: 139.162.137.231
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "9664937810"
               port: 30063
-              server: 139.162.166.71
+              server: 172.104.135.167
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "9664937810"
               port: 30063
-              server: 88.80.191.206
+              server: 176.58.124.188
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "9664937810"
               port: 30063
-              server: 173.255.193.194
+              server: 72.14.179.140
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "9664937810"
               port: 30063
-              server: 45.56.124.72
+              server: 104.237.130.47
               type: null
 rule-providers:
     apple:
