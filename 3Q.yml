@@ -162,33 +162,33 @@ proxies:
       uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "2102737843"
-      port: 54045
+      password: "9042780267"
+      port: 36608
       server: 172.104.251.93
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
-      password: "2102737843"
-      port: 54045
+      password: "9042780267"
+      port: 36608
       server: 172.105.34.234
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
-      password: "2102737843"
-      port: 54045
-      server: 213.52.128.84
+      password: "9042780267"
+      port: 36608
+      server: 151.236.216.197
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "2102737843"
-      port: 54045
-      server: 85.159.208.207
+      password: "9042780267"
+      port: 36608
+      server: 151.236.216.211
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "2102737843"
-      port: 54045
-      server: 45.33.120.242
+      password: "9042780267"
+      port: 36608
+      server: 198.58.104.197
       type: null
 proxy-groups:
     "0":
@@ -345,33 +345,33 @@ proxy-groups:
               uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "2102737843"
-              port: 54045
+              password: "9042780267"
+              port: 36608
               server: 172.104.251.93
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
-              password: "2102737843"
-              port: 54045
+              password: "9042780267"
+              port: 36608
               server: 172.105.34.234
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
-              password: "2102737843"
-              port: 54045
-              server: 213.52.128.84
+              password: "9042780267"
+              port: 36608
+              server: 151.236.216.197
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "2102737843"
-              port: 54045
-              server: 85.159.208.207
+              password: "9042780267"
+              port: 36608
+              server: 151.236.216.211
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "2102737843"
-              port: 54045
-              server: 45.33.120.242
+              password: "9042780267"
+              port: 36608
+              server: 198.58.104.197
               type: null
 rule-providers:
     apple:
