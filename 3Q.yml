@@ -182,13 +182,13 @@ proxies:
       name: UK-英国-24
       password: "9042780267"
       port: 36608
-      server: 151.236.216.211
+      server: 212.71.238.84
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "9042780267"
       port: 36608
-      server: 198.58.104.197
+      server: 45.33.1.58
       type: null
 proxy-groups:
     "0":
@@ -365,13 +365,13 @@ proxy-groups:
               name: UK-英国-24
               password: "9042780267"
               port: 36608
-              server: 151.236.216.211
+              server: 212.71.238.84
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "9042780267"
               port: 36608
-              server: 198.58.104.197
+              server: 45.33.1.58
               type: null
 rule-providers:
     apple:
