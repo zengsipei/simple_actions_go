@@ -176,13 +176,13 @@ proxies:
       name: UK-英国-23
       password: "9042780267"
       port: 36608
-      server: 178.79.184.104
+      server: 212.71.238.84
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "9042780267"
       port: 36608
-      server: 213.168.249.200
+      server: 109.237.26.116
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -359,13 +359,13 @@ proxy-groups:
               name: UK-英国-23
               password: "9042780267"
               port: 36608
-              server: 178.79.184.104
+              server: 212.71.238.84
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "9042780267"
               port: 36608
-              server: 213.168.249.200
+              server: 109.237.26.116
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
