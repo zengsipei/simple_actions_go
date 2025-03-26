@@ -188,7 +188,7 @@ proxies:
       name: UK-英国-24
       password: "3742521386"
       port: 60159
-      server: 139.162.195.128
+      server: 178.79.176.62
       type: null
 proxy-groups:
     "0":
@@ -371,7 +371,7 @@ proxy-groups:
               name: UK-英国-24
               password: "3742521386"
               port: 60159
-              server: 139.162.195.128
+              server: 178.79.176.62
               type: null
 rule-providers:
     apple:
