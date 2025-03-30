@@ -176,13 +176,13 @@ proxies:
       name: IN-印度-47
       password: "4639204408"
       port: 60268
-      server: 194.195.118.224
+      server: 172.105.34.234
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "4639204408"
       port: 60268
-      server: 212.71.238.16
+      server: 178.79.137.25
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -359,13 +359,13 @@ proxy-groups:
               name: IN-印度-47
               password: "4639204408"
               port: 60268
-              server: 194.195.118.224
+              server: 172.105.34.234
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "4639204408"
               port: 60268
-              server: 212.71.238.16
+              server: 178.79.137.25
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
