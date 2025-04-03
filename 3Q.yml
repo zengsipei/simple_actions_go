@@ -164,7 +164,7 @@ proxies:
       name: CA-加拿大-54
       password: "8121300380"
       port: 39852
-      server: 172.105.19.90
+      server: 192.53.120.127
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
@@ -176,7 +176,7 @@ proxies:
       name: IN-印度-47
       password: "8121300380"
       port: 39852
-      server: 172.105.37.205
+      server: 172.105.252.17
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "8121300380"
       port: 39852
-      server: 45.79.40.196
+      server: 69.164.204.125
       type: null
 proxy-groups:
     "0":
@@ -347,7 +347,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "8121300380"
               port: 39852
-              server: 172.105.19.90
+              server: 192.53.120.127
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
@@ -359,7 +359,7 @@ proxy-groups:
               name: IN-印度-47
               password: "8121300380"
               port: 39852
-              server: 172.105.37.205
+              server: 172.105.252.17
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "8121300380"
               port: 39852
-              server: 45.79.40.196
+              server: 69.164.204.125
               type: null
 rule-providers:
     apple:
