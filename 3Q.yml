@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "8121300380"
       port: 39852
-      server: 69.164.204.125
+      server: 45.33.23.216
       type: null
 proxy-groups:
     "0":
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "8121300380"
               port: 39852
-              server: 69.164.204.125
+              server: 45.33.23.216
               type: null
 rule-providers:
     apple:
