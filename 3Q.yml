@@ -162,32 +162,32 @@ proxies:
       uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "0502668596"
-      port: 55423
-      server: 139.177.194.145
+      password: "1081011380"
+      port: 21090
+      server: 172.105.5.127
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "0502668596"
-      port: 55423
-      server: 192.46.236.96
+      password: "1081011380"
+      port: 21090
+      server: 172.105.94.14
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
-      password: "0502668596"
-      port: 55423
+      password: "1081011380"
+      port: 21090
       server: 45.79.126.10
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "0502668596"
-      port: 55423
+      password: "1081011380"
+      port: 21090
       server: 178.79.183.39
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "0502668596"
-      port: 55423
+      password: "1081011380"
+      port: 21090
       server: 72.14.185.204
       type: null
 proxy-groups:
@@ -345,32 +345,32 @@ proxy-groups:
               uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "0502668596"
-              port: 55423
-              server: 139.177.194.145
+              password: "1081011380"
+              port: 21090
+              server: 172.105.5.127
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "0502668596"
-              port: 55423
-              server: 192.46.236.96
+              password: "1081011380"
+              port: 21090
+              server: 172.105.94.14
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
-              password: "0502668596"
-              port: 55423
+              password: "1081011380"
+              port: 21090
               server: 45.79.126.10
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "0502668596"
-              port: 55423
+              password: "1081011380"
+              port: 21090
               server: 178.79.183.39
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "0502668596"
-              port: 55423
+              password: "1081011380"
+              port: 21090
               server: 72.14.185.204
               type: null
 rule-providers:
