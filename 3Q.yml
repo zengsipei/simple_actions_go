@@ -164,7 +164,7 @@ proxies:
       name: CA-加拿大-54
       password: "1081011380"
       port: 21090
-      server: 172.105.29.243
+      server: 172.105.18.174
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
@@ -347,7 +347,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "1081011380"
               port: 21090
-              server: 172.105.29.243
+              server: 172.105.18.174
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
