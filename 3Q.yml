@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "0487689626"
       port: 16669
-      server: 72.14.185.204
+      server: 45.56.68.70
       type: null
 proxy-groups:
     "0":
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "0487689626"
               port: 16669
-              server: 72.14.185.204
+              server: 45.56.68.70
               type: null
 rule-providers:
     apple:
