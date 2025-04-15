@@ -188,7 +188,7 @@ proxies:
       name: US-美国-55
       password: "9880851547"
       port: 56339
-      server: 72.14.182.172
+      server: 198.58.103.105
       type: null
 proxy-groups:
     "0":
@@ -371,7 +371,7 @@ proxy-groups:
               name: US-美国-55
               password: "9880851547"
               port: 56339
-              server: 72.14.182.172
+              server: 198.58.103.105
               type: null
 rule-providers:
     apple:
