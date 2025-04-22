@@ -164,31 +164,31 @@ proxies:
       name: DE-德国-50
       password: "7989257908"
       port: 43031
-      server: 139.162.176.180
+      server: 139.162.131.125
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "7989257908"
       port: 43031
-      server: 172.104.140.249
+      server: 172.104.237.232
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-23
       password: "7989257908"
       port: 43031
-      server: 139.162.253.247
+      server: 109.74.202.114
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-50
       password: "7989257908"
       port: 43031
-      server: 45.79.8.138
+      server: 96.126.112.199
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "7989257908"
       port: 43031
-      server: 50.116.17.91
+      server: 104.237.134.200
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: DE-德国-50
               password: "7989257908"
               port: 43031
-              server: 139.162.176.180
+              server: 139.162.131.125
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "7989257908"
               port: 43031
-              server: 172.104.140.249
+              server: 172.104.237.232
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-23
               password: "7989257908"
               port: 43031
-              server: 139.162.253.247
+              server: 109.74.202.114
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-50
               password: "7989257908"
               port: 43031
-              server: 45.79.8.138
+              server: 96.126.112.199
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "7989257908"
               port: 43031
-              server: 50.116.17.91
+              server: 104.237.134.200
               type: null
 rule-providers:
     apple:
