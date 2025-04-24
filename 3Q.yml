@@ -160,36 +160,6 @@ proxies:
       sni: ip11.freegradely.xyz
       type: vmess
       uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-    - cipher: chacha20-ietf-poly1305
-      name: CA-加拿大-54
-      password: "0169153192"
-      port: 49764
-      server: 172.105.15.152
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "0169153192"
-      port: 49764
-      server: 139.162.190.59
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "0169153192"
-      port: 49764
-      server: 172.104.144.77
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: IN-印度-47
-      password: "0169153192"
-      port: 49764
-      server: 172.105.49.128
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-23
-      password: "0169153192"
-      port: 49764
-      server: 176.58.108.95
-      type: null
 proxy-groups:
     "0":
         proxies:
@@ -343,36 +313,6 @@ proxy-groups:
               sni: ip11.freegradely.xyz
               type: vmess
               uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-            - cipher: chacha20-ietf-poly1305
-              name: CA-加拿大-54
-              password: "0169153192"
-              port: 49764
-              server: 172.105.15.152
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "0169153192"
-              port: 49764
-              server: 139.162.190.59
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "0169153192"
-              port: 49764
-              server: 172.104.144.77
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: IN-印度-47
-              password: "0169153192"
-              port: 49764
-              server: 172.105.49.128
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-23
-              password: "0169153192"
-              port: 49764
-              server: 176.58.108.95
-              type: null
 rule-providers:
     apple:
         behavior: domain
