@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "4269811845"
       port: 46053
-      server: 172.105.5.86
+      server: 172.105.102.30
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "4269811845"
       port: 46053
-      server: 172.104.128.159
+      server: 172.104.248.232
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "4269811845"
       port: 46053
-      server: 172.104.206.228
+      server: 45.79.127.145
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "4269811845"
       port: 46053
-      server: 85.159.208.205
+      server: 178.79.168.84
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "4269811845"
       port: 46053
-      server: 45.33.127.139
+      server: 45.33.113.12
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "4269811845"
               port: 46053
-              server: 172.105.5.86
+              server: 172.105.102.30
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "4269811845"
               port: 46053
-              server: 172.104.128.159
+              server: 172.104.248.232
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "4269811845"
               port: 46053
-              server: 172.104.206.228
+              server: 45.79.127.145
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "4269811845"
               port: 46053
-              server: 85.159.208.205
+              server: 178.79.168.84
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "4269811845"
               port: 46053
-              server: 45.33.127.139
+              server: 45.33.113.12
               type: null
 rule-providers:
     apple:
