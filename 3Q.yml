@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "2929388372"
       port: 31394
-      server: 172.105.18.27
+      server: 172.105.98.140
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "2929388372"
       port: 31394
-      server: 139.162.155.105
+      server: 139.162.135.22
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "2929388372"
       port: 31394
-      server: 172.104.154.104
+      server: 172.104.136.200
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "2929388372"
       port: 31394
-      server: 172.105.40.251
+      server: 172.105.62.193
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "2929388372"
       port: 31394
-      server: 176.58.127.114
+      server: 178.79.140.94
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "2929388372"
               port: 31394
-              server: 172.105.18.27
+              server: 172.105.98.140
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "2929388372"
               port: 31394
-              server: 139.162.155.105
+              server: 139.162.135.22
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "2929388372"
               port: 31394
-              server: 172.104.154.104
+              server: 172.104.136.200
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "2929388372"
               port: 31394
-              server: 172.105.40.251
+              server: 172.105.62.193
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "2929388372"
               port: 31394
-              server: 176.58.127.114
+              server: 178.79.140.94
               type: null
 rule-providers:
     apple:
