@@ -164,31 +164,31 @@ proxies:
       name: CA-加拿大-54
       password: "2929388372"
       port: 31394
-      server: 172.105.98.140
+      server: 172.105.104.116
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
       password: "2929388372"
       port: 31394
-      server: 139.162.135.22
+      server: 139.162.131.214
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
       password: "2929388372"
       port: 31394
-      server: 172.104.136.200
+      server: 85.90.247.20
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
       password: "2929388372"
       port: 31394
-      server: 172.105.62.193
+      server: 192.46.211.172
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
       password: "2929388372"
       port: 31394
-      server: 178.79.140.94
+      server: 212.71.247.105
       type: null
 proxy-groups:
     "0":
@@ -347,31 +347,31 @@ proxy-groups:
               name: CA-加拿大-54
               password: "2929388372"
               port: 31394
-              server: 172.105.98.140
+              server: 172.105.104.116
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
               password: "2929388372"
               port: 31394
-              server: 139.162.135.22
+              server: 139.162.131.214
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
               password: "2929388372"
               port: 31394
-              server: 172.104.136.200
+              server: 85.90.247.20
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
               password: "2929388372"
               port: 31394
-              server: 172.105.62.193
+              server: 192.46.211.172
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
               password: "2929388372"
               port: 31394
-              server: 178.79.140.94
+              server: 212.71.247.105
               type: null
 rule-providers:
     apple:
