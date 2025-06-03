@@ -26,7 +26,7 @@ proxies:
       name: DE-德国-56
       password: "0913574007"
       port: 39842
-      server: 139.162.158.111
+      server: 139.162.141.98
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -38,7 +38,7 @@ proxies:
       name: US-美国-55
       password: "0913574007"
       port: 39842
-      server: 45.33.15.23
+      server: 198.58.100.151
       type: null
 proxy-groups:
     "0":
@@ -59,7 +59,7 @@ proxy-groups:
               name: DE-德国-56
               password: "0913574007"
               port: 39842
-              server: 139.162.158.111
+              server: 139.162.141.98
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
@@ -71,7 +71,7 @@ proxy-groups:
               name: US-美国-55
               password: "0913574007"
               port: 39842
-              server: 45.33.15.23
+              server: 198.58.100.151
               type: null
 rule-providers:
     apple:
