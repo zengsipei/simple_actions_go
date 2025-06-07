@@ -38,7 +38,7 @@ proxies:
       name: US-美国-55
       password: "7077672766"
       port: 40147
-      server: 69.164.199.70
+      server: 45.33.15.75
       type: null
 proxy-groups:
     "0":
@@ -71,7 +71,7 @@ proxy-groups:
               name: US-美国-55
               password: "7077672766"
               port: 40147
-              server: 69.164.199.70
+              server: 45.33.15.75
               type: null
 rule-providers:
     apple:
