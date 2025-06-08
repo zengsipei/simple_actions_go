@@ -11,66 +11,66 @@ mode: Rule
 port: 7890
 proxies:
     - cipher: chacha20-ietf-poly1305
-      name: CA-加拿大-54
-      password: "7077672766"
-      port: 40147
-      server: 172.105.103.107
-      type: null
-    - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "7077672766"
-      port: 40147
+      password: "1212608675"
+      port: 22313
       server: 172.104.157.248
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "7077672766"
-      port: 40147
+      password: "1212608675"
+      port: 22313
       server: 139.162.150.85
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
-      password: "7077672766"
-      port: 40147
+      password: "1212608675"
+      port: 22313
       server: 172.105.55.48
       type: null
     - cipher: chacha20-ietf-poly1305
+      name: UK-英国-24
+      password: "1212608675"
+      port: 22313
+      server: 109.74.198.221
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "7077672766"
-      port: 40147
+      password: "1212608675"
+      port: 22313
       server: 50.116.19.178
       type: null
 proxy-groups:
     "0":
         proxies:
             - cipher: chacha20-ietf-poly1305
-              name: CA-加拿大-54
-              password: "7077672766"
-              port: 40147
-              server: 172.105.103.107
-              type: null
-            - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "7077672766"
-              port: 40147
+              password: "1212608675"
+              port: 22313
               server: 172.104.157.248
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "7077672766"
-              port: 40147
+              password: "1212608675"
+              port: 22313
               server: 139.162.150.85
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
-              password: "7077672766"
-              port: 40147
+              password: "1212608675"
+              port: 22313
               server: 172.105.55.48
               type: null
             - cipher: chacha20-ietf-poly1305
+              name: UK-英国-24
+              password: "1212608675"
+              port: 22313
+              server: 109.74.198.221
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "7077672766"
-              port: 40147
+              password: "1212608675"
+              port: 22313
               server: 50.116.19.178
               type: null
 rule-providers:
