@@ -14,7 +14,7 @@ proxies:
       name: CA-加拿大-54
       password: "7077672766"
       port: 40147
-      server: 172.105.105.196
+      server: 172.105.99.111
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
@@ -32,13 +32,13 @@ proxies:
       name: IN-印度-47
       password: "7077672766"
       port: 40147
-      server: 172.105.34.37
+      server: 172.105.55.48
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "7077672766"
       port: 40147
-      server: 45.33.15.75
+      server: 96.126.118.108
       type: null
 proxy-groups:
     "0":
@@ -47,7 +47,7 @@ proxy-groups:
               name: CA-加拿大-54
               password: "7077672766"
               port: 40147
-              server: 172.105.105.196
+              server: 172.105.99.111
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
@@ -65,13 +65,13 @@ proxy-groups:
               name: IN-印度-47
               password: "7077672766"
               port: 40147
-              server: 172.105.34.37
+              server: 172.105.55.48
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "7077672766"
               port: 40147
-              server: 45.33.15.75
+              server: 96.126.118.108
               type: null
 rule-providers:
     apple:
