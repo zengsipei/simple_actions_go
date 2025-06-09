@@ -32,7 +32,7 @@ proxies:
       name: UK-英国-24
       password: "1212608675"
       port: 22313
-      server: 109.74.198.221
+      server: 139.162.255.71
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
@@ -65,7 +65,7 @@ proxy-groups:
               name: UK-英国-24
               password: "1212608675"
               port: 22313
-              server: 109.74.198.221
+              server: 139.162.255.71
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
