@@ -26,7 +26,7 @@ proxies:
       name: IN-印度-47
       password: "1212608675"
       port: 22313
-      server: 172.105.55.48
+      server: 45.79.121.194
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -59,7 +59,7 @@ proxy-groups:
               name: IN-印度-47
               password: "1212608675"
               port: 22313
-              server: 172.105.55.48
+              server: 45.79.121.194
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
