@@ -12,32 +12,32 @@ port: 7890
 proxies:
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "1212608675"
-      port: 22313
+      password: "3640504472"
+      port: 46578
       server: 172.104.248.201
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "1212608675"
-      port: 22313
-      server: 139.162.150.85
+      password: "3640504472"
+      port: 46578
+      server: 172.104.235.132
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
-      password: "1212608675"
-      port: 22313
+      password: "3640504472"
+      port: 46578
       server: 194.195.112.21
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "1212608675"
-      port: 22313
+      password: "3640504472"
+      port: 46578
       server: 109.74.197.108
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "1212608675"
-      port: 22313
+      password: "3640504472"
+      port: 46578
       server: 45.33.12.4
       type: null
 proxy-groups:
@@ -45,32 +45,32 @@ proxy-groups:
         proxies:
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "1212608675"
-              port: 22313
+              password: "3640504472"
+              port: 46578
               server: 172.104.248.201
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "1212608675"
-              port: 22313
-              server: 139.162.150.85
+              password: "3640504472"
+              port: 46578
+              server: 172.104.235.132
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
-              password: "1212608675"
-              port: 22313
+              password: "3640504472"
+              port: 46578
               server: 194.195.112.21
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "1212608675"
-              port: 22313
+              password: "3640504472"
+              port: 46578
               server: 109.74.197.108
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "1212608675"
-              port: 22313
+              password: "3640504472"
+              port: 46578
               server: 45.33.12.4
               type: null
 rule-providers:
