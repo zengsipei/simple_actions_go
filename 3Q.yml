@@ -32,7 +32,7 @@ proxies:
       name: IN-印度-47
       password: "5725586670"
       port: 26698
-      server: 45.79.124.67
+      server: 172.105.56.36
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
@@ -65,7 +65,7 @@ proxy-groups:
               name: IN-印度-47
               password: "5725586670"
               port: 26698
-              server: 45.79.124.67
+              server: 172.105.56.36
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
