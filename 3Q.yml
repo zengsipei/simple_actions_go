@@ -12,66 +12,66 @@ port: 7890
 proxies:
     - cipher: chacha20-ietf-poly1305
       name: CA-加拿大-54
-      password: "7447369068"
-      port: 56304
+      password: "9278042251"
+      port: 55332
       server: 139.177.199.27
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "7447369068"
-      port: 56304
-      server: 139.162.179.15
+      password: "9278042251"
+      port: 55332
+      server: 139.162.187.53
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "7447369068"
-      port: 56304
-      server: 172.105.77.133
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: IN-印度-47
-      password: "7447369068"
-      port: 56304
-      server: 172.105.37.249
+      password: "9278042251"
+      port: 55332
+      server: 172.104.156.8
       type: null
     - cipher: chacha20-ietf-poly1305
       name: UK-英国-24
-      password: "7447369068"
-      port: 56304
+      password: "9278042251"
+      port: 55332
       server: 139.162.205.28
+      type: null
+    - cipher: chacha20-ietf-poly1305
+      name: US-美国-55
+      password: "9278042251"
+      port: 55332
+      server: 69.164.204.159
       type: null
 proxy-groups:
     "0":
         proxies:
             - cipher: chacha20-ietf-poly1305
               name: CA-加拿大-54
-              password: "7447369068"
-              port: 56304
+              password: "9278042251"
+              port: 55332
               server: 139.177.199.27
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "7447369068"
-              port: 56304
-              server: 139.162.179.15
+              password: "9278042251"
+              port: 55332
+              server: 139.162.187.53
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "7447369068"
-              port: 56304
-              server: 172.105.77.133
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: IN-印度-47
-              password: "7447369068"
-              port: 56304
-              server: 172.105.37.249
+              password: "9278042251"
+              port: 55332
+              server: 172.104.156.8
               type: null
             - cipher: chacha20-ietf-poly1305
               name: UK-英国-24
-              password: "7447369068"
-              port: 56304
+              password: "9278042251"
+              port: 55332
               server: 139.162.205.28
+              type: null
+            - cipher: chacha20-ietf-poly1305
+              name: US-美国-55
+              password: "9278042251"
+              port: 55332
+              server: 69.164.204.159
               type: null
 rule-providers:
     apple:
