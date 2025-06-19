@@ -38,7 +38,7 @@ proxies:
       name: US-美国-55
       password: "9278042251"
       port: 55332
-      server: 50.116.19.176
+      server: 45.56.75.100
       type: null
 proxy-groups:
     "0":
@@ -71,7 +71,7 @@ proxy-groups:
               name: US-美国-55
               password: "9278042251"
               port: 55332
-              server: 50.116.19.176
+              server: 45.56.75.100
               type: null
 rule-providers:
     apple:
