@@ -20,7 +20,7 @@ proxies:
       name: DE-德国-56
       password: "0965223317"
       port: 42283
-      server: 172.104.240.110
+      server: 172.104.152.167
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
@@ -32,13 +32,13 @@ proxies:
       name: UK-英国-24
       password: "0965223317"
       port: 42283
-      server: 85.159.210.28
+      server: 109.237.27.27
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "0965223317"
       port: 42283
-      server: 69.164.204.177
+      server: 198.58.122.130
       type: null
 proxy-groups:
     "0":
@@ -53,7 +53,7 @@ proxy-groups:
               name: DE-德国-56
               password: "0965223317"
               port: 42283
-              server: 172.104.240.110
+              server: 172.104.152.167
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
@@ -65,13 +65,13 @@ proxy-groups:
               name: UK-英国-24
               password: "0965223317"
               port: 42283
-              server: 85.159.210.28
+              server: 109.237.27.27
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "0965223317"
               port: 42283
-              server: 69.164.204.177
+              server: 198.58.122.130
               type: null
 rule-providers:
     apple:
