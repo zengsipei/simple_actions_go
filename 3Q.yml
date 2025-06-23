@@ -32,13 +32,13 @@ proxies:
       name: UK-英国-24
       password: "9062044152"
       port: 55264
-      server: 178.79.171.207
+      server: 178.79.147.137
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
       password: "9062044152"
       port: 55264
-      server: 45.33.116.141
+      server: 45.33.16.52
       type: null
 proxy-groups:
     "0":
@@ -65,13 +65,13 @@ proxy-groups:
               name: UK-英国-24
               password: "9062044152"
               port: 55264
-              server: 178.79.171.207
+              server: 178.79.147.137
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
               password: "9062044152"
               port: 55264
-              server: 45.33.116.141
+              server: 45.33.16.52
               type: null
 rule-providers:
     apple:
