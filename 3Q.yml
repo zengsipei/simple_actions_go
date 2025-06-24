@@ -11,66 +11,66 @@ mode: Rule
 port: 7890
 proxies:
     - cipher: chacha20-ietf-poly1305
+      name: CA-加拿大-54
+      password: "6426441534"
+      port: 44654
+      server: 172.105.27.212
+      type: null
+    - cipher: chacha20-ietf-poly1305
       name: DE-德国-50
-      password: "9062044152"
-      port: 55264
-      server: 172.104.153.107
+      password: "6426441534"
+      port: 44654
+      server: 172.104.253.244
       type: null
     - cipher: chacha20-ietf-poly1305
       name: DE-德国-56
-      password: "9062044152"
-      port: 55264
-      server: 139.162.163.183
+      password: "6426441534"
+      port: 44654
+      server: 172.104.247.254
       type: null
     - cipher: chacha20-ietf-poly1305
       name: IN-印度-47
-      password: "9062044152"
-      port: 55264
-      server: 194.195.116.229
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "9062044152"
-      port: 55264
-      server: 151.236.222.31
+      password: "6426441534"
+      port: 44654
+      server: 172.105.63.193
       type: null
     - cipher: chacha20-ietf-poly1305
       name: US-美国-55
-      password: "9062044152"
-      port: 55264
+      password: "6426441534"
+      port: 44654
       server: 104.200.20.131
       type: null
 proxy-groups:
     "0":
         proxies:
             - cipher: chacha20-ietf-poly1305
+              name: CA-加拿大-54
+              password: "6426441534"
+              port: 44654
+              server: 172.105.27.212
+              type: null
+            - cipher: chacha20-ietf-poly1305
               name: DE-德国-50
-              password: "9062044152"
-              port: 55264
-              server: 172.104.153.107
+              password: "6426441534"
+              port: 44654
+              server: 172.104.253.244
               type: null
             - cipher: chacha20-ietf-poly1305
               name: DE-德国-56
-              password: "9062044152"
-              port: 55264
-              server: 139.162.163.183
+              password: "6426441534"
+              port: 44654
+              server: 172.104.247.254
               type: null
             - cipher: chacha20-ietf-poly1305
               name: IN-印度-47
-              password: "9062044152"
-              port: 55264
-              server: 194.195.116.229
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "9062044152"
-              port: 55264
-              server: 151.236.222.31
+              password: "6426441534"
+              port: 44654
+              server: 172.105.63.193
               type: null
             - cipher: chacha20-ietf-poly1305
               name: US-美国-55
-              password: "9062044152"
-              port: 55264
+              password: "6426441534"
+              port: 44654
               server: 104.200.20.131
               type: null
 rule-providers:
