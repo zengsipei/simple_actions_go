@@ -9,70 +9,10 @@ hosts:
 log-level: info
 mode: Rule
 port: 7890
-proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: CA-加拿大-54
-      password: "4976955154"
-      port: 44534
-      server: 172.105.102.60
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-50
-      password: "4976955154"
-      port: 44534
-      server: 139.162.154.23
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: DE-德国-56
-      password: "4976955154"
-      port: 44534
-      server: 170.187.185.251
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: UK-英国-24
-      password: "4976955154"
-      port: 44534
-      server: 212.71.233.76
-      type: null
-    - cipher: chacha20-ietf-poly1305
-      name: US-美国-55
-      password: "4976955154"
-      port: 44534
-      server: 104.237.133.159
-      type: null
+proxies: []
 proxy-groups:
     "0":
-        proxies:
-            - cipher: chacha20-ietf-poly1305
-              name: CA-加拿大-54
-              password: "4976955154"
-              port: 44534
-              server: 172.105.102.60
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-50
-              password: "4976955154"
-              port: 44534
-              server: 139.162.154.23
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: DE-德国-56
-              password: "4976955154"
-              port: 44534
-              server: 170.187.185.251
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: UK-英国-24
-              password: "4976955154"
-              port: 44534
-              server: 212.71.233.76
-              type: null
-            - cipher: chacha20-ietf-poly1305
-              name: US-美国-55
-              password: "4976955154"
-              port: 44534
-              server: 104.237.133.159
-              type: null
+        proxies: []
 rule-providers:
     apple:
         behavior: domain
